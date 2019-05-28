@@ -1,5 +1,6 @@
 package com.gferreyra.herewegoagain;
 
+import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -15,14 +16,20 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStreamWriter;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 import io.realm.RealmObject;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
-import io.realm.internal.IOException;
 
 public class MainActivity extends AppCompatActivity {
     public String TAG = "MainActivity";
@@ -87,37 +94,30 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        /*
-        Log.d(TAG, "creating Command object");
-        Command comm = realm.createObject(Command.class);
-        comm.setInput("1");
+        //TODO READ FROM JSON FILE
+        String jsonString = loadJSONFromAsset(this);
+        JSONObject obj = null;
+        try {
+            obj = new JSONObject(jsonString);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
-        Log.d(TAG , "creating FrameData object");
-        FrameData fd = realm.createObject(FrameData.class);
-        fd.setHitlevel("h");
-        fd.setDamage("7");
-        fd.setStartFrame("10");
-        fd.setBlockFrame("+1");
-        fd.setHitFrame("+8");
-        fd.setChFrame("+8");
+        try {
+            JSONObject newObj = obj.getJSONArray("basicmoves").getJSONObject(0).put("testing", "okay");
+            //writeToFile(newObj.toString(), this);
+            File path = this.getFilesDir();
+            Log.d(TAG, obj.getJSONArray("basicmoves").getJSONObject(0).toString());
+            Log.d(TAG, path.toString());
 
-        Log.d(TAG , "creating Effect object");
-        Effect eff = realm.createObject(Effect.class);
-        eff.setEffect("None");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        //TODO EDIT JSON OBJECT TO HAVE THE EXTRA ATTRIBUTES AND LOOP THROUGH ALL AND SAVE
 
 
-        //SETTINGS RELATIONSHIPS BETWEEN OBJECTS
-        Log.d(TAG , "setting relationships up");
-        ch.setCommands(comm);
-        comm.setFramedata(fd);
-        fd.setEffects(eff);
-
-        Log.d(TAG , "committing transactions");
-        realm.commitTransaction();
-
-        Log.d(TAG , "closing DB");
-        realm.close();
-        */
+        //TODO LOOPS TO ADJUST THE YES/NO VALUES OF ALL NEW ATTRIBUTES
 
 
         setContentView(R.layout.activity_main);
@@ -160,4 +160,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
+    public String loadJSONFromAsset(Context context){
+        String json = null;
+        try{
+            InputStream is = context.getAssets().open("Anna.json");
+
+            int size = is.available();
+
+            byte[] buffer = new byte[size];
+
+            is.read(buffer);
+
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+
+        } catch(IOException ex){
+            return null;
+        }
+        return json;
+    }
+
+    private void writeToFile(String data, Context context) {
+        try {
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput("test.txt", Context.MODE_PRIVATE));
+            outputStreamWriter.write(data);
+            outputStreamWriter.close();
+        }
+        catch (IOException e) {
+            Log.e("Exception", "File write failed: " + e.toString());
+        }
+    }
+
 }
+
+
+
