@@ -1,6 +1,7 @@
 package com.gferreyra.herewegoagain;
 
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         RealmConfiguration realmConfig = new RealmConfiguration.Builder()
                 .name("tester.realm")
-                .schemaVersion(1)
+                .schemaVersion(2)
                 .build();
         Realm.setDefaultConfiguration(realmConfig);
 
@@ -62,23 +63,65 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "Realm configured");
 
         realm = Realm.getDefaultInstance();
+        Log.d(TAG, "just did Realm default instance thing");
+
+        //realm.beginTransaction();
+
+        //POPULATE JSON STRING FROM FILE AND CREATE JSON OBJECT
+        JSONObject jsonObj = null;
+        String jString = loadJSONFromAsset(this, "Akuma");
+
+        try {
+            jsonObj = new JSONObject(jString);
+            int size = jsonObj.getJSONArray("basicmoves").length();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        //POPULATE DB WITH JSON STRING
+
+        Log.d(TAG, "Attempting to execute Transactions");
+        realm.executeTransaction(new Realm.Transaction() {
+            @Override
+            public void execute(Realm realm) {
+                try {
+                    Log.d(TAG, "Getting Asset Manager");
+                    AssetManager am = getAssets();
+                    //String path = getFilesDir().getAbsolutePath();
+                    Log.d(TAG, "Test 1");
+                    //InputStream is = am.open("Akuma.json");
+                    //InputStream is = new FileInputStream(getAssets().open("Akuma.json"));
+                    String jString = loadJSONFromAsset(getApplicationContext(), "Akuma");
+                    JSONObject jObj = new JSONObject(jString);
+                    Log.d(TAG, "Test 2");
+                    realm.createObjectFromJson(CharacterData.class, jObj);
+                    Log.d(TAG, "DONE WITH TRANSACTION");
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
 
 
 
+
+        //EXAMPLE of how to query for something in Realm Database
+        /*
         RealmQuery<Character> query = realm.where(Character.class);
 
         query.equalTo("name", "Jin");
 
         RealmResults<Character> result = query.findAll();
-
+        */
 
 
 
         //END OF DATABASE SET UP
 
 
-        //TEST WRITE TO DATABASE
+        //EXAMPLE OF A TEST WRITE TO DATABASE
+        /*
         if(result.isEmpty()) {
             realm.beginTransaction();
             Log.d(TAG, "beginning transaction");
@@ -97,8 +140,9 @@ public class MainActivity extends AppCompatActivity {
             woo = result.get(0);
             name = woo.getName();
         }
+        */
 
-        //TODO read from file to get all filenames and initialize/populate a String array
+        //read from file to get all filenames and initialize/populate a String array
         ArrayList<String> charNames = new ArrayList<>();
         try {
             charNames = loadCharNamesFromAsset(this);
@@ -111,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         //CODE IS USED TO PULL FROM JSON FILES AND EDIT THEM WITH NEW ATTRIBUTES, DO NOT CURRENTLY NEED SINCE DATA IS UP TO DATE
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+        /*
         //TODO READ FROM JSON FILE
         JSONObject obj = null;
         ArrayList<JSONObject> allCharacterJSONObjects = new ArrayList<>();
@@ -137,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -261,7 +305,6 @@ public class MainActivity extends AppCompatActivity {
             Log.e("Exception", "File write failed: " + e.toString());
         }
     }
-
 }
 
 
