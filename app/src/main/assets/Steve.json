@@ -10,7 +10,14 @@
       "on_block": "Block frame",
       "on_hit": "Hit frame",
       "on_ch": "Counter hit frame",
-      "notes": "Notes"
+      "notes": "Notes",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "in rage 1+2 or WS+1+2",
@@ -20,47 +27,82 @@
       "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": "Rage art"
+      "notes": "Rage art",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "in rage d/f+3+4",
+      "notation": "in rage d\/f+3+4",
       "hit_level": "(Special), (Special) (TC)",
       "damage": null,
       "speed": "13 8~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": "Rage drive"
+      "notes": "Rage drive",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "in rage d/f+2+3",
+      "notation": "in rage d\/f+2+3",
       "hit_level": "m, m",
       "damage": "14,21",
       "speed": "14",
       "on_block": "+7",
       "on_hit": "JG",
       "on_ch": "JG",
-      "notes": "Rage drive"
+      "notes": "Rage drive",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "in rage D/f+2+3",
+      "notation": "in rage D\/f+2+3",
       "hit_level": "m, m (DUK)",
       "damage": "14,21",
       "speed": "14",
       "on_block": "+15g",
       "on_hit": "JG",
       "on_ch": "JG",
-      "notes": "Rage drive"
+      "notes": "Rage drive",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "in rage d/f+3+4, 1+2",
+      "notation": "in rage d\/f+3+4, 1+2",
       "hit_level": "(Special), m x 5",
       "damage": "10*4,19",
       "speed": "15,(35~) cs1~",
       "on_block": "+1 (wl+7)",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": "Rage art"
+      "notes": "Rage art",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1",
@@ -70,7 +112,14 @@
       "on_block": "+1",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1",
@@ -80,7 +129,14 @@
       "on_block": "-3",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, 3 or 4 to Weave",
@@ -90,7 +146,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, 2",
@@ -101,7 +164,14 @@
       "on_hit": "+4~+5",
       "on_ch": "+4~+5",
       "notes": null,
-      "undefined": null
+      "undefined": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, 2, f+3 or f+4",
@@ -111,7 +181,14 @@
       "on_block": "-3",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, 2, 3 or 4 to Weave",
@@ -121,7 +198,14 @@
       "on_block": "-3",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, 2, b+3 or b+4 to Sway",
@@ -131,7 +215,14 @@
       "on_block": "-5",
       "on_hit": "+6",
       "on_ch": "+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, d+1",
@@ -141,7 +232,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 1, d+1, B",
@@ -151,17 +249,31 @@
       "on_block": "0",
       "on_hit": "+6",
       "on_ch": "+11",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "1, 1, d+1, B, d/b (Cancel)",
+      "notation": "1, 1, d+1, B, d\/b (Cancel)",
       "hit_level": "h, h, m, (FLK)",
       "damage": "7,7,15",
       "speed": "10s",
       "on_block": "-2",
       "on_hit": "+4",
       "on_ch": "+9",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2",
@@ -171,7 +283,14 @@
       "on_block": "-2",
       "on_hit": "+6",
       "on_ch": "+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 3 or 4 to Weave",
@@ -181,7 +300,14 @@
       "on_block": "-4",
       "on_hit": "+4",
       "on_ch": "+4",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1",
@@ -191,7 +317,14 @@
       "on_block": "-3",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, F",
@@ -201,7 +334,14 @@
       "on_block": "-2",
       "on_hit": "+4",
       "on_ch": "+4",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, B",
@@ -211,17 +351,31 @@
       "on_block": "-1",
       "on_hit": "+5",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "1, 2, 1, B, d/b (Cancel)",
+      "notation": "1, 2, 1, B, d\/b (Cancel)",
       "hit_level": "h, h, h, (FLK)",
       "damage": "7,10,15",
       "speed": "10s",
       "on_block": "-3",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, 3 or 4 to Weave",
@@ -231,7 +385,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, 2",
@@ -241,7 +402,14 @@
       "on_block": "-10~-9",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, 2",
@@ -251,7 +419,14 @@
       "on_block": "-6~-5",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, d+2",
@@ -261,7 +436,14 @@
       "on_block": "-12~-11",
       "on_hit": "+1~+2s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, 2, 1, d+2, d",
@@ -271,7 +453,14 @@
       "on_block": "-12~-11",
       "on_hit": "+1~+2s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, d+1",
@@ -281,7 +470,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1, d+1, B",
@@ -291,17 +487,31 @@
       "on_block": "0",
       "on_hit": "+6",
       "on_ch": "+11",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "1, d+1, B, d/b (Cancel)",
+      "notation": "1, d+1, B, d\/b (Cancel)",
       "hit_level": "h, m, (FLK)",
       "damage": "7,15",
       "speed": "10~ RC",
       "on_block": "-2",
       "on_hit": "+4",
       "on_ch": "+9",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2",
@@ -311,7 +521,14 @@
       "on_block": "-1",
       "on_hit": "+5",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2, 1",
@@ -321,7 +538,14 @@
       "on_block": "-5",
       "on_hit": "+6",
       "on_ch": "+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2, 1, F",
@@ -331,7 +555,14 @@
       "on_block": "+3",
       "on_hit": "+14 GB",
       "on_ch": "+14",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2, 1, B",
@@ -341,17 +572,31 @@
       "on_block": "+3",
       "on_hit": "+14 GB",
       "on_ch": "+14",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "2, 1, B, d/b (Cancel)",
+      "notation": "2, 1, B, d\/b (Cancel)",
       "hit_level": "h, h, (FLK)",
       "damage": "12,14",
       "speed": "12 RC",
       "on_block": "+2",
       "on_hit": "+13 GB",
       "on_ch": "+13",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2, 1, 2",
@@ -361,7 +606,14 @@
       "on_block": "-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+2",
@@ -371,7 +623,14 @@
       "on_block": "-6~-5",
       "on_hit": "+5~+6",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+2, 1",
@@ -381,7 +640,14 @@
       "on_block": "-5",
       "on_hit": "-1",
       "on_ch": "-1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+2, 1, F",
@@ -391,7 +657,14 @@
       "on_block": "0",
       "on_hit": "+4",
       "on_ch": "+4",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+2, 1, B",
@@ -401,17 +674,31 @@
       "on_block": "+1",
       "on_hit": "+5",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "f+2, 1, B, d/b (Cancel)",
+      "notation": "f+2, 1, B, d\/b (Cancel)",
       "hit_level": "m, h, (FLK)",
       "damage": "11,12",
       "speed": "21~22 RC",
       "on_block": "0",
       "on_hit": "+4",
       "on_ch": "+4",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+2, 1~2",
@@ -421,7 +708,14 @@
       "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+1+2",
@@ -431,7 +725,14 @@
       "on_block": "-14~-12",
       "on_hit": "-3~-1",
       "on_ch": "-3~-1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+1+2, 2",
@@ -441,137 +742,235 @@
       "on_block": "-13~-12",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1",
+      "notation": "d\/f+1",
       "hit_level": "m",
       "damage": "12",
       "speed": "13~14",
       "on_block": "-2~-1",
       "on_hit": "+5~+6",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 3 or 4 to Weave",
+      "notation": "d\/f+1, 3 or 4 to Weave",
       "hit_level": "m, (Special)",
       "damage": "12",
       "speed": "13~14",
       "on_block": "-7~-6",
       "on_hit": "0~+1",
       "on_ch": "0~+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 2",
+      "notation": "d\/f+1, 2",
       "hit_level": "m, h",
       "damage": "12,13",
       "speed": "13~14",
       "on_block": "-6",
       "on_hit": "+3",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 2, 3 or 4 to Weave  (Cancel)",
+      "notation": "d\/f+1, 2, 3 or 4 to Weave  (Cancel)",
       "hit_level": "m, (Special)",
       "damage": "12",
       "speed": "13~14",
       "on_block": "-16~-15",
       "on_hit": "-9~-8",
       "on_ch": "-9~-8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 2~1",
+      "notation": "d\/f+1, 2~1",
       "hit_level": "m, h",
       "damage": "12,20",
       "speed": "13~14",
       "on_block": "-2~-1",
       "on_hit": "+2~+3",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+12~1 B",
+      "notation": "d\/f+12~1 B",
       "hit_level": "m, h, (FLK)",
       "damage": "12,20",
       "speed": "13~14",
       "on_block": "0~+1",
       "on_hit": "+4~+5",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 2~2",
+      "notation": "d\/f+1, 2~2",
       "hit_level": "m, m",
       "damage": "12,20",
       "speed": "13~14",
       "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 2~f+1+2",
+      "notation": "d\/f+1, 2~f+1+2",
       "hit_level": "m, hh",
       "damage": "12,8,12",
       "speed": "13~14",
       "on_block": "-3",
       "on_hit": "0",
       "on_ch": "0(+3)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1, 2~f+1+2 , 3 or 4 to Weave",
+      "notation": "d\/f+1, 2~f+1+2 , 3 or 4 to Weave",
       "hit_level": "m, hh, (Special)",
       "damage": "12,8,12",
       "speed": "13~14",
       "on_block": "-4",
       "on_hit": "-1",
       "on_ch": "-1(+2)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+2",
+      "notation": "d\/f+2",
       "hit_level": "m",
       "damage": "18",
       "speed": "16~17",
       "on_block": "-11~-10",
       "on_hit": "+6~+7",
       "on_ch": "CS",
-      "notes": "Homing"
+      "notes": "Homing",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+2, 3 or 4 to Weave",
+      "notation": "d\/f+2, 3 or 4 to Weave",
       "hit_level": "m, (Special)",
       "damage": "18",
       "speed": "16~17",
       "on_block": "-7~-6",
       "on_hit": "+10~+11",
       "on_ch": "CS",
-      "notes": "Homing"
+      "notes": "Homing",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1+2",
+      "notation": "d\/f+1+2",
       "hit_level": "mm",
       "damage": "14,21",
       "speed": "14,24~25",
       "on_block": "-12~-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1+2 (Second hit miss)",
+      "notation": "d\/f+1+2 (Second hit miss)",
       "hit_level": "m",
       "damage": "14",
       "speed": "14",
       "on_block": "-23",
       "on_hit": "-12s",
       "on_ch": "-12s",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+1",
@@ -581,7 +980,14 @@
       "on_block": "-13",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2",
@@ -591,7 +997,14 @@
       "on_block": "-18",
       "on_hit": "-5",
       "on_ch": "-5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2, 1",
@@ -601,7 +1014,14 @@
       "on_block": "-11~-10",
       "on_hit": "-5~-4",
       "on_ch": "0~+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2, 1, 3 or 4 to Weave",
@@ -611,7 +1031,14 @@
       "on_block": "-6~-5",
       "on_hit": "0~+1",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2, 1, 2",
@@ -621,7 +1048,14 @@
       "on_block": "-2~-1",
       "on_hit": "KND",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2~n+1",
@@ -631,7 +1065,14 @@
       "on_block": "-4~-3",
       "on_hit": "+7~+8",
       "on_ch": "+7~+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2~n+1, 3 or 4 to Weave",
@@ -641,7 +1082,14 @@
       "on_block": "-6~-5",
       "on_hit": "+5~+6",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2~n+1, f+2",
@@ -651,7 +1099,14 @@
       "on_block": "-2~-1",
       "on_hit": "KND",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2~n+1 , 2",
@@ -661,57 +1116,99 @@
       "on_block": "-13~-12",
       "on_hit": "+3~+4s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+2 or FC+d/b+2",
+      "notation": "d\/b+2 or FC+d\/b+2",
       "hit_level": "l (TC)",
       "damage": "21",
       "speed": "26~27 cs6or1~",
       "on_block": "-12~-11",
       "on_hit": "+1~+2s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+2, d/b or D",
+      "notation": "d\/b+2, d\/b or D",
       "hit_level": "l (TC)",
       "damage": "21",
       "speed": "26~27s cs6or1~",
       "on_block": "-12~-11",
       "on_hit": "+1~+2s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+3",
+      "notation": "d\/b+3",
       "hit_level": "l",
       "damage": "10",
       "speed": "16",
       "on_block": "-15",
       "on_hit": "+1",
       "on_ch": "+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+3, 2",
+      "notation": "d\/b+3, 2",
       "hit_level": "l, h",
       "damage": "10,16",
       "speed": "16",
       "on_block": "-7~-6",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+1+2",
+      "notation": "d\/b+1+2",
       "hit_level": "m",
       "damage": "21",
       "speed": "36~37 pc8~35",
       "on_block": "-18~-17",
       "on_hit": "+24~+25",
       "on_ch": "+24~+25",
-      "notes": "Power crush"
+      "notes": "Power crush",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1",
@@ -721,7 +1218,14 @@
       "on_block": "-14~-13",
       "on_hit": "+2~+3",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1, B",
@@ -731,17 +1235,31 @@
       "on_block": "-1~0",
       "on_hit": "+9~+10",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "b+1, B, d/b (Cancel)",
+      "notation": "b+1, B, d\/b (Cancel)",
       "hit_level": "h, (FLK)",
       "damage": "17",
       "speed": "13~14s",
       "on_block": "-3~-2",
       "on_hit": "+7~+8",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1, 2",
@@ -751,7 +1269,14 @@
       "on_block": "-5",
       "on_hit": "+19k",
       "on_ch": "+19k",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1, 2, F",
@@ -761,7 +1286,14 @@
       "on_block": "-6~-5",
       "on_hit": "+5~+6",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1, d+2",
@@ -771,7 +1303,14 @@
       "on_block": "-12~-10",
       "on_hit": "+1~+1",
       "on_ch": "-1~+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1, d+2, f",
@@ -781,7 +1320,14 @@
       "on_block": "-10~-8",
       "on_hit": "+1~+3",
       "on_ch": "+1~+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1, d+2, 1",
@@ -791,7 +1337,14 @@
       "on_block": "-9~-7",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+2",
@@ -801,17 +1354,31 @@
       "on_block": "-13~-12",
       "on_hit": "CS",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1+2",
-      "hit_level": "Absorbs 1 h/m hit",
+      "hit_level": "Absorbs 1 h\/m hit",
       "damage": null,
       "speed": "2~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "When parry successful 1",
@@ -821,57 +1388,99 @@
       "on_block": "-12~-10",
       "on_hit": "CS",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u/f+1",
+      "notation": "u\/f+1",
       "hit_level": "m (TJ)",
       "damage": "18",
       "speed": "19~21 js9~",
       "on_block": "-6~-4",
       "on_hit": "+5~+7",
       "on_ch": "+5~+7",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+2",
+      "notation": "u or u\/f+2",
       "hit_level": "m (TJ)",
       "damage": "20",
       "speed": "22~25 js9~",
       "on_block": "-14~-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+3",
+      "notation": "u or u\/f+3",
       "hit_level": "l (TJ)",
       "damage": "20",
       "speed": "36~37 js9~35",
       "on_block": "-12~-11",
       "on_hit": "+9~+10",
       "on_ch": "+9~+10",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+3, 2",
+      "notation": "u or u\/f+3, 2",
       "hit_level": "l (TJ), h",
       "damage": "20,16",
       "speed": "36~37 9~35",
       "on_block": "-7~-6",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+4",
+      "notation": "u or u\/f+4",
       "hit_level": "m (TJ)",
       "damage": "20",
       "speed": "23~24 js9~",
       "on_block": "-14~-13",
       "on_hit": "Launch (JG?)",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f, F+2",
@@ -881,7 +1490,14 @@
       "on_block": "-13~-10s",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "qcf+1",
@@ -891,7 +1507,14 @@
       "on_block": "-10",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "qcf+1, B",
@@ -901,17 +1524,31 @@
       "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "qcf+1, B, d/b (Cancel)",
+      "notation": "qcf+1, B, d\/b (Cancel)",
       "hit_level": "m, (FLK)",
       "damage": "21",
       "speed": "16s(16~)",
       "on_block": "-4",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "qcb, f+2+3",
@@ -921,7 +1558,14 @@
       "on_block": "KND",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f, f, f+2",
@@ -931,7 +1575,14 @@
       "on_block": "+9~+13g",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WR+1",
@@ -941,7 +1592,14 @@
       "on_block": "-12",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+1",
@@ -951,7 +1609,14 @@
       "on_block": "-3~-2",
       "on_hit": "+3~+4",
       "on_ch": "+8~+9",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+1, 1",
@@ -961,7 +1626,14 @@
       "on_block": "-3",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+1, 1,",
@@ -971,7 +1643,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+1, 2",
@@ -981,7 +1660,14 @@
       "on_block": "-13~-12",
       "on_hit": "+3~+4s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+2",
@@ -991,7 +1677,14 @@
       "on_block": "-7~-5",
       "on_hit": "+4~+6a",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+2, 3 or 4 to Weave",
@@ -1001,27 +1694,48 @@
       "on_block": "-7~-5",
       "on_hit": "+4~+6a",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FC+d/f+1",
+      "notation": "FC+d\/f+1",
       "hit_level": "l (TC), (PAB)",
       "damage": "12",
       "speed": "15~16 cs1~",
       "on_block": "-12~-11",
       "on_hit": "+2~+3",
       "on_ch": "+2~+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FC+d/f+2",
+      "notation": "FC+d\/f+2",
       "hit_level": "m?",
       "damage": "20",
       "speed": "18~19",
       "on_block": "-15~-14",
       "on_hit": "Launch",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Opponent Down d+1+2",
@@ -1031,7 +1745,14 @@
       "on_block": "-11",
       "on_hit": "+2",
       "on_ch": "+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2+3+4",
@@ -1041,7 +1762,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "3 (to LWV)",
@@ -1051,7 +1779,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 1",
@@ -1061,7 +1796,14 @@
       "on_block": "-10",
       "on_hit": "+1",
       "on_ch": "+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 1, 1",
@@ -1071,7 +1813,14 @@
       "on_block": "-13~-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 1, B",
@@ -1081,17 +1830,31 @@
       "on_block": "-3",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "LWV 1, B, d/b (Cancel)",
+      "notation": "LWV 1, B, d\/b (Cancel)",
       "hit_level": "m, (FLK)",
       "damage": "14",
       "speed": "15(23~)",
       "on_block": "-4",
       "on_hit": "+7",
       "on_ch": "+7",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 1, f+1",
@@ -1101,7 +1864,14 @@
       "on_block": "-3",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 1, f+1, 1",
@@ -1111,7 +1881,14 @@
       "on_block": "+3",
       "on_hit": "+7",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 1, f+1, 1, B",
@@ -1121,17 +1898,31 @@
       "on_block": "+4",
       "on_hit": "+8",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "LWV 1, f+1, 1, B, d/b (Cancel)",
+      "notation": "LWV 1, f+1, 1, B, d\/b (Cancel)",
       "hit_level": "m, m, h, (FLK)",
       "damage": "14,9,8",
       "speed": "15(23~)s",
       "on_block": "+2",
       "on_hit": "+6",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 2",
@@ -1141,7 +1932,14 @@
       "on_block": "-5~-3",
       "on_hit": "+4~+6",
       "on_ch": "+4~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 2, f",
@@ -1151,7 +1949,14 @@
       "on_block": "-1~+1",
       "on_hit": "+8~+10",
       "on_ch": "+8~+10",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "LWV 2, 1",
@@ -1161,7 +1966,14 @@
       "on_block": "-8",
       "on_hit": "+4s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "4 (to RWV)",
@@ -1171,7 +1983,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "RWV 1",
@@ -1181,7 +2000,14 @@
       "on_block": "-5~-3",
       "on_hit": "+4~+6",
       "on_ch": "+4~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "RWV 1, f",
@@ -1191,7 +2017,14 @@
       "on_block": "-1~+1",
       "on_hit": "+8~+10",
       "on_ch": "+8~+10",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "RWV 1, 2",
@@ -1201,7 +2034,14 @@
       "on_block": "-13~-11",
       "on_hit": "Launch (JG?)",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "RWV 2",
@@ -1211,7 +2051,14 @@
       "on_block": "-13~-12",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "3+4 (to ALB)",
@@ -1221,7 +2068,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "3+4, F",
@@ -1231,7 +2085,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "ALB 2",
@@ -1241,7 +2102,14 @@
       "on_block": "-8~-7",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "ALB d+2",
@@ -1251,7 +2119,14 @@
       "on_block": "-12",
       "on_hit": "+1s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "ALB U",
@@ -1261,7 +2136,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "ALB D",
@@ -1271,7 +2153,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "3+4, d or u, F (two spins)",
@@ -1281,7 +2170,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "ALB d or U 1 (two spins)",
@@ -1291,7 +2187,14 @@
       "on_block": "-8~-7",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "ALB d or U d+1 (two spins)",
@@ -1301,17 +2204,31 @@
       "on_block": "-12~-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "f+3 or f+4 FC+d/f+3 or d/f+4 (to DCK)",
+      "notation": "f+3 or f+4 FC+d\/f+3 or d\/f+4 (to DCK)",
       "hit_level": "(Special) (TC)(DCK)",
       "damage": null,
       "speed": "22~23 (58~59) 6~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1",
@@ -1321,7 +2238,14 @@
       "on_block": "-7~-6",
       "on_hit": "CS (10)",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 2",
@@ -1331,7 +2255,14 @@
       "on_block": "-14~-12",
       "on_hit": "Launch (JG?)",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2",
@@ -1341,7 +2272,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1",
@@ -1351,7 +2289,14 @@
       "on_block": "-9",
       "on_hit": "+2",
       "on_ch": "+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2",
@@ -1361,7 +2306,14 @@
       "on_block": "-9",
       "on_hit": "-3",
       "on_ch": "-3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1",
@@ -1371,7 +2323,14 @@
       "on_block": "-9",
       "on_hit": "+2",
       "on_ch": "+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1, 2",
@@ -1381,7 +2340,14 @@
       "on_block": "-9",
       "on_hit": "-3",
       "on_ch": "-3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1, 2, 1",
@@ -1391,7 +2357,14 @@
       "on_block": "-9",
       "on_hit": "+2",
       "on_ch": "+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1, 2, 1, 2",
@@ -1401,7 +2374,14 @@
       "on_block": "-9",
       "on_hit": "-3",
       "on_ch": "-3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1, 2, 1, 2, 1",
@@ -1411,7 +2391,14 @@
       "on_block": "-9",
       "on_hit": "+2",
       "on_ch": "+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1, 2, 1, 2, 1, 2",
@@ -1421,7 +2408,14 @@
       "on_block": "-10",
       "on_hit": "-4",
       "on_ch": "-4",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK 1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1",
@@ -1431,7 +2425,14 @@
       "on_block": "-12",
       "on_hit": "Launch",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK f+2",
@@ -1441,7 +2442,14 @@
       "on_block": "-7~-6",
       "on_hit": "KND",
       "on_ch": "CS",
-      "notes": "Tail spin"
+      "notes": "Tail spin",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "DCK f+2, 3 or 4 to Weave",
@@ -1451,7 +2459,14 @@
       "on_block": "+1~+2",
       "on_hit": "KND",
       "on_ch": "CS",
-      "notes": "Tail spin"
+      "notes": "Tail spin",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+3, F* or f+4, F* (to Ext DCK)",
@@ -1461,7 +2476,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Ext DCK 1",
@@ -1471,7 +2493,14 @@
       "on_block": "-7~-6",
       "on_hit": "KND",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Ext DCK 2",
@@ -1481,7 +2510,14 @@
       "on_block": "-14~-12",
       "on_hit": "Launch",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Ext DCK f+2",
@@ -1491,7 +2527,14 @@
       "on_block": "+5~+6",
       "on_hit": "CS",
       "on_ch": "CS",
-      "notes": "Tail spin"
+      "notes": "Tail spin",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Ext DCK f+2, 3 or 4 to Weave",
@@ -1501,7 +2544,14 @@
       "on_block": "+9~+10 (+15~+16)",
       "on_hit": "CS",
       "on_ch": "CS",
-      "notes": "Tail spin"
+      "notes": "Tail spin",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Ext DCK 1+2, ,,",
@@ -1511,7 +2561,14 @@
       "on_block": "-6",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+3+4 (to PAB)",
@@ -1521,7 +2578,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB F",
@@ -1531,17 +2595,31 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/b (Cancel)",
+      "notation": "PAB d\/b (Cancel)",
       "hit_level": "(Special) (TC)",
       "damage": null,
       "speed": "s",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB 1",
@@ -1551,7 +2629,14 @@
       "on_block": "-2~-1",
       "on_hit": "+9~+10",
       "on_ch": "+9~+10",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB 1, 2",
@@ -1561,7 +2646,14 @@
       "on_block": "0~+1",
       "on_hit": "+8~+9",
       "on_ch": "+8~+9",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB 1, 2, 1",
@@ -1571,17 +2663,31 @@
       "on_block": "-13~-11",
       "on_hit": "+8~+10s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB 2 or u/b+2",
-      "hit_level": "h(Absorbs 1 h/m hit), (PAB)",
+      "notation": "PAB 2 or u\/b+2",
+      "hit_level": "h(Absorbs 1 h\/m hit), (PAB)",
       "damage": "19(31)",
       "speed": "14(15~)",
       "on_block": "-3",
       "on_hit": "+2(KND)",
       "on_ch": "CS",
-      "notes": "Homing"
+      "notes": "Homing",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB 1+2",
@@ -1591,7 +2697,14 @@
       "on_block": null,
       "on_hit": "Throw(KND)",
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB f+2",
@@ -1601,7 +2714,14 @@
       "on_block": "-13~-12",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB f+2, 1",
@@ -1611,7 +2731,14 @@
       "on_block": "+1~+2",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB f+1+2",
@@ -1621,67 +2748,116 @@
       "on_block": "+6~+7",
       "on_hit": "+4~+5",
       "on_ch": "+4~+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/f+1",
+      "notation": "PAB d\/f+1",
       "hit_level": "m(PAB)",
       "damage": "12",
       "speed": "15~16 (16~)",
       "on_block": "-9~-8",
       "on_hit": "+2~+3",
       "on_ch": "+2~+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/f+1, 1",
+      "notation": "PAB d\/f+1, 1",
       "hit_level": "m, m(PAB)",
       "damage": "10,14",
       "speed": "15~16 (16~)",
       "on_block": "-10~-9",
       "on_hit": "+1~+2",
       "on_ch": "+1~+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/f+1, 1, 2",
+      "notation": "PAB d\/f+1, 1, 2",
       "hit_level": "m, m, m(PAB)",
       "damage": "10,14,12",
       "speed": "15~16 (16~)",
       "on_block": "-11",
       "on_hit": "-3",
       "on_ch": "-3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/f+1, 1, 2, 1",
+      "notation": "PAB d\/f+1, 1, 2, 1",
       "hit_level": "m, m, m, m",
       "damage": "10,14,12,20",
       "speed": "15~16 (16~)",
       "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/f+1, 2",
+      "notation": "PAB d\/f+1, 2",
       "hit_level": "m, h",
       "damage": "10,20",
       "speed": "15~16 (16~)",
       "on_block": "-6~-5",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": "Tail spin"
+      "notes": "Tail spin",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB d/f+2",
+      "notation": "PAB d\/f+2",
       "hit_level": "m, (PAB)",
       "damage": "16",
       "speed": "16~17 (17~)",
       "on_block": "-10~-9",
       "on_hit": "Launch (JG?)",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB d+1",
@@ -1691,7 +2867,14 @@
       "on_block": "-12~-11",
       "on_hit": "+2~+3",
       "on_ch": "+2~+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB d+2",
@@ -1701,7 +2884,14 @@
       "on_block": "-12~-11",
       "on_hit": "+7~+8",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB b+1",
@@ -1711,7 +2901,14 @@
       "on_block": "-19~-18",
       "on_hit": "-6~-5",
       "on_ch": "-6~-5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB b+1, 1",
@@ -1721,7 +2918,14 @@
       "on_block": "-7~-6",
       "on_hit": "-1~0",
       "on_ch": "-1~0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB b+1, 1, 2",
@@ -1731,7 +2935,14 @@
       "on_block": "-11~-9",
       "on_hit": "-5~-3",
       "on_ch": "-5~-3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB b+1, 1, 2, 1",
@@ -1741,7 +2952,14 @@
       "on_block": "-10",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB b+1, 1, 2, 1, B",
@@ -1751,7 +2969,14 @@
       "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "PAB b+2",
@@ -1761,17 +2986,31 @@
       "on_block": "-14~-13",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": "Wall bounce"
+      "notes": "Wall bounce",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "PAB u or u/f+2",
+      "notation": "PAB u or u\/f+2",
       "hit_level": "m (TJ)",
       "damage": "23",
       "speed": "17~19a (18~) js9~",
       "on_block": "-15~-13",
       "on_hit": "Launch",
       "on_ch": "Launch",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+3 or b+4 (to SWY)",
@@ -1781,7 +3020,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SWY 1",
@@ -1791,7 +3037,14 @@
       "on_block": "-1~0s",
       "on_hit": "+6~+7s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SWY 2",
@@ -1801,7 +3054,14 @@
       "on_block": "-18~-17",
       "on_hit": "CS",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SWY 1+2 or +d, b, f, u direction",
@@ -1811,7 +3071,14 @@
       "on_block": null,
       "on_hit": "Throw(+1)",
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+3+4 (to FLIK)",
@@ -1821,7 +3088,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+3+4, 3 or 4 to Weave",
@@ -1831,7 +3105,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1",
@@ -1841,7 +3122,14 @@
       "on_block": "-4",
       "on_hit": "+7",
       "on_ch": "+7",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, b+3+4 (One to three hits)",
@@ -1851,7 +3139,14 @@
       "on_block": "+14",
       "on_hit": "+25g",
       "on_ch": "+25g",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, 1",
@@ -1861,7 +3156,14 @@
       "on_block": "-8",
       "on_hit": "+1",
       "on_ch": "+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, 1, 1",
@@ -1871,7 +3173,14 @@
       "on_block": "-9",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, 1, 1, 2",
@@ -1881,7 +3190,14 @@
       "on_block": "-7",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, B",
@@ -1891,17 +3207,31 @@
       "on_block": "-1",
       "on_hit": "+10",
       "on_ch": "+10",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FLIK 1, B , d/b (Cancel)",
+      "notation": "FLIK 1, B , d\/b (Cancel)",
       "hit_level": "h, (FLK)",
       "damage": "14",
       "speed": "12s",
       "on_block": "-3",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, 1, B",
@@ -1911,17 +3241,31 @@
       "on_block": "-3",
       "on_hit": "+5",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FLIK 1, 1, B, d/b (Cancel)",
+      "notation": "FLIK 1, 1, B, d\/b (Cancel)",
       "hit_level": "h, h, (FLK)",
       "damage": "14,8",
       "speed": "12s",
       "on_block": "-5",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, 1, 1, B",
@@ -1931,17 +3275,31 @@
       "on_block": "-4",
       "on_hit": "+4",
       "on_ch": "+4",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FLIK 1, 1, 1, B, d/b (Cancel)",
+      "notation": "FLIK 1, 1, 1, B, d\/b (Cancel)",
       "hit_level": "h, h, h, (FLK)",
       "damage": "14,8,8",
       "speed": "12s",
       "on_block": "-6",
       "on_hit": "+2",
       "on_ch": "+2",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, f+1",
@@ -1951,7 +3309,14 @@
       "on_block": "-5",
       "on_hit": "0s(+9s)",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1, d or u+1",
@@ -1961,7 +3326,14 @@
       "on_block": "0~+2",
       "on_hit": "KND",
       "on_ch": "CS",
-      "notes": "Tail spin"
+      "notes": "Tail spin",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 2",
@@ -1971,7 +3343,14 @@
       "on_block": "-5",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK 1+2",
@@ -1981,7 +3360,14 @@
       "on_block": null,
       "on_hit": "Throw(KND)",
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK b+2",
@@ -1991,7 +3377,14 @@
       "on_block": "-10~-9",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": "Power crush"
+      "notes": "Power crush",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK f+3+4",
@@ -2001,17 +3394,31 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK b+1+2",
-      "hit_level": "Absorbs 1 h/m hit",
+      "hit_level": "Absorbs 1 h\/m hit",
       "damage": null,
       "speed": "2~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FLIK etc",
@@ -2021,7 +3428,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "Command",
@@ -2031,7 +3445,14 @@
       "on_block": "Block frame",
       "on_hit": "Hit frame",
       "on_ch": "Counter hit frame",
-      "notes": "Notes"
+      "notes": "Notes",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "1",
@@ -2041,7 +3462,14 @@
       "on_block": "+1",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "2",
@@ -2051,7 +3479,14 @@
       "on_block": "-1",
       "on_hit": "+5",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "3 (to LWV)",
@@ -2061,7 +3496,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "4 (to RWV)",
@@ -2071,7 +3513,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+1",
@@ -2081,7 +3530,14 @@
       "on_block": "+1",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+2",
@@ -2091,7 +3547,14 @@
       "on_block": "-6~-5",
       "on_hit": "+5~+6",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+3 (to DCK)",
@@ -2101,7 +3564,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "f+4 (to DCK)",
@@ -2111,47 +3581,82 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+1",
+      "notation": "d\/f+1",
       "hit_level": "m",
       "damage": "12",
       "speed": "13~14",
       "on_block": "-2~-1",
       "on_hit": "+5~+6",
       "on_ch": "+5~+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+2",
+      "notation": "d\/f+2",
       "hit_level": "m",
       "damage": "18",
       "speed": "16~17",
       "on_block": "-11~-10",
       "on_hit": "+6~+7",
       "on_ch": "CS",
-      "notes": "Homing"
+      "notes": "Homing",
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+3 (to DCK)",
+      "notation": "d\/f+3 (to DCK)",
       "hit_level": "(Special) (TC)(DCK)",
       "damage": null,
       "speed": "s",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/f+4 (to DCK)",
+      "notation": "d\/f+4 (to DCK)",
       "hit_level": "(Special) (TC)(DCK)",
       "damage": null,
       "speed": "s",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+1",
@@ -2161,7 +3666,14 @@
       "on_block": "-13",
       "on_hit": "0",
       "on_ch": "0",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+2",
@@ -2171,7 +3683,14 @@
       "on_block": "-18",
       "on_hit": "-5",
       "on_ch": "-5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+3 (to LWV)",
@@ -2181,7 +3700,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "d+4 (to RWV)",
@@ -2191,47 +3717,82 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+1",
+      "notation": "d\/b+1",
       "hit_level": "Sm (TC)",
       "damage": "5",
       "speed": "10s cs4~",
       "on_block": "-5",
       "on_hit": "+6",
       "on_ch": "+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+2",
+      "notation": "d\/b+2",
       "hit_level": "l (TC)",
       "damage": "21",
       "speed": "26~27 cs6~",
       "on_block": "-12~-11",
       "on_hit": "+1~+2s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+3",
+      "notation": "d\/b+3",
       "hit_level": "l",
       "damage": "10",
       "speed": "16",
       "on_block": "-15",
       "on_hit": "+1",
       "on_ch": "+1",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "d/b+4 (to SWY)",
+      "notation": "d\/b+4 (to SWY)",
       "hit_level": "(Special) (TC)(SWY)",
       "damage": null,
       "speed": "s",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+1",
@@ -2241,7 +3802,14 @@
       "on_block": "-14~-13",
       "on_hit": "+2~+3",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+2",
@@ -2251,7 +3819,14 @@
       "on_block": "-13~-12",
       "on_hit": "CS",
       "on_ch": "CS",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+3 (to SWY)",
@@ -2261,7 +3836,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "b+4 (to SWY)",
@@ -2271,87 +3853,150 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u/b or u+1",
+      "notation": "u\/b or u+1",
       "hit_level": "m (TJ)",
       "damage": "12",
       "speed": "18 js9~",
       "on_block": "-8",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u/f+1",
+      "notation": "u\/f+1",
       "hit_level": "m (TJ)",
       "damage": "18",
       "speed": "19~21 js9~",
       "on_block": "-6~-4",
       "on_hit": "+5~+7",
       "on_ch": "+5~+7",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u/b+2",
+      "notation": "u\/b+2",
       "hit_level": "h",
       "damage": "17",
       "speed": "15~16",
       "on_block": "-12~-11",
       "on_hit": "+9~+10g",
       "on_ch": "+9~+10g",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+2",
+      "notation": "u or u\/f+2",
       "hit_level": "m (TJ)",
       "damage": "20",
       "speed": "22~25 js9~",
       "on_block": "-14~-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u/b+3 (Cancel)",
+      "notation": "u\/b+3 (Cancel)",
       "hit_level": "(Special)",
       "damage": null,
       "speed": "22~25 9~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+3",
+      "notation": "u or u\/f+3",
       "hit_level": "l (TJ)",
       "damage": "20",
       "speed": "36~37 js9~35",
       "on_block": "-12~-11",
       "on_hit": "+9~+10",
       "on_ch": "+9~+10",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u/b+4 (Cancel)",
+      "notation": "u\/b+4 (Cancel)",
       "hit_level": "(Special)",
       "damage": null,
       "speed": "36~37 9~35",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "u or u/f+4",
+      "notation": "u or u\/f+4",
       "hit_level": "m (TJ)",
       "damage": "27",
       "speed": "23~24",
       "on_block": "-14~-13",
       "on_hit": "Launch (JG?)",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+1",
@@ -2361,7 +4006,14 @@
       "on_block": "-3~-2",
       "on_hit": "+3~+4",
       "on_ch": "+8~+9",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+2",
@@ -2371,7 +4023,14 @@
       "on_block": "-7~-5",
       "on_hit": "+4~+6a",
       "on_ch": "Launch (JG?)",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+3 (to LWV)",
@@ -2381,7 +4040,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "WS+4 (to RWV)",
@@ -2391,27 +4057,48 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FC+d/b or d+1",
+      "notation": "FC+d\/b or d+1",
       "hit_level": "Sm (TC)",
       "damage": "5",
       "speed": "10s cs1~",
       "on_block": "-5",
       "on_hit": "+6",
       "on_ch": "+6",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FC+d/b+2",
+      "notation": "FC+d\/b+2",
       "hit_level": "l (TC)",
       "damage": "21",
       "speed": "26~27 cs1~",
       "on_block": "-12~-11",
       "on_hit": "+1~+2s",
       "on_ch": "KND",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "FC+d+2",
@@ -2421,27 +4108,48 @@
       "on_block": "-4",
       "on_hit": "+7",
       "on_ch": "+7",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FC+d/b or d+3 (to LWV)",
+      "notation": "FC+d\/b or d+3 (to LWV)",
       "hit_level": "(LWV)",
       "damage": null,
       "speed": "11 1~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
-      "notation": "FC+d/b or d+4 (to RWV)",
+      "notation": "FC+d\/b or d+4 (to RWV)",
       "hit_level": "(RWV)",
       "damage": null,
       "speed": "11 1~",
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SS+1",
@@ -2451,7 +4159,14 @@
       "on_block": "+1",
       "on_hit": "+8",
       "on_ch": "+8",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SS+2",
@@ -2461,7 +4176,14 @@
       "on_block": "-1",
       "on_hit": "+5",
       "on_ch": "+5",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SS+3 (to LWV)",
@@ -2471,7 +4193,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "SS+4 (to RWV)",
@@ -2481,7 +4210,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "BT 1 or 2",
@@ -2491,7 +4227,14 @@
       "on_block": "-8",
       "on_hit": "+3",
       "on_ch": "+3",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "BT 3 or 4",
@@ -2501,7 +4244,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "BT d+1 or 2",
@@ -2511,7 +4261,14 @@
       "on_block": "-2",
       "on_hit": "+9",
       "on_ch": "+9",
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     },
     {
       "notation": "BT d+3 or 4",
@@ -2521,7 +4278,14 @@
       "on_block": null,
       "on_hit": null,
       "on_ch": null,
-      "notes": null
+      "notes": null,
+      "rage_art": "No",
+      "rage_drive": "No",
+      "tail_spin": "No",
+      "homing": "No",
+      "power_crush": "No",
+      "wall_bounce": "No",
+      "wall_break": "No"
     }
   ]
 }

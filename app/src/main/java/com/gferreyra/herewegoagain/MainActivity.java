@@ -16,14 +16,19 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
@@ -93,9 +98,53 @@ public class MainActivity extends AppCompatActivity {
             name = woo.getName();
         }
 
+        //TODO read from file to get all filenames and initialize/populate a String array
+        ArrayList<String> charNames = new ArrayList<>();
+        try {
+            charNames = loadCharNamesFromAsset(this);
+            Log.d(TAG, Integer.toString(charNames.size()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //CODE IS USED TO PULL FROM JSON FILES AND EDIT THEM WITH NEW ATTRIBUTES, DO NOT CURRENTLY NEED SINCE DATA IS UP TO DATE
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         //TODO READ FROM JSON FILE
-        String jsonString = loadJSONFromAsset(this);
+        JSONObject obj = null;
+        ArrayList<JSONObject> allCharacterJSONObjects = new ArrayList<>();
+        for(int i = 0; i < 2; i++){
+            String jsonString = loadJSONFromAsset(this, charNames.get(i));
+            try{
+                obj = new JSONObject(jsonString);
+                String fileName = obj.getString("name");
+                Log.d(TAG, "HEY HERE IS THE FILENAME: " + fileName);
+                int arrayLength = obj.getJSONArray("basicmoves").length();
+                for(int j = 0; j < arrayLength; j++){
+                    JSONObject newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("rage_art", "No");
+                    newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("rage_drive", "No");
+                    newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("tail_spin", "No");
+                    newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("homing", "No");
+                    newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("power_crush", "No");
+                    newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("wall_bounce", "No");
+                    newObj = obj.getJSONArray("basicmoves").getJSONObject(j).put("wall_break", "No");
+                    writeToFile(newObj.toString(1), this, fileName);
+                }
+            } catch (JSONException e){
+                e.printStackTrace();
+            }
+        }
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        //example code that i will use for future methods
+        /*
+        String jsonString = loadJSONFromAsset(this, charName);
         JSONObject obj = null;
         try {
             obj = new JSONObject(jsonString);
@@ -113,12 +162,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
-        //TODO EDIT JSON OBJECT TO HAVE THE EXTRA ATTRIBUTES AND LOOP THROUGH ALL AND SAVE
-
-
-        //TODO LOOPS TO ADJUST THE YES/NO VALUES OF ALL NEW ATTRIBUTES
-
+        */
 
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -161,10 +205,10 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
-    public String loadJSONFromAsset(Context context){
+    public String loadJSONFromAsset(Context context, String name){
         String json = null;
         try{
-            InputStream is = context.getAssets().open("Anna.json");
+            InputStream is = context.getAssets().open(name + ".json");
 
             int size = is.available();
 
@@ -182,10 +226,35 @@ public class MainActivity extends AppCompatActivity {
         return json;
     }
 
-    private void writeToFile(String data, Context context) {
+    public ArrayList<String> loadCharNamesFromAsset(Context context) throws IOException {
+        String line = "blank";
+        InputStream is;
+        BufferedReader reader;
+        ArrayList<String> listOfChars = new ArrayList<>();
+
+
+        try{
+            is = context.getAssets().open("charnames.txt");
+            reader = new BufferedReader(new InputStreamReader(is));
+            while(line != null) {
+                line = reader.readLine();
+                if(line == null) {
+                    break;
+                }
+                listOfChars.add(line);
+                Log.d(TAG, line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return listOfChars;
+    }
+
+    private void writeToFile(String data, Context context, String fileName) {
         try {
-            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput("test.txt", Context.MODE_PRIVATE));
-            outputStreamWriter.write(data);
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput(fileName + ".txt", Context.MODE_APPEND));
+            outputStreamWriter.write(data + ",\n");
             outputStreamWriter.close();
         }
         catch (IOException e) {
