@@ -1,6 +1,8 @@
 package com.gferreyra.herewegoagain;
 
 import io.realm.RealmObject;
+import io.realm.RealmResults;
+import io.realm.annotations.LinkingObjects;
 
 public class BasicMoves extends RealmObject {
 
@@ -33,6 +35,9 @@ public class BasicMoves extends RealmObject {
     private String wall_bounce;
 
     private String wall_break;
+
+    @LinkingObjects("basicmoves")
+    private final RealmResults<CharacterData> character = null;
 
     public String getNotation() {
         return notation;
@@ -152,5 +157,9 @@ public class BasicMoves extends RealmObject {
 
     public void setWall_break(String wall_break) {
         this.wall_break = wall_break;
+    }
+
+    public RealmResults<CharacterData> getCharacter() {
+        return character;
     }
 }

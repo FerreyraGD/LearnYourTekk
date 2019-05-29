@@ -67,40 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
         //realm.beginTransaction();
 
-        //POPULATE JSON STRING FROM FILE AND CREATE JSON OBJECT
-        JSONObject jsonObj = null;
-        String jString = loadJSONFromAsset(this, "Akuma");
-
-        try {
-            jsonObj = new JSONObject(jString);
-            int size = jsonObj.getJSONArray("basicmoves").length();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        //POPULATE DB WITH JSON STRING
-
-        Log.d(TAG, "Attempting to execute Transactions");
-        realm.executeTransaction(new Realm.Transaction() {
-            @Override
-            public void execute(Realm realm) {
-                try {
-                    Log.d(TAG, "Getting Asset Manager");
-                    AssetManager am = getAssets();
-                    //String path = getFilesDir().getAbsolutePath();
-                    Log.d(TAG, "Test 1");
-                    //InputStream is = am.open("Akuma.json");
-                    //InputStream is = new FileInputStream(getAssets().open("Akuma.json"));
-                    String jString = loadJSONFromAsset(getApplicationContext(), "Akuma");
-                    JSONObject jObj = new JSONObject(jString);
-                    Log.d(TAG, "Test 2");
-                    realm.createObjectFromJson(CharacterData.class, jObj);
-                    Log.d(TAG, "DONE WITH TRANSACTION");
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
 
 
 
@@ -142,14 +108,34 @@ public class MainActivity extends AppCompatActivity {
         }
         */
 
-        //read from file to get all filenames and initialize/populate a String array
-        ArrayList<String> charNames = new ArrayList<>();
-        try {
-            charNames = loadCharNamesFromAsset(this);
-            Log.d(TAG, Integer.toString(charNames.size()));
-        } catch (IOException e) {
-            e.printStackTrace();
+        //Method to read from file to get all filenames and initialize/populate a String array
+        ArrayList<String> allCharNames = getAllCharacterNames();
+
+
+        //POPULATE JSON STRING FROM FILE AND CREATE JSON OBJECT
+        //POPULATE DB WITH JSON STRING
+        if(realm.isEmpty()) {
+            for (int i = 0; i < allCharNames.size(); i++) {
+                JSONObject charObj = createJSONObjectForChar(allCharNames.get(i));
+                addJSONObjectToDatabase(charObj, allCharNames.get(i));
+            }
         }
+
+        //TODO EDIT ALL THE EXTRA ADDED ATTRITBUTES(RAGE_ART, HOMING, TAIL_SPIN, ETC) TO BE YES/NO BASED OFF NOTES SECTION
+        //EXAMPLE OF HOW TO QUERY LINKED OBJECTS IN REALM DATABASE
+        RealmQuery<CharacterData> query = realm.where(CharacterData.class);
+
+        //query.equalTo("name", "Akuma");
+       // RealmResults<CharacterData> result = query.findAll();
+
+        RealmResults<BasicMoves> result = realm.where(BasicMoves.class).equalTo("character.name", "Akuma").and().isNotNull("notes").findAll();
+        BasicMoves secondResult = result.where().equalTo("notes", "Rage art").findFirst();
+        realm.beginTransaction();
+        secondResult.setRage_art("Yes");
+        realm.commitTransaction();
+
+        Log.d(TAG, result.toString());
+        Log.d(TAG, secondResult.toString());
 
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -276,7 +262,6 @@ public class MainActivity extends AppCompatActivity {
         BufferedReader reader;
         ArrayList<String> listOfChars = new ArrayList<>();
 
-
         try{
             is = context.getAssets().open("charnames.txt");
             reader = new BufferedReader(new InputStreamReader(is));
@@ -304,6 +289,57 @@ public class MainActivity extends AppCompatActivity {
         catch (IOException e) {
             Log.e("Exception", "File write failed: " + e.toString());
         }
+    }
+
+    private ArrayList<String> getAllCharacterNames(){
+        ArrayList<String> charNames = null;
+        try {
+            charNames = loadCharNamesFromAsset(this);
+            Log.d(TAG, Integer.toString(charNames.size()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return charNames;
+    }
+
+    private JSONObject createJSONObjectForChar(String charName){
+        //POPULATE JSON STRING FROM FILE AND CREATE JSON OBJECT
+        JSONObject jsonObj = null;
+        String jString = loadJSONFromAsset(this, charName);
+
+        try {
+            jsonObj = new JSONObject(jString);
+            //int size = jsonObj.getJSONArray("basicmoves").length();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return jsonObj;
+    }
+
+    private void addJSONObjectToDatabase(JSONObject jObj, final String name){
+        //POPULATE DB WITH JSON STRING
+        Log.d(TAG, "Attempting to execute Transactions");
+        realm.executeTransaction(new Realm.Transaction() {
+            @Override
+            public void execute(Realm realm) {
+                try {
+                    //Log.d(TAG, "Getting Asset Manager");
+                    //AssetManager am = getAssets();
+                    //String path = getFilesDir().getAbsolutePath();
+                    Log.d(TAG, "Loading string variable with JSON String for character");
+                    //InputStream is = am.open("Akuma.json");
+                    //InputStream is = new FileInputStream(getAssets().open("Akuma.json"));
+                    String jString = loadJSONFromAsset(getApplicationContext(), name);
+                    JSONObject jObj = new JSONObject(jString);
+                    Log.d(TAG, "Test 2");
+                    //realm.createObjectFromJson(CharacterData.class, jObj);
+                    realm.createOrUpdateObjectFromJson(CharacterData.class, jObj);
+                    Log.d(TAG, "DONE WITH TRANSACTION");
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 }
 
