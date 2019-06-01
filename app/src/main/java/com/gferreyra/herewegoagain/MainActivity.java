@@ -1,6 +1,7 @@
 package com.gferreyra.herewegoagain;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -109,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         */
 
         //Method to read from file to get all filenames and initialize/populate a String array
-        ArrayList<String> allCharNames = getAllCharacterNames();
+        final ArrayList<String> allCharNames = getAllCharacterNames();
 
 
         //POPULATE JSON STRING FROM FILE AND CREATE JSON OBJECT
@@ -121,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+        /*
         //TODO EDIT ALL THE EXTRA ADDED ATTRITBUTES(RAGE_ART, HOMING, TAIL_SPIN, ETC) TO BE YES/NO BASED OFF NOTES SECTION
         //EXAMPLE OF HOW TO QUERY LINKED OBJECTS IN REALM DATABASE
         RealmQuery<CharacterData> query = realm.where(CharacterData.class);
@@ -136,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, result.toString());
         Log.d(TAG, secondResult.toString());
-
+        */
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         //CODE IS USED TO PULL FROM JSON FILES AND EDIT THEM WITH NEW ATTRIBUTES, DO NOT CURRENTLY NEED SINCE DATA IS UP TO DATE
@@ -202,8 +204,15 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String value = "Jin";
+                Intent myIntent = new Intent(MainActivity.this, MainMenu.class);
+                //myIntent.putExtra("name", value);
+                myIntent.putExtra("allCharacterNames", allCharNames);
+                MainActivity.this.startActivity(myIntent);
+                /*
                 Snackbar.make(view, "Here is the character: " + name, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                        */
             }
         });
     }
