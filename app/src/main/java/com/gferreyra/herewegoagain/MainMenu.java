@@ -45,10 +45,10 @@ public class MainMenu extends Activity {
         mNames.add("Frame Data");
         mImageUrls.add("@drawable/");
 
-        mNames.add("Tekken 7 Fundamentals");
+        mNames.add("Tekken 7\n Fundamentals");
         mImageUrls.add("@drawable/");
 
-        mNames.add("Frame Data Explained");
+        mNames.add("Frame Data \nExplained");
         mImageUrls.add("@drawable/");
 
         initRecyclerView();

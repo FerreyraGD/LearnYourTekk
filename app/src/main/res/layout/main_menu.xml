@@ -13,10 +13,11 @@
     <TextView
         android:id="@+id/main_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:background="#F82816"
         android:text="@string/learnyourtekk7"
         android:textAlignment="center"
+        android:paddingTop="10dp"
         android:textAllCaps="false"
         android:textColor="#FAF4F4"
         android:textColorHighlight="#090808"
