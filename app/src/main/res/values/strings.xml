@@ -5,4 +5,6 @@
     <string name="character_select">Character Select</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="background_splash">Background Splash Screen image</string>
+    <string name="bg_splash">BG Splash image</string>
 </resources>

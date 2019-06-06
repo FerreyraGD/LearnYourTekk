@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String value = "Jin";
-                Intent myIntent = new Intent(MainActivity.this, MainMenu.class);
+                Intent myIntent = new Intent(MainActivity.this, SplashScreen.class);
                 //myIntent.putExtra("name", value);
                 myIntent.putExtra("allCharacterNames", allCharNames);
                 MainActivity.this.startActivity(myIntent);
