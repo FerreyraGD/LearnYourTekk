@@ -51,10 +51,11 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, final int i) {
         Log.d(TAG, "onBindViewHolder: called.");
+        String img = mImages.get(i).toString();
         Glide.with(mContext)
                 .asBitmap()
-                .load(mImages.get(i))
-                .placeholder(R.mipmap.ic_launcher)
+                .load("")
+                .placeholder(mContext.getResources().getIdentifier(img, "drawable", mContext.getPackageName()))
                 .into(viewHolder.image);
 
         viewHolder.imageName.setText(mImageNames.get(i));
@@ -65,7 +66,14 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
                 Toast.makeText(mContext, mImageNames.get(i), Toast.LENGTH_SHORT).show();
                 if(mImageNames.get(i) == "Character Overviews"){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
-                    //ArrayList<String> allCharacterNames = (ArrayList<String>) mIntent.getExtras().get("allCharacterNames");
+                    //myIntent.putExtra("menuTitle", "Character Overviews");
+                    //myIntent.putExtra("allCharacterNames", allCharacterNames);
+                    mContext.startActivity(myIntent);
+                }
+
+                if(mImageNames.get(i) == "Frame Data"){
+                    Intent myIntent = new Intent(mContext, CharacterSelect.class);
+                    //myIntent.putExtra("menuTitle", "Frame Data");
                     //myIntent.putExtra("allCharacterNames", allCharacterNames);
                     mContext.startActivity(myIntent);
                 }

@@ -57,6 +57,7 @@ public class SplashScreen extends AppCompatActivity {
 
 
 
+        /*
         //Set up Realm for DB Creation
         Realm.init(this);
         Log.d(TAG, "Realm Initiated");
@@ -68,6 +69,7 @@ public class SplashScreen extends AppCompatActivity {
                 .build();
         Realm.setDefaultConfiguration(realmConfig);
         Log.d(TAG, "Realm Configured");
+        */
 
         realm = Realm.getDefaultInstance();
 
@@ -104,6 +106,8 @@ public class SplashScreen extends AppCompatActivity {
             Log.d(TAG, rageMoves.get(i).toString());
         }
 
+        realm.close();
+
 
         //DONE loading everything
         status = true;
@@ -118,9 +122,12 @@ public class SplashScreen extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    //Intent myIntent = new Intent(SplashScreen.this, MainMenu.class);
-                    //TODO myIntent.putExtra("framedata", variable);
-                    //SplashScreen.this.startActivity(myIntent);
+                    Intent myIntent = new Intent(SplashScreen.this, MainMenu.class);
+                    SplashScreen.this.startActivity(myIntent);
+                    Log.d(TAG, "we get here");
+                    //Realm backgroundRealm = Realm.getDefaultInstance();
+                    //backgroundRealm.close();
+                    finish();
                 }
             }).start();
         }
@@ -155,6 +162,12 @@ public class SplashScreen extends AppCompatActivity {
         }).start();
         */
 
+    }
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+        realm.close();
     }
 
     //Method used to load a JSON file from Assets directory and convert it to String

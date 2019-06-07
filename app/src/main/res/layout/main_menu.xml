@@ -5,19 +5,29 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_main"
-        android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"/>
+        android:layout_below="@+id/introduction"
+        android:background="#B0C5BBBB"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/main_title"
+        android:background="#97A01111"
+        android:text="@string/introduction"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/main_title"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#F82816"
+        android:background="#8A1207"
+        android:paddingTop="10dp"
         android:text="@string/learnyourtekk7"
         android:textAlignment="center"
-        android:paddingTop="10dp"
         android:textAllCaps="false"
         android:textColor="#FAF4F4"
         android:textColorHighlight="#090808"

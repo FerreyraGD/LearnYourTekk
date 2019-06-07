@@ -40,16 +40,16 @@ public class MainMenu extends Activity {
 
     private void initImageBitmaps() {
         mNames.add("Character Overviews");
-        mImageUrls.add("@drawable/");
+        mImageUrls.add("characterselect");
 
         mNames.add("Frame Data");
-        mImageUrls.add("@drawable/");
+        mImageUrls.add("nina");
 
         mNames.add("Tekken 7\n Fundamentals");
-        mImageUrls.add("@drawable/");
+        mImageUrls.add("tekken7img");
 
         mNames.add("Frame Data \nExplained");
-        mImageUrls.add("@drawable/");
+        mImageUrls.add("framedata");
 
         initRecyclerView();
     }
