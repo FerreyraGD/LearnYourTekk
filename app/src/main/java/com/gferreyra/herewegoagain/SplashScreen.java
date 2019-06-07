@@ -24,9 +24,12 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import io.realm.Case;
 import io.realm.Realm;
 import io.realm.RealmCollection;
 import io.realm.RealmConfiguration;
+import io.realm.RealmQuery;
+import io.realm.RealmResults;
 import io.realm.SyncManager;
 import io.realm.SyncSession;
 
@@ -40,7 +43,6 @@ public class SplashScreen extends AppCompatActivity {
     private Handler handler = new Handler();
     private Realm realm;
     private RealmConfiguration realmConfig;
-    private ArrayList<String> allCharNames;
     private boolean status = false;
 
     //creates Activity, sets view and creates or loads database using progress bar to track status
@@ -83,8 +85,30 @@ public class SplashScreen extends AppCompatActivity {
         }
 
         Log.d(TAG, "Database completed");
+
+        //TESTING IF DATABASE OBJECT CAN BE PASSED AND REALM WILL NEVER HAVE TO BE CALLED AGAIN IF IT PERSISTS
+        //IT CAN OMG!!!
+        //These objects will be passed through intents until they are needed to be used to acquire database information
+        RealmResults<CharacterData> charDatabase = getCharacterDatabase();
+        RealmResults<BasicMoves> basicDatabase = getBasicMovesDatabase();
+
+        //testing character info
+        CharacterData character = charDatabase.where().equalTo("name", "Akuma").findFirst();
+        Log.d(TAG, character.getName() + " " + character.getDifficulty());
+
+        //testing Akuma's moves
+        //EXAMPLE OF HOW TO QUERY FOR SPECIAL MOVES (I.E HOMING, TAIL SPIN ETC)
+        RealmResults<BasicMoves> charMoves = basicDatabase.where().equalTo("character.name", "Akuma").and().isNotNull("notes").findAll();
+        RealmResults<BasicMoves> rageMoves = charMoves.where().contains("notes", "homing", Case.INSENSITIVE).findAll();
+        for(int i = 0; i < rageMoves.size(); i++){
+            Log.d(TAG, rageMoves.get(i).toString());
+        }
+
+
+        //DONE loading everything
         status = true;
 
+        //Adding delay so splashscreen stays up for a small amount of time then switching to MainMenu activity
         if(status == true) {
             new Thread(new Runnable() {
                 public void run() {
@@ -94,9 +118,9 @@ public class SplashScreen extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    Intent myIntent = new Intent(SplashScreen.this, MainMenu.class);
+                    //Intent myIntent = new Intent(SplashScreen.this, MainMenu.class);
                     //TODO myIntent.putExtra("framedata", variable);
-                    SplashScreen.this.startActivity(myIntent);
+                    //SplashScreen.this.startActivity(myIntent);
                 }
             }).start();
         }
@@ -236,7 +260,66 @@ public class SplashScreen extends AppCompatActivity {
             }
         });
     }
+
+    //OBSOLETE METHOD
+    //NO LONGER USING THE EXTRA ATTRIBUTES TO JUDGE THE STATUSES IN THE NOTES SECTION
+    //TODO WILL EVENTUALLY DELETE
+    private void updateNoteValues(ArrayList<String> charNames, String status){
+        //EXAMPLE OF HOW TO QUERY LINKED OBJECTS IN REALM DATABASE
+        for(int k = 0; k < charNames.size(); k++) {
+            RealmQuery<CharacterData> query = realm.where(CharacterData.class);
+            RealmResults<BasicMoves> result = realm.where(BasicMoves.class).equalTo("character.name", charNames.get(k)).and().isNotNull("notes").findAll();
+            RealmResults<BasicMoves> secondResult = result.where().contains("notes", status, Case.INSENSITIVE).findAll();
+
+            realm.beginTransaction();
+            if (secondResult.size() != 0) {
+                for (int i = 0; i < secondResult.size(); i++) {
+                    if(status.equalsIgnoreCase("Rage art")) {
+                        secondResult.get(i).setRage_art("Yes");
+                    }
+
+                    if(status.equalsIgnoreCase("Rage Drive")){
+                        secondResult.get(i).setRage_drive("Yes");
+                    }
+
+                    if(status.equalsIgnoreCase("Tail Spin")){
+                        secondResult.get(i).setTail_spin("Yes");
+                    }
+
+                    if(status.equalsIgnoreCase("Homing")){
+                        secondResult.get(i).setHoming("Yes");
+                    }
+
+                    if(status.equalsIgnoreCase("Power Crush")){
+                        secondResult.get(i).setPower_crush("Yes");
+                    }
+
+                    if(status.equalsIgnoreCase("Wall Bounce")){
+                        secondResult.get(i).setWall_bounce("Yes");
+                    }
+
+                    if(status.equalsIgnoreCase("Wall Break")){
+                        secondResult.get(i).setWall_break("Yes");
+                    }
+                }
+            }
+            realm.commitTransaction();
+
+            Log.d(TAG, result.toString());
+            Log.d(TAG, secondResult.toString());
+        }
+    }
+
+    private RealmResults<CharacterData> getCharacterDatabase(){
+        RealmQuery<CharacterData> query = realm.where(CharacterData.class);
+        RealmResults<CharacterData> result = query.findAll();
+        return result;
+    }
+
+    private RealmResults<BasicMoves> getBasicMovesDatabase(){
+        RealmQuery<BasicMoves> query = realm.where(BasicMoves.class);
+        RealmResults<BasicMoves> result = query.findAll();
+        return result;
+    }
 }
-
-
 
