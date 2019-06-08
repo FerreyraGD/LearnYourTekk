@@ -43,7 +43,7 @@ public class MainMenu extends Activity {
         mImageUrls.add("characterselect");
 
         mNames.add("Frame Data");
-        mImageUrls.add("nina");
+        mImageUrls.add("ninamenu");
 
         mNames.add("Tekken 7\n Fundamentals");
         mImageUrls.add("tekken7img");

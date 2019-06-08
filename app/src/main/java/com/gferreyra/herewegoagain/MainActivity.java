@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         /*
         RealmQuery<Character> query = realm.where(Character.class);
 
-        query.equalTo("name", "Jin");
+        query.equalTo("name", "jin");
 
         RealmResults<Character> result = query.findAll();
         */
@@ -93,9 +93,9 @@ public class MainActivity extends AppCompatActivity {
             realm.beginTransaction();
             Log.d(TAG, "beginning transaction");
 
-            Log.d(TAG, "creating Character object for Jin");
+            Log.d(TAG, "creating Character object for jin");
             Character ch = realm.createObject(Character.class, "01");
-            ch.setName("Jin");
+            ch.setName("jin");
             ch.setDifficulty("Intermediate");
             realm.commitTransaction();
             name = "DATABASE BARELY CREATED";
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String value = "Jin";
+                String value = "jin";
                 Intent myIntent = new Intent(MainActivity.this, SplashScreen.class);
                 //myIntent.putExtra("name", value);
                 myIntent.putExtra("allCharacterNames", allCharNames);
@@ -336,8 +336,8 @@ public class MainActivity extends AppCompatActivity {
                     //AssetManager am = getAssets();
                     //String path = getFilesDir().getAbsolutePath();
                     Log.d(TAG, "Loading string variable with JSON String for character");
-                    //InputStream is = am.open("Akuma.json");
-                    //InputStream is = new FileInputStream(getAssets().open("Akuma.json"));
+                    //InputStream is = am.open("akuma.json");
+                    //InputStream is = new FileInputStream(getAssets().open("akuma.json"));
                     String jString = loadJSONFromAsset(getApplicationContext(), name);
                     JSONObject jObj = new JSONObject(jString);
                     Log.d(TAG, "Test 2");

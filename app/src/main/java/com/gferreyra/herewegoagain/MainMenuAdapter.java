@@ -66,14 +66,14 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
                 Toast.makeText(mContext, mImageNames.get(i), Toast.LENGTH_SHORT).show();
                 if(mImageNames.get(i) == "Character Overviews"){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
-                    //myIntent.putExtra("menuTitle", "Character Overviews");
+                    myIntent.putExtra("menuTitle", "Character Overviews");
                     //myIntent.putExtra("allCharacterNames", allCharacterNames);
                     mContext.startActivity(myIntent);
                 }
 
                 if(mImageNames.get(i) == "Frame Data"){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
-                    //myIntent.putExtra("menuTitle", "Frame Data");
+                    myIntent.putExtra("menuTitle", "Frame Data");
                     //myIntent.putExtra("allCharacterNames", allCharacterNames);
                     mContext.startActivity(myIntent);
                 }

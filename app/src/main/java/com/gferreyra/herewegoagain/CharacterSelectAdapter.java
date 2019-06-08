@@ -26,6 +26,7 @@ public class CharacterSelectAdapter extends RecyclerView.Adapter<CharacterSelect
     private ArrayList<String> mImages = new ArrayList<>();
     private Context mContext;
     private Intent mIntent;
+    private String menuTitle;
 
     public CharacterSelectAdapter(ArrayList<String> mImageNames, ArrayList<String> mImages, Context mContext) {
         this.mImageNames = mImageNames;
@@ -33,11 +34,12 @@ public class CharacterSelectAdapter extends RecyclerView.Adapter<CharacterSelect
         this.mContext = mContext;
     }
 
-    public CharacterSelectAdapter(ArrayList<String> mImageNames, ArrayList<String> mImages, Context mContext, Intent intent) {
+    public CharacterSelectAdapter(ArrayList<String> mImageNames, ArrayList<String> mImages, Context mContext, Intent intent, String menuTitle) {
         this.mImageNames = mImageNames;
         this.mImages = mImages;
         this.mContext = mContext;
         this.mIntent = mIntent;
+        this.menuTitle = menuTitle;
     }
 
     @NonNull
@@ -51,10 +53,11 @@ public class CharacterSelectAdapter extends RecyclerView.Adapter<CharacterSelect
     @Override
     public void onBindViewHolder(@NonNull CharacterSelectAdapter.ViewHolder viewHolder, final int i) {
         Log.d(TAG, "onBindViewHolder: called.");
+        String img = mImages.get(i).toString();
         Glide.with(mContext)
                 .asBitmap()
-                .load(mImages.get(i))
-                .placeholder(R.mipmap.ic_launcher)
+                .load("")
+                .placeholder(mContext.getResources().getIdentifier(img.toLowerCase(), "drawable", mContext.getPackageName()))
                 .into(viewHolder.image);
 
         viewHolder.imageName.setText(mImageNames.get(i));
@@ -63,11 +66,18 @@ public class CharacterSelectAdapter extends RecyclerView.Adapter<CharacterSelect
             @Override
             public void onClick(View v) {
                 Toast.makeText(mContext, mImageNames.get(i), Toast.LENGTH_SHORT).show();
-                if(mImageNames.get(i) == "Akuma"){
-                    Intent myIntent = new Intent(mContext, CharacterInformationSheet.class);
-                    myIntent.putExtra("name", mImageNames.get(i));
-                    mContext.startActivity(myIntent);
-                }
+                    Log.d(TAG, "menuTitle is: " + menuTitle);
+                    if(menuTitle.equals("Character Overviews")){
+                        Intent myIntent = new Intent(mContext, CharacterInformationSheet.class);
+                        myIntent.putExtra("name", mImageNames.get(i));
+                        mContext.startActivity(myIntent);
+                    }
+
+                    if(menuTitle.equals("Frame Data")){
+                        Intent myIntent = new Intent(mContext, FrameDataTable.class);
+                        myIntent.putExtra("name", mImageNames.get(i));
+                        mContext.startActivity(myIntent);
+                    }
             }
         });
 
