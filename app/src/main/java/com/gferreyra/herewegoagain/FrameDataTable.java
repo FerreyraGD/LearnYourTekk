@@ -3,6 +3,8 @@ package com.gferreyra.herewegoagain;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -19,6 +21,7 @@ public class FrameDataTable extends AppCompatActivity {
 
         //set characters name as table title
         getSupportActionBar().setTitle("Character Name's Frame Data");
+
     }
 
     @Override
