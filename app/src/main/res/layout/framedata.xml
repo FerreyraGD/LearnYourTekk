@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FrameDataTable">
+    tools:context=".FrameDataTable"
+    android:background="#8B0000">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -16,7 +17,7 @@
             android:id="@+id/fd_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/colorAccent"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -25,7 +26,7 @@
         android:paddingTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical">
         <ScrollView
             android:id="@+id/layout"
             android:layout_height="match_parent"
@@ -45,10 +46,11 @@
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/tlGridTable" >
+                    android:id="@+id/gridTable"
+                    android:stretchColumns="*">
                     <TableRow
                         android:layout_height="0dp"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:id="@+id/table_row1"
                         android:padding="10dp"
                         android:layout_weight="1">
@@ -60,8 +62,8 @@
                             android:layout_width="match_parent"
                             android:textColor="#000"
                             android:text="Command"
-                            android:layout_marginLeft="4dp"
-                            android:layout_marginRight="4dp"/>
+                            android:padding="7dp"
+                            android:background="@drawable/cell_shape"/>
 
                         <TextView
                             android:id="@+id/hitlevel"

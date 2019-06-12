@@ -1,13 +1,22 @@
 package com.gferreyra.herewegoagain;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.text.Layout;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.ArrayList;
 
 public class FrameDataTable extends AppCompatActivity {
 
@@ -22,6 +31,41 @@ public class FrameDataTable extends AppCompatActivity {
         //set characters name as table title
         getSupportActionBar().setTitle("Character Name's Frame Data");
 
+        ArrayList<String> list = new ArrayList<>();
+        list.add("1");
+        list.add("h");
+        list.add("7");
+        list.add("8");
+        list.add("11");
+        list.add("5");
+        list.add("4");
+        list.add("Nothing");
+
+        /*
+        TableLayout tableLayout = findViewById(R.id.gridTable);
+        TableRow tableRow = new TableRow(this);
+        for(int i = 0; i < 7; i++) {
+            TableRow.LayoutParams lp = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT);
+            tableRow.setLayoutParams(lp);
+            TextView tv = new TextView(this);
+            tv.setText("Yo whats up");
+            tableRow.addView(tv);
+        }
+        tableLayout.addView(tableRow);
+        */
+
+        TableLayout tableLayout = findViewById(R.id.gridTable);
+        TableRow tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
+        ((TextView)tableRow.findViewById(R.id.row_command)).setText(list.get(0));
+
+        tableLayout.addView(tableRow);
+
+        tableLayout = findViewById(R.id.gridTable);
+        tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
+        ((TextView)tableRow.findViewById(R.id.row_command)).setText(list.get(1));
+
+        tableLayout.addView(tableRow);
+        tableLayout.requestLayout();
     }
 
     @Override
