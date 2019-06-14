@@ -3,6 +3,7 @@ package com.gferreyra.herewegoagain;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.Layout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,9 +17,20 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.tabs.TabLayout;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+
+import io.realm.Case;
+import io.realm.Realm;
+import io.realm.RealmQuery;
+import io.realm.RealmResults;
 
 public class FrameDataTable extends AppCompatActivity {
+    private String TAG = "FrameDataTable";
+    private Realm realm;
+    private TableLayout tableLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceBundle){
@@ -31,6 +43,12 @@ public class FrameDataTable extends AppCompatActivity {
         //set characters name as table title
         getSupportActionBar().setTitle("Character Name's Frame Data");
 
+        populateTable();
+
+        //realm.close();
+
+
+
         ArrayList<String> list = new ArrayList<>();
         list.add("1");
         list.add("h");
@@ -41,20 +59,9 @@ public class FrameDataTable extends AppCompatActivity {
         list.add("4");
         list.add("Nothing");
 
+        //TODO EXAMPLE CODE OF ADDING A ROW TO TABLE
         /*
-        TableLayout tableLayout = findViewById(R.id.gridTable);
-        TableRow tableRow = new TableRow(this);
-        for(int i = 0; i < 7; i++) {
-            TableRow.LayoutParams lp = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT);
-            tableRow.setLayoutParams(lp);
-            TextView tv = new TextView(this);
-            tv.setText("Yo whats up");
-            tableRow.addView(tv);
-        }
-        tableLayout.addView(tableRow);
-        */
-
-        TableLayout tableLayout = findViewById(R.id.gridTable);
+        tableLayout = findViewById(R.id.gridTable);
         TableRow tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
         ((TextView)tableRow.findViewById(R.id.row_command)).setText(list.get(0));
 
@@ -66,6 +73,7 @@ public class FrameDataTable extends AppCompatActivity {
 
         tableLayout.addView(tableRow);
         tableLayout.requestLayout();
+        */
     }
 
     @Override
@@ -93,5 +101,125 @@ public class FrameDataTable extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+    }
+
+    private RealmResults<CharacterData> getCharacterDatabase(){
+        RealmQuery<CharacterData> query = realm.where(CharacterData.class);
+        RealmResults<CharacterData> result = query.findAll();
+        return result;
+    }
+
+    private RealmResults<BasicMoves> getBasicMovesDatabase(){
+        RealmQuery<BasicMoves> query = realm.where(BasicMoves.class);
+        RealmResults<BasicMoves> result = query.findAll();
+        return result;
+    }
+
+    private TableRow createRow(ArrayList<String> rowList){
+        tableLayout = findViewById(R.id.gridTable);
+        TableRow tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
+
+        ((TextView) tableRow.findViewById(R.id.row_command)).setText(rowList.get(0));
+        ((TextView) tableRow.findViewById(R.id.row_hitlevel)).setText(rowList.get(1));
+        ((TextView) tableRow.findViewById(R.id.row_damage)).setText(rowList.get(2));
+        ((TextView) tableRow.findViewById(R.id.row_startframe)).setText(rowList.get(3));
+        ((TextView) tableRow.findViewById(R.id.row_blockframe)).setText(rowList.get(4));
+        ((TextView) tableRow.findViewById(R.id.row_hitframe)).setText(rowList.get(5));
+        ((TextView) tableRow.findViewById(R.id.row_counterhitframe)).setText(rowList.get(6));
+        ((TextView) tableRow.findViewById(R.id.row_notes)).setText(rowList.get(7));
+
+        return tableRow;
+    }
+
+    private void updateRows(ArrayList<TableRow> rows){
+        for(int k = 0; k < rows.size(); k++) {
+            tableLayout.addView(rows.get(k));
+        }
+    }
+
+    //Adds a row to the table for each headline passed in
+    private void populateTable() {
+        new Thread() {
+            @Override
+            public void run() {
+                //set connection to database
+                realm = Realm.getDefaultInstance();
+
+                //TESTING IF DATABASE OBJECT CAN BE PASSED AND REALM WILL NEVER HAVE TO BE CALLED AGAIN IF IT PERSISTS
+                //IT CAN OMG!!!
+                //These objects will be passed through intents until they are needed to be used to acquire database information
+                RealmResults<BasicMoves> basicDatabase = getBasicMovesDatabase();
+
+                //testing Akuma's moves
+                //EXAMPLE OF HOW TO QUERY FOR SPECIAL MOVES (I.E HOMING, TAIL SPIN ETC)
+                String characterName = getIntent().getExtras().getString("name");
+                if(characterName.equals("ArmorKing")){
+                    characterName = "Armor King";
+                }
+
+                if(characterName.equals("DevilJin")){
+                    characterName = "Devil Jin";
+                }
+
+                if(characterName.equals("Jack7")){
+                    characterName = "Jack-7";
+                }
+
+                if(characterName.equals("LuckyChloe")){
+                    characterName = "Lucky Chloe";
+                }
+
+                if(characterName.equals("MasterRaven")){
+                    characterName = "Master Raven";
+                }
+
+
+                final RealmResults<BasicMoves> charMoves = basicDatabase.where().equalTo("character.name", characterName).findAll();
+
+
+                ArrayList<String> fullList = new ArrayList<>();
+
+                final ArrayList<TableRow> listOfRows = new ArrayList<>();
+
+                for(int i = 0; i < charMoves.size(); i++){
+                    //clear list from any previous move data
+                    fullList.clear();
+
+                    //add frame data for specified move
+                    fullList.add(charMoves.get(i).getNotation());
+                    fullList.add(charMoves.get(i).getHit_level());
+                    fullList.add(charMoves.get(i).getDamage());
+                    fullList.add(charMoves.get(i).getSpeed());
+                    fullList.add(charMoves.get(i).getOn_block());
+                    fullList.add(charMoves.get(i).getOn_hit());
+                    fullList.add(charMoves.get(i).getOn_ch());
+                    fullList.add(charMoves.get(i).getNotes());
+
+                    //create row and insert into table
+                    listOfRows.add(createRow(fullList));
+                }
+
+                runOnUiThread(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        //todo ui update
+                        updateRows(listOfRows);
+                    }
+                });
+                realm.close();
+            }
+        }.start();
+    }
+
+    private File getTempFile(Context context, String url) {
+        File file = null;
+        try {
+            String fileName = "Akuma" + "temp";
+            file = File.createTempFile(fileName, null, context.getCacheDir());
+        } catch (IOException e) {
+            // Error while creating file
+        }
+        return file;
     }
 }
