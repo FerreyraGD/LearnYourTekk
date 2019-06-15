@@ -17,6 +17,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
 
 import java.io.File;
@@ -44,7 +45,11 @@ public class FrameDataTable extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //set characters name as table title
-        getSupportActionBar().setTitle("Character Name's Frame Data");
+        String title = getIntent().getExtras().getString("name");
+        getSupportActionBar().setTitle(title);
+
+        header = findViewById(R.id.header);
+        header.setVisibility(View.GONE);
 
         populateTable();
 
@@ -216,6 +221,7 @@ public class FrameDataTable extends AppCompatActivity {
                         //todo ui update
                         updateRows(listOfRows);
                         progressBar.setVisibility(View.GONE);
+                        header.setVisibility(View.VISIBLE);
                     }
                 });
                 realm.close();
