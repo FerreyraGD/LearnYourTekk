@@ -27,6 +27,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/loading_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:paddingLeft="180dp"
+            android:paddingTop="250dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/header">
+
+        </TableLayout>
+
         <ScrollView
             android:id="@+id/layout"
             android:layout_height="match_parent"

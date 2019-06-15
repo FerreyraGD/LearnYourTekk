@@ -20,7 +20,7 @@
       "wall_break": "No"
     },
     {
-      "command": "In rage b+1+2",
+      "notation": "In rage b+1+2",
       "hit_level": "m (throw)",
       "damage": "55",
       "speed": "20",
@@ -37,7 +37,7 @@
       "wall_break": "No"
     },
     {
-      "command": "In rage f+2+3",
+      "notation": "In rage f+2+3",
       "hit_level": "m (throw)",
       "damage": "35(,12)",
       "speed": "21",
@@ -54,7 +54,7 @@
       "wall_break": "No"
     },
     {
-      "command": "In rage f+2+3 (far)",
+      "notation": "In rage f+2+3 (far)",
       "hit_level": "sm",
       "damage": "10",
       "speed": "45",
@@ -71,7 +71,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1",
+      "notation": "1",
       "hit_level": "h",
       "damage": "7",
       "speed": "10",
@@ -88,7 +88,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, 2",
+      "notation": "1, 2",
       "hit_level": "h, h",
       "damage": "7, 12",
       "speed": "",
@@ -105,7 +105,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, 2, 3+4",
+      "notation": "1, 2, 3+4",
       "hit_level": "h, h, (special)7, 12",
       "damage": "",
       "speed": "",
@@ -122,7 +122,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, 2, 3+4, 3+4",
+      "notation": "1, 2, 3+4, 3+4",
       "hit_level": "h, h (special)",
       "damage": "7, 12",
       "speed": "",
@@ -139,7 +139,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, 2, 3",
+      "notation": "1, 2, 3",
       "hit_level": "h, h, m",
       "damage": "7, 12, 12",
       "speed": "",
@@ -156,7 +156,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, 2, 3, 1+2",
+      "notation": "1, 2, 3, 1+2",
       "hit_level": "h, h, m, h",
       "damage": "7, 12, 12, 28",
       "speed": "",
@@ -173,7 +173,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, 2, f+1",
+      "notation": "1, 2, f+1",
       "hit_level": "h, h, h",
       "damage": "7, 12, 21",
       "speed": "",
@@ -190,7 +190,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1, d+2",
+      "notation": "1, d+2",
       "hit_level": "h, m",
       "damage": "7, 13",
       "speed": "",
@@ -207,7 +207,7 @@
       "wall_break": "No"
     },
     {
-      "command": "2",
+      "notation": "2",
       "hit_level": "h",
       "damage": "10",
       "speed": "10",
@@ -224,7 +224,7 @@
       "wall_break": "No"
     },
     {
-      "command": "2, 1",
+      "notation": "2, 1",
       "hit_level": "h, h",
       "damage": "10, 12",
       "speed": "",
@@ -241,7 +241,7 @@
       "wall_break": "No"
     },
     {
-      "command": "2, d+1+2",
+      "notation": "2, d+1+2",
       "hit_level": "h, m",
       "damage": "10, 22",
       "speed": "",
@@ -258,7 +258,7 @@
       "wall_break": "No"
     },
     {
-      "command": "3",
+      "notation": "3",
       "hit_level": "h",
       "damage": "28",
       "speed": "17",
@@ -275,7 +275,7 @@
       "wall_break": "No"
     },
     {
-      "command": "4",
+      "notation": "4",
       "hit_level": "h",
       "damage": "16",
       "speed": "13",
@@ -292,7 +292,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1+2",
+      "notation": "1+2",
       "hit_level": "m",
       "damage": "0",
       "speed": "15",
@@ -309,7 +309,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+2",
+      "notation": "f+2",
       "hit_level": "h",
       "damage": "20",
       "speed": "16",
@@ -326,7 +326,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+2, 1",
+      "notation": "f+2, 1",
       "hit_level": "h, h",
       "damage": "20, 25",
       "speed": "",
@@ -343,7 +343,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+2, d+1",
+      "notation": "f+2, d+1",
       "hit_level": "h, m",
       "damage": "20, 17",
       "speed": "",
@@ -360,7 +360,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+2, d+1, 2",
+      "notation": "f+2, d+1, 2",
       "hit_level": "h, m, m",
       "damage": "20, 17, 16",
       "speed": "",
@@ -377,7 +377,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+3",
+      "notation": "f+3",
       "hit_level": "m",
       "damage": "17",
       "speed": "23",
@@ -394,7 +394,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+3, 2",
+      "notation": "f+3, 2",
       "hit_level": "m, m",
       "damage": "17, 20",
       "speed": "",
@@ -411,7 +411,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+4",
+      "notation": "f+4",
       "hit_level": "m",
       "damage": "20",
       "speed": "19",
@@ -428,7 +428,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+1+2",
+      "notation": "f+1+2",
       "hit_level": "h",
       "damage": "21",
       "speed": "15 pc8",
@@ -445,7 +445,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+3+4",
+      "notation": "f+3+4",
       "hit_level": "h!",
       "damage": "30",
       "speed": "32",
@@ -462,7 +462,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+3+4, 3+4",
+      "notation": "f+3+4, 3+4",
       "hit_level": "(special)",
       "damage": "",
       "speed": "total 45",
@@ -479,7 +479,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f+1+4",
+      "notation": "f+1+4",
       "hit_level": "m",
       "damage": "25",
       "speed": "21",
@@ -496,7 +496,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+1",
+      "notation": "d\/f+1",
       "hit_level": "m",
       "damage": "15",
       "speed": "15",
@@ -513,7 +513,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+2",
+      "notation": "d\/f+2",
       "hit_level": "m",
       "damage": "16",
       "speed": "15",
@@ -530,7 +530,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+2, 1",
+      "notation": "d\/f+2, 1",
       "hit_level": "m, m",
       "damage": "16, 21",
       "speed": "",
@@ -547,7 +547,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3",
+      "notation": "d\/f+3",
       "hit_level": "m",
       "damage": "13",
       "speed": "17",
@@ -564,7 +564,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1",
+      "notation": "d\/f+3, 1",
       "hit_level": "m, h",
       "damage": "13, 7",
       "speed": "",
@@ -581,7 +581,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, 2",
+      "notation": "d\/f+3, 1, 2",
       "hit_level": "m, h, h",
       "damage": "13, 7, 10",
       "speed": "",
@@ -598,7 +598,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, 2, 3+4",
+      "notation": "d\/f+3, 1, 2, 3+4",
       "hit_level": "m, h, h (special)",
       "damage": "13, 7, 10",
       "speed": "",
@@ -615,7 +615,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, 2, 3+4, 3+4",
+      "notation": "d\/f+3, 1, 2, 3+4, 3+4",
       "hit_level": "m, h, h (special)",
       "damage": "13, 7, 10",
       "speed": "",
@@ -632,7 +632,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, 2, 3",
+      "notation": "d\/f+3, 1, 2, 3",
       "hit_level": "m, h, h, m",
       "damage": "13, 7, 10, 12",
       "speed": "",
@@ -649,7 +649,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, 2, 3, 1+2",
+      "notation": "d\/f+3, 1, 2, 3, 1+2",
       "hit_level": "m, h, h, m, h",
       "damage": "13, 7, 10, 12",
       "speed": "",
@@ -666,7 +666,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, 2, f+1",
+      "notation": "d\/f+3, 1, 2, f+1",
       "hit_level": "m, h, h, h,",
       "damage": "13, 7, 10, 12, 28",
       "speed": "",
@@ -683,7 +683,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1, d+2",
+      "notation": "d\/f+3, 1, d+2",
       "hit_level": "m, h, m",
       "damage": "13, 7, 13",
       "speed": "",
@@ -700,7 +700,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, 1+2",
+      "notation": "d\/f+3, 1+2",
       "hit_level": "m, h",
       "damage": "13, 28",
       "speed": "",
@@ -717,7 +717,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, d\/f+1",
+      "notation": "d\/f+3, d\/f+1",
       "hit_level": "m, m",
       "damage": "13, 10",
       "speed": "",
@@ -734,7 +734,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3, d\/f+1, 2",
+      "notation": "d\/f+3, d\/f+1, 2",
       "hit_level": "m, m, h",
       "damage": "13, 10, 21",
       "speed": "",
@@ -751,7 +751,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+4",
+      "notation": "d\/f+4",
       "hit_level": "m",
       "damage": "13",
       "speed": "13",
@@ -768,7 +768,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+4, 2",
+      "notation": "d\/f+4, 2",
       "hit_level": "m, h",
       "damage": "13, 25",
       "speed": "",
@@ -785,7 +785,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+1+2",
+      "notation": "d\/f+1+2",
       "hit_level": "m (TC)",
       "damage": "23",
       "speed": "17",
@@ -802,7 +802,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d+1",
+      "notation": "d+1",
       "hit_level": "m",
       "damage": "20",
       "speed": "18",
@@ -819,7 +819,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d+2",
+      "notation": "d+2",
       "hit_level": "m",
       "damage": "15",
       "speed": "16",
@@ -836,7 +836,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d+2, 4",
+      "notation": "d+2, 4",
       "hit_level": "m, m",
       "damage": "15, 21",
       "speed": "",
@@ -853,7 +853,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d+3",
+      "notation": "d+3",
       "hit_level": "l",
       "damage": "18",
       "speed": "16",
@@ -870,7 +870,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d+4",
+      "notation": "d+4",
       "hit_level": "l (TC)",
       "damage": "16",
       "speed": "14",
@@ -887,7 +887,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d+1+2",
+      "notation": "d+1+2",
       "hit_level": "m (TC)",
       "damage": "22",
       "speed": "19",
@@ -904,7 +904,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+1",
+      "notation": "d\/b+1",
       "hit_level": "sm (TC)",
       "damage": "5",
       "speed": "10",
@@ -921,7 +921,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+2",
+      "notation": "d\/b+2",
       "hit_level": "m",
       "damage": "20",
       "speed": "16",
@@ -938,7 +938,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3",
+      "notation": "d\/b+3",
       "hit_level": "l",
       "damage": "10",
       "speed": "18",
@@ -955,7 +955,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3, 1",
+      "notation": "d\/b+3, 1",
       "hit_level": "l, h",
       "damage": "10, 16",
       "speed": "",
@@ -972,7 +972,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3, 1, 1",
+      "notation": "d\/b+3, 1, 1",
       "hit_level": "l, h, m",
       "damage": "10, 16, 23",
       "speed": "",
@@ -989,7 +989,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3, 1, 1, 3+4",
+      "notation": "d\/b+3, 1, 1, 3+4",
       "hit_level": "l, h (special)",
       "damage": "10, 16",
       "speed": "",
@@ -1006,7 +1006,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3, 1, 1, 3+4",
+      "notation": "d\/b+3, 1, 1, 3+4",
       "hit_level": "l, h (cancel)",
       "damage": "10, 16",
       "speed": "",
@@ -1023,7 +1023,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3, 4",
+      "notation": "d\/b+3, 4",
       "hit_level": "l, m",
       "damage": "10, 16",
       "speed": "",
@@ -1040,7 +1040,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3, 4, 1+2",
+      "notation": "d\/b+3, 4, 1+2",
       "hit_level": "l, m (throw)",
       "damage": "10, 12 (10)",
       "speed": "",
@@ -1057,7 +1057,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+4",
+      "notation": "d\/b+4",
       "hit_level": "l (throw)",
       "damage": "12(,10)",
       "speed": "23",
@@ -1074,7 +1074,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+1+2",
+      "notation": "d\/b+1+2",
       "hit_level": "m",
       "damage": "23",
       "speed": "26",
@@ -1091,7 +1091,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+1",
+      "notation": "b+1",
       "hit_level": "m",
       "damage": "10",
       "speed": "21",
@@ -1108,7 +1108,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+1, 2",
+      "notation": "b+1, 2",
       "hit_level": "m, m",
       "damage": "10, 15",
       "speed": "",
@@ -1125,7 +1125,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+2",
+      "notation": "b+2",
       "hit_level": "m",
       "damage": "24",
       "speed": "22",
@@ -1142,7 +1142,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+3",
+      "notation": "b+3",
       "hit_level": "m",
       "damage": "26",
       "speed": "21",
@@ -1159,7 +1159,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+4",
+      "notation": "b+4",
       "hit_level": "m",
       "damage": "20",
       "speed": "14",
@@ -1176,7 +1176,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+3+4",
+      "notation": "b+3+4",
       "hit_level": "h",
       "damage": "30",
       "speed": "18",
@@ -1193,7 +1193,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+2+3",
+      "notation": "b+2+3",
       "hit_level": "m! (throw)",
       "damage": "70",
       "speed": "80",
@@ -1210,7 +1210,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b+2+3, 1+2",
+      "notation": "b+2+3, 1+2",
       "hit_level": "m (throw)",
       "damage": "12(10)",
       "speed": "100",
@@ -1227,7 +1227,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b or u or u\/f+1",
+      "notation": "u\/b or u or u\/f+1",
       "hit_level": "m (TJ)",
       "damage": "12",
       "speed": "18",
@@ -1244,7 +1244,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b or u or u\/f+2",
+      "notation": "u\/b or u or u\/f+2",
       "hit_level": "h",
       "damage": "17",
       "speed": "15",
@@ -1261,7 +1261,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b or u or u\/f+3",
+      "notation": "u\/b or u or u\/f+3",
       "hit_level": "m (TJ)",
       "damage": "25",
       "speed": "20 js12",
@@ -1278,7 +1278,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b+4",
+      "notation": "u\/b+4",
       "hit_level": "m (TJ)",
       "damage": "14",
       "speed": "23 js9",
@@ -1295,7 +1295,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u or u\/f+4",
+      "notation": "u or u\/f+4",
       "hit_level": "m (TJ)",
       "damage": "18",
       "speed": "23 js9",
@@ -1312,7 +1312,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b+1+2",
+      "notation": "u\/b+1+2",
       "hit_level": "m",
       "damage": "21",
       "speed": "22",
@@ -1329,7 +1329,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b+1+2, 3+4",
+      "notation": "u\/b+1+2, 3+4",
       "hit_level": "m (special)",
       "damage": "21",
       "speed": "",
@@ -1346,7 +1346,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b+1+2, 3+4, 3+4",
+      "notation": "u\/b+1+2, 3+4, 3+4",
       "hit_level": "m (special)",
       "damage": "21",
       "speed": "",
@@ -1363,7 +1363,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/f+1+2",
+      "notation": "u\/f+1+2",
       "hit_level": "h",
       "damage": "21",
       "speed": "17",
@@ -1380,7 +1380,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/b or u or u\/f+3+4",
+      "notation": "u\/b or u or u\/f+3+4",
       "hit_level": "m (TJ)",
       "damage": "25",
       "speed": "31 js6",
@@ -1397,7 +1397,7 @@
       "wall_break": "No"
     },
     {
-      "command": "u\/f, N, 4",
+      "notation": "u\/f, N, 4",
       "hit_level": "m (TJ)",
       "damage": "25",
       "speed": "23 js9",
@@ -1414,7 +1414,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, F+2",
+      "notation": "f, F+2",
       "hit_level": "h",
       "damage": "21",
       "speed": "11",
@@ -1431,7 +1431,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, F+3",
+      "notation": "f, F+3",
       "hit_level": "m",
       "damage": "18",
       "speed": "19",
@@ -1448,7 +1448,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, F+3, 2",
+      "notation": "f, F+3, 2",
       "hit_level": "m, m",
       "damage": "18, 26",
       "speed": "",
@@ -1465,7 +1465,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, F+4",
+      "notation": "f, F+4",
       "hit_level": "m",
       "damage": "26",
       "speed": "18",
@@ -1482,7 +1482,7 @@
       "wall_break": "No"
     },
     {
-      "command": "b, f+1+2",
+      "notation": "b, f+1+2",
       "hit_level": "m, m",
       "damage": "14, 16",
       "speed": "15",
@@ -1499,7 +1499,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+1",
+      "notation": "qcf+1",
       "hit_level": "m",
       "damage": "21",
       "speed": "18",
@@ -1516,7 +1516,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+1, 2",
+      "notation": "qcf+1, 2",
       "hit_level": "m, m",
       "damage": "21, 24",
       "speed": "",
@@ -1533,7 +1533,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+1, 2*",
+      "notation": "qcf+1, 2*",
       "hit_level": "m, m",
       "damage": "21, 40",
       "speed": "",
@@ -1550,7 +1550,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+2",
+      "notation": "qcf+2",
       "hit_level": "l (throw)",
       "damage": "20(,35)",
       "speed": "24",
@@ -1567,7 +1567,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, f, f+3",
+      "notation": "f, f, f+3",
       "hit_level": "m",
       "damage": "30",
       "speed": "32",
@@ -1584,7 +1584,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+1",
+      "notation": "FC+1",
       "hit_level": "sm (TC)",
       "damage": "5",
       "speed": "10",
@@ -1601,7 +1601,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+2",
+      "notation": "FC+2",
       "hit_level": "sm (TC)",
       "damage": "8",
       "speed": "11",
@@ -1618,7 +1618,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+3",
+      "notation": "FC+3",
       "hit_level": "l",
       "damage": "12",
       "speed": "16",
@@ -1635,7 +1635,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+4",
+      "notation": "FC+4",
       "hit_level": "l",
       "damage": "10",
       "speed": "12",
@@ -1652,7 +1652,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+1+2",
+      "notation": "FC+1+2",
       "hit_level": "m (throw)",
       "damage": "25(,15)",
       "speed": "22",
@@ -1669,7 +1669,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+1",
+      "notation": "WS+1",
       "hit_level": "m",
       "damage": "14",
       "speed": "11",
@@ -1686,7 +1686,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+1, 3+4",
+      "notation": "WS+1, 3+4",
       "hit_level": "m (special)",
       "damage": "14",
       "speed": "",
@@ -1703,7 +1703,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+1, 3+4, 3+4",
+      "notation": "WS+1, 3+4, 3+4",
       "hit_level": "m (special)",
       "damage": "14",
       "speed": "",
@@ -1720,7 +1720,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+1, 2",
+      "notation": "WS+1, 2",
       "hit_level": "m, h",
       "damage": "14, 18",
       "speed": "",
@@ -1737,7 +1737,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+2",
+      "notation": "WS+2",
       "hit_level": "m",
       "damage": "22",
       "speed": "19",
@@ -1754,7 +1754,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+3",
+      "notation": "WS+3",
       "hit_level": "m",
       "damage": "20",
       "speed": "18",
@@ -1771,7 +1771,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+4",
+      "notation": "WS+4",
       "hit_level": "m",
       "damage": "21",
       "speed": "13",
@@ -1788,7 +1788,7 @@
       "wall_break": "No"
     },
     {
-      "command": "WS+1+2",
+      "notation": "WS+1+2",
       "hit_level": "m",
       "damage": "12",
       "speed": "10",
@@ -1805,7 +1805,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+d\/f+2",
+      "notation": "FC+d\/f+2",
       "hit_level": "h",
       "damage": "28",
       "speed": "20",
@@ -1822,7 +1822,7 @@
       "wall_break": "No"
     },
     {
-      "command": "FC+d\/f+4",
+      "notation": "FC+d\/f+4",
       "hit_level": "l",
       "damage": "19",
       "speed": "21",
@@ -1839,7 +1839,7 @@
       "wall_break": "No"
     },
     {
-      "command": "SS+2",
+      "notation": "SS+2",
       "hit_level": "m",
       "damage": "18",
       "speed": "21",
@@ -1856,7 +1856,7 @@
       "wall_break": "No"
     },
     {
-      "command": "SS+2, 3+4",
+      "notation": "SS+2, 3+4",
       "hit_level": "m",
       "damage": "18",
       "speed": "",
@@ -1873,7 +1873,7 @@
       "wall_break": "No"
     },
     {
-      "command": "SS+2, 3+4, 3+4",
+      "notation": "SS+2, 3+4, 3+4",
       "hit_level": "m",
       "damage": "18",
       "speed": "",
@@ -1890,7 +1890,7 @@
       "wall_break": "No"
     },
     {
-      "command": "SS+4",
+      "notation": "SS+4",
       "hit_level": "m",
       "damage": "24",
       "speed": "21",
@@ -1907,7 +1907,7 @@
       "wall_break": "No"
     },
     {
-      "command": "SS+1+2",
+      "notation": "SS+1+2",
       "hit_level": "m",
       "damage": "25",
       "speed": "29",
@@ -1924,7 +1924,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(opponent grounded) d\/b+4",
+      "notation": "(opponent grounded) d\/b+4",
       "hit_level": "l",
       "damage": "23",
       "speed": "19",
@@ -1941,7 +1941,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(grounded face down) 2",
+      "notation": "(grounded face down) 2",
       "hit_level": "m",
       "damage": "23",
       "speed": "20",
@@ -1958,7 +1958,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(grounded face down) d+2",
+      "notation": "(grounded face down) d+2",
       "hit_level": "l (throw)",
       "damage": "18(,10)",
       "speed": "17",
@@ -1975,7 +1975,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(back to wall) b, b, u\/b",
+      "notation": "(back to wall) b, b, u\/b",
       "hit_level": "m",
       "damage": "21",
       "speed": "36",
@@ -1992,7 +1992,7 @@
       "wall_break": "No"
     },
     {
-      "command": "BT 1 or 2",
+      "notation": "BT 1 or 2",
       "hit_level": "h",
       "damage": "15",
       "speed": "8",
@@ -2009,7 +2009,7 @@
       "wall_break": "No"
     },
     {
-      "command": "BT 3 or 4",
+      "notation": "BT 3 or 4",
       "hit_level": "h",
       "damage": "18",
       "speed": "10",
@@ -2026,7 +2026,7 @@
       "wall_break": "No"
     },
     {
-      "command": "BT d+1 or d+2",
+      "notation": "BT d+1 or d+2",
       "hit_level": "sm",
       "damage": "10",
       "speed": "10",
@@ -2043,7 +2043,7 @@
       "wall_break": "No"
     },
     {
-      "command": "BT d+3 or d+4",
+      "notation": "BT d+3 or d+4",
       "hit_level": "l",
       "damage": "12",
       "speed": "10",
@@ -2060,7 +2060,7 @@
       "wall_break": "No"
     },
     {
-      "command": "3+4",
+      "notation": "3+4",
       "hit_level": "(VTS) TC",
       "damage": "",
       "speed": "cs7",
@@ -2077,7 +2077,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/f+3+4",
+      "notation": "d\/f+3+4",
       "hit_level": "(VTS)",
       "damage": "",
       "speed": "",
@@ -2094,7 +2094,7 @@
       "wall_break": "No"
     },
     {
-      "command": "d\/b+3+4",
+      "notation": "d\/b+3+4",
       "hit_level": "(VTS)",
       "damage": "",
       "speed": "",
@@ -2111,7 +2111,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 3+4",
+      "notation": "VTS 3+4",
       "hit_level": "(cancel)",
       "damage": "",
       "speed": "total 1 frame",
@@ -2128,7 +2128,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS u or d",
+      "notation": "VTS u or d",
       "hit_level": "(special)",
       "damage": "",
       "speed": "",
@@ -2145,7 +2145,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS f+1",
+      "notation": "VTS f+1",
       "hit_level": "m",
       "damage": "16",
       "speed": "13",
@@ -2162,7 +2162,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS f+1, 2",
+      "notation": "VTS f+1, 2",
       "hit_level": "m, m",
       "damage": "16, 20",
       "speed": "",
@@ -2179,7 +2179,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS f+1, 4",
+      "notation": "VTS f+1, 4",
       "hit_level": "m, h",
       "damage": "16, 26",
       "speed": "",
@@ -2196,7 +2196,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS f+2",
+      "notation": "VTS f+2",
       "hit_level": "m",
       "damage": "22",
       "speed": "17 pc8",
@@ -2213,7 +2213,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS d+1+2",
+      "notation": "VTS d+1+2",
       "hit_level": "l, m",
       "damage": "20, 20",
       "speed": "17",
@@ -2230,7 +2230,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS d+1+2",
+      "notation": "VTS d+1+2",
       "hit_level": "l, m (second hit only)",
       "damage": "20",
       "speed": "",
@@ -2247,7 +2247,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Throws",
+      "notation": "Throws",
       "hit_level": "",
       "damage": "",
       "speed": "",
@@ -2264,7 +2264,7 @@
       "wall_break": "No"
     },
     {
-      "command": "",
+      "notation": "",
       "hit_level": "",
       "damage": "",
       "speed": "",
@@ -2281,7 +2281,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Command",
+      "notation": "Command",
       "hit_level": "Hit level",
       "damage": "Damage",
       "speed": "Start up frame",
@@ -2298,7 +2298,7 @@
       "wall_break": "No"
     },
     {
-      "command": "1+3",
+      "notation": "1+3",
       "hit_level": "h",
       "damage": "35",
       "speed": "12",
@@ -2315,7 +2315,7 @@
       "wall_break": "No"
     },
     {
-      "command": "2+4",
+      "notation": "2+4",
       "hit_level": "h",
       "damage": "35",
       "speed": "12",
@@ -2332,7 +2332,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Left side throw",
+      "notation": "Left side throw",
       "hit_level": "h",
       "damage": "45",
       "speed": "12",
@@ -2349,7 +2349,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Right side trhow",
+      "notation": "Right side trhow",
       "hit_level": "h",
       "damage": "40",
       "speed": "12",
@@ -2366,7 +2366,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Opponent BT 1+3",
+      "notation": "Opponent BT 1+3",
       "hit_level": "h",
       "damage": "60",
       "speed": "12",
@@ -2383,7 +2383,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Opponent BT 2+4",
+      "notation": "Opponent BT 2+4",
       "hit_level": "h",
       "damage": "60",
       "speed": "12",
@@ -2400,7 +2400,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, F+1+2",
+      "notation": "f, F+1+2",
       "hit_level": "h",
       "damage": "20",
       "speed": "12",
@@ -2417,7 +2417,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+1+3",
+      "notation": "qcf+1+3",
       "hit_level": "h",
       "damage": "30",
       "speed": "12",
@@ -2434,7 +2434,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+1+3, 1+2",
+      "notation": "qcf+1+3, 1+2",
       "hit_level": "h",
       "damage": "20",
       "speed": "12",
@@ -2451,7 +2451,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+2+4",
+      "notation": "qcf+2+4",
       "hit_level": "h",
       "damage": "30",
       "speed": "12",
@@ -2468,7 +2468,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcf+2+4, 1+2",
+      "notation": "qcf+2+4, 1+2",
       "hit_level": "h",
       "damage": "20",
       "speed": "12",
@@ -2485,7 +2485,7 @@
       "wall_break": "No"
     },
     {
-      "command": "qcb+1+2",
+      "notation": "qcb+1+2",
       "hit_level": "h",
       "damage": "40",
       "speed": "11",
@@ -2502,7 +2502,7 @@
       "wall_break": "No"
     },
     {
-      "command": "f, hcf+1",
+      "notation": "f, hcf+1",
       "hit_level": "h",
       "damage": "50",
       "speed": "11",
@@ -2519,7 +2519,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 1+2 (close)",
+      "notation": "VTS 1+2 (close)",
       "hit_level": "m",
       "damage": "12",
       "speed": "34",
@@ -2536,7 +2536,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 1+2",
+      "notation": "VTS 1+2",
       "hit_level": "m",
       "damage": "12",
       "speed": "30",
@@ -2553,7 +2553,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 1+2 (far)",
+      "notation": "VTS 1+2 (far)",
       "hit_level": "sm",
       "damage": "10",
       "speed": "50",
@@ -2570,7 +2570,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 1+2, u or d",
+      "notation": "VTS 1+2, u or d",
       "hit_level": "(cancel)",
       "damage": "",
       "speed": "",
@@ -2587,7 +2587,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 1+3",
+      "notation": "VTS 1+3",
       "hit_level": "h",
       "damage": "35",
       "speed": "12",
@@ -2604,7 +2604,7 @@
       "wall_break": "No"
     },
     {
-      "command": "VTS 2+4",
+      "notation": "VTS 2+4",
       "hit_level": "h",
       "damage": "35",
       "speed": "12",
@@ -2621,7 +2621,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Mount 1",
+      "notation": "Mount 1",
       "hit_level": "h",
       "damage": "35",
       "speed": "18",
@@ -2638,7 +2638,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Mount 1+3",
+      "notation": "Mount 1+3",
       "hit_level": "h",
       "damage": "40",
       "speed": "17",
@@ -2655,7 +2655,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Mount 2",
+      "notation": "Mount 2",
       "hit_level": "h",
       "damage": "35",
       "speed": "17",
@@ -2672,7 +2672,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Mount 2+4",
+      "notation": "Mount 2+4",
       "hit_level": "h",
       "damage": "40",
       "speed": "18",
@@ -2689,7 +2689,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Mount 1+2",
+      "notation": "Mount 1+2",
       "hit_level": "h",
       "damage": "40",
       "speed": "28",
@@ -2706,7 +2706,7 @@
       "wall_break": "No"
     },
     {
-      "command": "Mount 3+4",
+      "notation": "Mount 3+4",
       "hit_level": "h",
       "damage": "40",
       "speed": "28",
@@ -2723,7 +2723,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(opponent grounded) d\/b+1+3",
+      "notation": "(opponent grounded) d\/b+1+3",
       "hit_level": "",
       "damage": "18",
       "speed": "",
@@ -2740,7 +2740,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(opponent groudned) d\/b+2+4",
+      "notation": "(opponent groudned) d\/b+2+4",
       "hit_level": "",
       "damage": "18",
       "speed": "",
@@ -2757,7 +2757,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(opponent in air) 1+3",
+      "notation": "(opponent in air) 1+3",
       "hit_level": "h",
       "damage": "29",
       "speed": "12",
@@ -2774,7 +2774,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(opponent in air) 2+4",
+      "notation": "(opponent in air) 2+4",
       "hit_level": "h",
       "damage": "26",
       "speed": "12",
@@ -2791,7 +2791,7 @@
       "wall_break": "No"
     },
     {
-      "command": "(opponent in air) f, F+2",
+      "notation": "(opponent in air) f, F+2",
       "hit_level": "h",
       "damage": "60",
       "speed": "12",
@@ -2808,7 +2808,7 @@
       "wall_break": "No"
     },
     {
-      "command": "w! 1+3 or 2+4",
+      "notation": "w! 1+3 or 2+4",
       "hit_level": "h",
       "damage": "60",
       "speed": "12",

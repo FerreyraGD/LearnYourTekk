@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
@@ -31,6 +33,7 @@ public class FrameDataTable extends AppCompatActivity {
     private String TAG = "FrameDataTable";
     private Realm realm;
     private TableLayout tableLayout;
+    private TableLayout header;
 
     @Override
     protected void onCreate(Bundle savedInstanceBundle){
@@ -115,9 +118,12 @@ public class FrameDataTable extends AppCompatActivity {
         return result;
     }
 
-    private TableRow createRow(ArrayList<String> rowList){
+    private TableRow createRow(ArrayList<String> rowList, int rowNumber){
         tableLayout = findViewById(R.id.gridTable);
-        TableRow tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
+        TableRow tableRow = (TableRow) LayoutInflater.from(this).inflate(R.layout.layout_row, null);
+        //if((rowNumber % 2) == 0){
+        tableRow.setBackgroundResource(R.drawable.secondary_cell_shape);
+        //}
 
         ((TextView) tableRow.findViewById(R.id.row_command)).setText(rowList.get(0));
         ((TextView) tableRow.findViewById(R.id.row_hitlevel)).setText(rowList.get(1));
@@ -142,6 +148,8 @@ public class FrameDataTable extends AppCompatActivity {
         new Thread() {
             @Override
             public void run() {
+                final ProgressBar progressBar = findViewById(R.id.loading_circle);
+
                 //set connection to database
                 realm = Realm.getDefaultInstance();
 
@@ -176,27 +184,29 @@ public class FrameDataTable extends AppCompatActivity {
 
                 final RealmResults<BasicMoves> charMoves = basicDatabase.where().equalTo("character.name", characterName).findAll();
 
+                List<BasicMoves> listBasicMoves = realm.copyFromRealm(charMoves);
+
 
                 ArrayList<String> fullList = new ArrayList<>();
 
                 final ArrayList<TableRow> listOfRows = new ArrayList<>();
 
-                for(int i = 0; i < charMoves.size(); i++){
+                for(int i = 0; i < listBasicMoves.size(); i++){
                     //clear list from any previous move data
                     fullList.clear();
 
                     //add frame data for specified move
-                    fullList.add(charMoves.get(i).getNotation());
-                    fullList.add(charMoves.get(i).getHit_level());
-                    fullList.add(charMoves.get(i).getDamage());
-                    fullList.add(charMoves.get(i).getSpeed());
-                    fullList.add(charMoves.get(i).getOn_block());
-                    fullList.add(charMoves.get(i).getOn_hit());
-                    fullList.add(charMoves.get(i).getOn_ch());
-                    fullList.add(charMoves.get(i).getNotes());
+                    fullList.add(listBasicMoves.get(i).getNotation());
+                    fullList.add(listBasicMoves.get(i).getHit_level());
+                    fullList.add(listBasicMoves.get(i).getDamage());
+                    fullList.add(listBasicMoves.get(i).getSpeed());
+                    fullList.add(listBasicMoves.get(i).getOn_block());
+                    fullList.add(listBasicMoves.get(i).getOn_hit());
+                    fullList.add(listBasicMoves.get(i).getOn_ch());
+                    fullList.add(listBasicMoves.get(i).getNotes());
 
                     //create row and insert into table
-                    listOfRows.add(createRow(fullList));
+                    listOfRows.add(createRow(fullList, i));
                 }
 
                 runOnUiThread(new Runnable() {
@@ -205,6 +215,7 @@ public class FrameDataTable extends AppCompatActivity {
                     public void run() {
                         //todo ui update
                         updateRows(listOfRows);
+                        progressBar.setVisibility(View.GONE);
                     }
                 });
                 realm.close();

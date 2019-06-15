@@ -1856,7 +1856,7 @@
       "wall_break": "No"
     },
     {
-      "notation": "Parry after various moves like d, d+2 or d+1+2 voice change, b, f, u, d+3+4",
+      "notation": "Parry after various moves, f, u, d+3+4",
       "hit_level": "! (TJ)",
       "damage": "35",
       "speed": "45~47 js3~44",
@@ -1873,7 +1873,7 @@
       "wall_break": "No"
     },
     {
-      "notation": "Parry after various moves like d, d+2 or d+1+2 voice change, b, f, u, d+3+4 (First part)",
+      "notation": "Parry after various moves, b, f, u, d+3+4 (First part)",
       "hit_level": "m (TJ)(, (throw))",
       "damage": "25(31)",
       "speed": "17~21 js1~",
@@ -1890,7 +1890,7 @@
       "wall_break": "No"
     },
     {
-      "notation": "Parry after various moves like d, d+2 or d+1+2 voice change, b, f, u, d+3+4 (Second part)",
+      "notation": "Parry after various moves, f, u, d+3+4 (Second part)",
       "hit_level": "m (TJ)",
       "damage": "25",
       "speed": "22~27 js1~",

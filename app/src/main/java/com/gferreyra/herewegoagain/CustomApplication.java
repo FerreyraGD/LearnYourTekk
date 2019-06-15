@@ -15,7 +15,6 @@ public class CustomApplication extends Application {
     @Override
     public void onCreate(){
         super.onCreate();
-        Realm.init(this);
 
         //Set up Realm for DB Creation
         Realm.init(this);
@@ -28,5 +27,6 @@ public class CustomApplication extends Application {
                 .build();
         Realm.setDefaultConfiguration(realmConfig);
         Log.d(TAG, "Realm Configured");
+
     }
 }
