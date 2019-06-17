@@ -126,9 +126,12 @@ public class FrameDataTable extends AppCompatActivity {
     private TableRow createRow(ArrayList<String> rowList, int rowNumber){
         tableLayout = findViewById(R.id.gridTable);
         TableRow tableRow = (TableRow) LayoutInflater.from(this).inflate(R.layout.layout_row, null);
-        //if((rowNumber % 2) == 0){
-        tableRow.setBackgroundResource(R.drawable.secondary_cell_shape);
-        //}
+        if(rowNumber % 2 == 0) {
+            tableRow.setBackgroundResource(R.drawable.alternative_cell_shape);
+        }
+        else{
+            tableRow.setBackgroundResource(R.drawable.cell_shape);
+        }
 
         ((TextView) tableRow.findViewById(R.id.row_command)).setText(rowList.get(0));
         ((TextView) tableRow.findViewById(R.id.row_hitlevel)).setText(rowList.get(1));
@@ -141,6 +144,7 @@ public class FrameDataTable extends AppCompatActivity {
 
         return tableRow;
     }
+
 
     private void updateRows(ArrayList<TableRow> rows){
         for(int k = 0; k < rows.size(); k++) {
@@ -166,6 +170,8 @@ public class FrameDataTable extends AppCompatActivity {
                 //testing Akuma's moves
                 //EXAMPLE OF HOW TO QUERY FOR SPECIAL MOVES (I.E HOMING, TAIL SPIN ETC)
                 String characterName = getIntent().getExtras().getString("name");
+
+                //test for special cases
                 if(characterName.equals("ArmorKing")){
                     characterName = "Armor King";
                 }
@@ -195,19 +201,27 @@ public class FrameDataTable extends AppCompatActivity {
                 ArrayList<String> fullList = new ArrayList<>();
 
                 final ArrayList<TableRow> listOfRows = new ArrayList<>();
+                final int[] row_size = {0, 0, 0, 0, 0, 0, 0, 0};
 
-                for(int i = 0; i < listBasicMoves.size(); i++){
+                for(int i = 1; i < listBasicMoves.size(); i++){
                     //clear list from any previous move data
                     fullList.clear();
 
                     //add frame data for specified move
                     fullList.add(listBasicMoves.get(i).getNotation());
+
                     fullList.add(listBasicMoves.get(i).getHit_level());
+
                     fullList.add(listBasicMoves.get(i).getDamage());
+
                     fullList.add(listBasicMoves.get(i).getSpeed());
+
                     fullList.add(listBasicMoves.get(i).getOn_block());
+
                     fullList.add(listBasicMoves.get(i).getOn_hit());
+
                     fullList.add(listBasicMoves.get(i).getOn_ch());
+
                     fullList.add(listBasicMoves.get(i).getNotes());
 
                     //create row and insert into table
@@ -221,7 +235,14 @@ public class FrameDataTable extends AppCompatActivity {
                         //todo ui update
                         updateRows(listOfRows);
                         progressBar.setVisibility(View.GONE);
+
+                        //set header row size values and make header appear
+                        TableRow headerRow = findViewById(R.id.header_row);
                         header.setVisibility(View.VISIBLE);
+
+                        for(int i = 0; i < row_size.length; i++){
+                            Log.d(TAG, row_size[i] + "\n");
+                        }
                     }
                 });
                 realm.close();
@@ -238,5 +259,13 @@ public class FrameDataTable extends AppCompatActivity {
             // Error while creating file
         }
         return file;
+    }
+
+    private int checkSize(int currentSize, int checkSize){
+        if(checkSize > currentSize){
+            currentSize = checkSize;
+        }
+
+        return currentSize;
     }
 }
