@@ -23,7 +23,7 @@
 
     <TextView
         android:id="@+id/row_damage"
-        android:layout_width="90dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:padding="7dp"

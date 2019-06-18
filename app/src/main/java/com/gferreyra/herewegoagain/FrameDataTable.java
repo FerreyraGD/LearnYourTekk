@@ -13,6 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -100,6 +101,17 @@ public class FrameDataTable extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this, "yooo", Toast.LENGTH_SHORT).show();
+            TableLayout tableLayout = findViewById(R.id.gridTable);
+            View view;
+            for(int i = 0; i < tableLayout.getChildCount(); i++){
+                view = tableLayout.getChildAt(i);
+                TextView textView = view.findViewById(R.id.row_notes);
+                Log.d(TAG, textView.getText().toString().toLowerCase());
+                if(!textView.getText().toString().toLowerCase().contains("rage")){
+                    view.setVisibility(View.INVISIBLE);
+                }
+            }
             return true;
         }
 

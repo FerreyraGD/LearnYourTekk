@@ -79,7 +79,7 @@
 
                         <TextView
                             android:id="@+id/header_damage"
-                            android:layout_width="90dp"
+                            android:layout_width="115dp"
                             android:layout_height="wrap_content"
                             android:text="Damage"
                             android:padding="7dp"
