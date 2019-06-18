@@ -95,7 +95,7 @@
 
                         <TextView
                             android:id="@+id/header_blockframe"
-                            android:layout_width="104dp"
+                            android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:text="Block Frame"
                             android:padding="7dp"
@@ -128,7 +128,7 @@
                 </TableLayout>
 
                 <ScrollView
-                    android:id="@+id/layout"
+                    android:id="@+id/scroll_layout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"

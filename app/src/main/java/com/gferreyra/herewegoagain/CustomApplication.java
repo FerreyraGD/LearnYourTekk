@@ -28,5 +28,7 @@ public class CustomApplication extends Application {
         Realm.setDefaultConfiguration(realmConfig);
         Log.d(TAG, "Realm Configured");
 
+        //Realm.deleteRealm(realmConfig);
+
     }
 }

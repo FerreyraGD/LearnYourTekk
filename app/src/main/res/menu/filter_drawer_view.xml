@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_default"
+            android:title="Default Setting"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/action_rage_art"
+            android:title="Rage Art" />
+
+        <item
+            android:id="@+id/action_rage_drive"
+            android:title="Rage Drive" />
+        <item
+            android:id="@+id/action_tail_spin"
+            android:title="Tail Spin" />
+
+        <item
+            android:id="@+id/action_homing"
+            android:title="Homing" />
+
+        <item
+            android:id="@+id/action_power_crush"
+            android:title="Power Crush" />
+
+        <item
+            android:id="@+id/action_wall_bounce"
+            android:title="Wall Bounce" />
+
+        <item
+            android:id="@+id/action_wall_break"
+            android:title="Wall Break" />
+
+    </group>
+
+
+</menu>

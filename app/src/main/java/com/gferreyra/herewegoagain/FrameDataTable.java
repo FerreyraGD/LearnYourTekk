@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -20,6 +21,8 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
+
+import org.w3c.dom.Text;
 
 import java.io.File;
 import java.io.IOException;
@@ -88,7 +91,7 @@ public class FrameDataTable extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.filter_drawer_view, menu);
         return true;
     }
 
@@ -97,25 +100,165 @@ public class FrameDataTable extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        TableLayout currentTable = findViewById(R.id.gridTable);
+        View viewCurrentTable;
+        ScrollView scrollView;
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Toast.makeText(this, "yooo", Toast.LENGTH_SHORT).show();
-            TableLayout tableLayout = findViewById(R.id.gridTable);
-            View view;
-            for(int i = 0; i < tableLayout.getChildCount(); i++){
-                view = tableLayout.getChildAt(i);
-                TextView textView = view.findViewById(R.id.row_notes);
-                Log.d(TAG, textView.getText().toString().toLowerCase());
-                if(!textView.getText().toString().toLowerCase().contains("rage")){
-                    view.setVisibility(View.INVISIBLE);
-                }
+        if(!item.isChecked()){
+            item.setChecked(true);
+        }
+        else{
+            item.setChecked(false);
+        }
+
+        if(id == R.id.action_default){
+            /*
+            ArrayList<View> allViews = new ArrayList<>();
+            for(int k = 0; k < currentTable.getChildCount(); k++){
+                viewCurrentTable = currentTable.getChildAt(k);
+                viewCurrentTable.setVisibility(View.VISIBLE);
+                allViews.add(viewCurrentTable);
             }
+            setHeightDefault(allViews);
+            */
+            filterTable("");
+            return true;
+        }
+
+        //Filters table to only show specific moves
+        if (id == R.id.action_rage_art) {
+            filterTable("art");
+            return true;
+        }
+
+        if (id == R.id.action_rage_drive) {
+            filterTable("drive");
+            return true;
+        }
+
+        if (id == R.id.action_homing) {
+            filterTable("homing");
+            return true;
+        }
+
+        if (id == R.id.action_tail_spin) {
+            filterTable("tail");
+            return true;
+        }
+
+        if (id == R.id.action_power_crush) {
+            filterTable("power");
+            return true;
+        }
+
+        if (id == R.id.action_wall_bounce) {
+            filterTable("bounce");
+            return true;
+        }
+
+        if (id == R.id.action_wall_break) {
+            filterTable("break");
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void filterTable(String filterTitle){
+        TableLayout currentTable = findViewById(R.id.gridTable);
+        View viewCurrentTable;
+        ScrollView scrollView;
+        ArrayList<View> tables = new ArrayList<View>();
+        ArrayList<View> oldTables = new ArrayList<>();
+
+
+        for(int i = 0; i < currentTable.getChildCount(); i++){
+            viewCurrentTable = currentTable.getChildAt(i);
+            oldTables.add(viewCurrentTable);
+            TextView textView = viewCurrentTable.findViewById(R.id.row_notes);
+            if(!textView.getText().toString().toLowerCase().contains(filterTitle)){
+                viewCurrentTable.setVisibility(View.INVISIBLE);
+                tables.add(viewCurrentTable);
+            }
+            else{
+                viewCurrentTable.setVisibility(View.VISIBLE);
+            }
+            viewCurrentTable.requestLayout();
+        }
+
+        setHeightDefault(oldTables);
+        setInvisibleRowHeight(tables);
+        scrollView = findViewById(R.id.scroll_layout);
+        scrollView.scrollTo(0,0);
+    }
+
+    private void checkTableVisibility(){
+        TableLayout tableL = findViewById(R.id.gridTable);
+        View viewTable;
+        int check = 0;
+        for(int i = 0; i < tableL.getChildCount(); i++){
+            viewTable = tableL.getChildAt(i);
+            if(viewTable.getVisibility() == View.VISIBLE){
+                check++;
+            }
+
+            Log.d(TAG, "Check is: " + check);
+            if(check == 0){
+                Toast.makeText(this, "Yo its empty", Toast.LENGTH_SHORT);
+            }
+        }
+    }
+
+    private void setInvisibleRowHeight(ArrayList<View> invisibleTables){
+        TextView commandBox, hitLevelBox, damageBox, startBox,
+                blockBox, hitBox, notesBox, counterHitBox;
+
+        for(int k = 0; k < invisibleTables.size(); k++){
+            commandBox = invisibleTables.get(k).findViewById(R.id.row_command);
+            hitLevelBox = invisibleTables.get(k).findViewById(R.id.row_hitlevel);
+            damageBox = invisibleTables.get(k).findViewById(R.id.row_damage);
+            startBox = invisibleTables.get(k).findViewById(R.id.row_startframe);
+            blockBox = invisibleTables.get(k).findViewById(R.id.row_blockframe);
+            hitBox = invisibleTables.get(k).findViewById(R.id.row_hitframe);
+            notesBox = invisibleTables.get(k).findViewById(R.id.row_notes);
+            counterHitBox = invisibleTables.get(k).findViewById(R.id.row_counterhitframe);
+
+            Log.d(TAG, "The height need is: " + String.valueOf(commandBox.getLayoutParams().height));
+            commandBox.getLayoutParams().height = 0;
+            hitLevelBox.getLayoutParams().height = 0;
+            damageBox.getLayoutParams().height = 0;
+            startBox.getLayoutParams().height = 0;
+            blockBox.getLayoutParams().height = 0;
+            hitBox.getLayoutParams().height = 0;
+            notesBox.getLayoutParams().height = 0;
+            counterHitBox.getLayoutParams().height = 0;
+        }
+    }
+
+    private void setHeightDefault(ArrayList<View> allTables){
+        TextView commandBox, hitLevelBox, damageBox, startBox,
+                blockBox, hitBox, notesBox, counterHitBox;
+
+        for(int k = 0; k < allTables.size(); k++){
+            commandBox = allTables.get(k).findViewById(R.id.row_command);
+            hitLevelBox = allTables.get(k).findViewById(R.id.row_hitlevel);
+            damageBox = allTables.get(k).findViewById(R.id.row_damage);
+            startBox = allTables.get(k).findViewById(R.id.row_startframe);
+            blockBox = allTables.get(k).findViewById(R.id.row_blockframe);
+            hitBox = allTables.get(k).findViewById(R.id.row_hitframe);
+            notesBox = allTables.get(k).findViewById(R.id.row_notes);
+            counterHitBox = allTables.get(k).findViewById(R.id.row_counterhitframe);
+
+            commandBox.getLayoutParams().height = -2;
+            hitLevelBox.getLayoutParams().height = -2;
+            damageBox.getLayoutParams().height = -2;
+            startBox.getLayoutParams().height = -2;
+            blockBox.getLayoutParams().height = -2;
+            hitBox.getLayoutParams().height = -2;
+            notesBox.getLayoutParams().height = -2;
+            counterHitBox.getLayoutParams().height = -2;
+        }
     }
 
     @Override
