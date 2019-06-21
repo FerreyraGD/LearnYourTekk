@@ -64,17 +64,23 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
             @Override
             public void onClick(View v) {
                 Toast.makeText(mContext, mImageNames.get(i), Toast.LENGTH_SHORT).show();
-                if(mImageNames.get(i) == "Character Overviews"){
+
+                if(mImageNames.get(i).equals("Character Overviews")){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
                     myIntent.putExtra("menuTitle", "Character Overviews");
                     //myIntent.putExtra("allCharacterNames", allCharacterNames);
                     mContext.startActivity(myIntent);
                 }
 
-                if(mImageNames.get(i) == "Frame Data"){
+                if(mImageNames.get(i).equals("Frame Data")){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
                     myIntent.putExtra("menuTitle", "Frame Data");
                     //myIntent.putExtra("allCharacterNames", allCharacterNames);
+                    mContext.startActivity(myIntent);
+                }
+
+                if(mImageNames.get(i).equals("Tekken 7\n Fundamentals")){
+                    Intent myIntent = new Intent(mContext, TekkenTutorialMenu.class);
                     mContext.startActivity(myIntent);
                 }
             }

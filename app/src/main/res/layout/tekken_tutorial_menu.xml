@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tekken_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tekken_introduction"
+        android:background="#B0C5BBBB"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tekken_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tekken_title"
+        android:background="#97A01111"
+        android:text="@string/tekken_introduction"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tekken_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#A3190A"
+        android:paddingTop="10dp"
+        android:text="@string/tekken_title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FAF4F4"
+        android:textColorHighlight="#090808"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+</RelativeLayout>

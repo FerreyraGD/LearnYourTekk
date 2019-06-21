@@ -48,7 +48,7 @@ public class MainMenu extends Activity {
         mNames.add("Tekken 7\n Fundamentals");
         mImageUrls.add("tekken7img");
 
-        mNames.add("Frame Data \nExplained");
+        mNames.add("About");
         mImageUrls.add("framedata");
 
         initRecyclerView();

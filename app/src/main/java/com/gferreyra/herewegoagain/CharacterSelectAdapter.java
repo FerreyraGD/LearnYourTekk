@@ -68,7 +68,7 @@ public class CharacterSelectAdapter extends RecyclerView.Adapter<CharacterSelect
                 Toast.makeText(mContext, mImageNames.get(i), Toast.LENGTH_SHORT).show();
                     Log.d(TAG, "menuTitle is: " + menuTitle);
                     if(menuTitle.equals("Character Overviews")){
-                        Intent myIntent = new Intent(mContext, CharacterInformationSheet.class);
+                        Intent myIntent = new Intent(mContext, CharacterOverview.class);
                         myIntent.putExtra("name", mImageNames.get(i));
                         mContext.startActivity(myIntent);
                     }

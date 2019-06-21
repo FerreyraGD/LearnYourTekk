@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tekken_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="1dp">
+
+    <TextView
+        android:id="@+id/tekken_textview"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/akuma"
+        android:text="\t\t\t\t\t\tDefault"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+</RelativeLayout>

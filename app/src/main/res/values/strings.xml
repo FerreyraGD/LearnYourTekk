@@ -3,9 +3,20 @@
     <string name="action_settings">Filter</string>
     <string name="learnyourtekk7">LearnYourTekk7</string>
     <string name="character_select">Character Select</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Overview</string>
+    <string name="tab_text_2">Top 15 Moves</string>
+    <string name="tab_text_3">Punishes</string>
     <string name="background_splash">Background Splash Screen image</string>
     <string name="bg_splash">BG Splash image</string>
     <string name="introduction">Yo here is the introduction to the app!</string>
+
+    <string name="akuma_overview">Akuma:\n
+        \tLore Description: placeholderblahblah\n
+        \tDifficulty: Advanced\n
+        \tPlaystyle: Akuma is this and that and etc.\n
+        \tWho should main him?: blahblahblah \n </string>
+
+    <string name="title_activity_character_overview">CharacterOverview</string>
+    <string name="tekken_introduction">Learn the fundamentals of Tekken 7 and use them to improve your game!</string>
+    <string name="tekken_title">Tekken 7 Fundamentals  Tutorial</string>
 </resources>
