@@ -15,10 +15,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#D352A1D6"
+        android:fontFamily="@font/capture"
         android:text="@string/character_select"
         android:textAlignment="center"
         android:textColor="#090808"
         android:textColorHighlight="#FFFFFF"
         android:textSize="36sp"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 </RelativeLayout>

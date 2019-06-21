@@ -1,9 +1,11 @@
 package com.gferreyra.herewegoagain;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,10 +23,10 @@ import java.util.Map;
 public class CharacterOverview extends AppCompatActivity {
 
     private String TAG = "CharacterOverview";
-    private Map<String, Integer> stringForResourceIDMap = createMap();
     private  TextView textView;
     private Drawable drawable;
     private ImageView imageView;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,7 @@ public class CharacterOverview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.character_overview);
 
-        Toolbar toolbar = findViewById(R.id.overview_toolbar);
+        toolbar = findViewById(R.id.overview_toolbar);
         setSupportActionBar(toolbar);
 
 
@@ -42,6 +44,7 @@ public class CharacterOverview extends AppCompatActivity {
         getSupportActionBar().setTitle(name);
         textView = findViewById(R.id.overview_text);
         imageView = findViewById(R.id.overview_image);
+        changeTitleFont();
 
 
         switch(name){
@@ -188,48 +191,17 @@ public class CharacterOverview extends AppCompatActivity {
         }
     }
 
-
-    private Map<String, Integer> createMap() {
-        Map<String, Integer> result = new HashMap<>();
-
-        result.put("Akuma", R.string.akuma_overview);
-        /*
-        result.put("Alisa", R.string.alisa_overview);
-        result.put("Anna", R.string.anna_overview);
-        result.put("ArmorKing", R.string.armorking_overview);
-        result.put("Asuka", R.string.asuka_overview);
-        result.put("Bob", R.string.bob_overview);
-        result.put("Bryan", R.string.bryan_overview);
-        result.put("Claudio", R.string.claudio_overview);
-        result.put("DevilJin", R.string.deviljin_overview);
-        result.put("Dragunov", R.string.dragunov_overview);
-        result.put("Eddy", R.string.eddy_overview);
-        result.put("Eliza", R.string.eliza_overview);
-        result.put("Feng", R.string.feng_overview);
-        result.put("Geese", R.string.geese_overview);
-        result.put("Gigas", R.string.gigas_overview);
-        result.put("Heihachi", R.string.heihachi_overview);
-        result.put("Hwoarang", R.string.hwoarang_overview);
-        result.put("Jack7", R.string.jack7_overview);
-        result.put("Jin", R.string.jin_overview);
-        result.put("Josie", R.string.josie_overview);
-        result.put("Julia", R.string.julia_overview);
-        result.put("Katarina", R.string.katarina_overview);
-        result.put("Kazumi", R.string.kazumi_overview);
-        result.put("Kazuya", R.string.kazuya_overview);
-        result.put("King", R.string.king_overview);
-        result.put("Kuma", R.string.kuma_overview);
-        result.put("Lars", R.string.lars_overview);
-        result.put("Law", R.string.law_overview);
-        */
-
-
-        return result;
-    }
-
-    private String getMyStringResource(String lookUpString){
-        int resourceID = stringForResourceIDMap.get(lookUpString);
-        return getString(resourceID);
+    private void changeTitleFont(){
+        for(int i = 0; i < toolbar.getChildCount(); i++){
+            View view = toolbar.getChildAt(i);
+            if(view instanceof TextView){
+                TextView tv = (TextView) view;
+                if(tv.getText().equals(toolbar.getTitle())){
+                    tv.setTypeface((Typeface.createFromAsset(this.getAssets(), "fonts/capture.ttf")));
+                    break;
+                }
+            }
+        }
     }
 
 

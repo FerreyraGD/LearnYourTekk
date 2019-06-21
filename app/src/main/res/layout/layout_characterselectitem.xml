@@ -16,14 +16,15 @@
 
 
     <TextView
+        android:id="@+id/cs_image_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Default"
-        android:id="@+id/cs_image_name"
         android:layout_below="@+id/cs_image"
-        android:textColor="#000"
         android:layout_centerVertical="true"
         android:layout_marginLeft="15dp"
+        android:fontFamily="@font/capture"
+        android:text="Default"
+        android:textColor="#000"
         android:textSize="20sp" />
 
 </RelativeLayout>

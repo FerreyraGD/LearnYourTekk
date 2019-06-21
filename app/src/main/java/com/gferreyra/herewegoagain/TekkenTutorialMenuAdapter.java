@@ -69,14 +69,24 @@ public class TekkenTutorialMenuAdapter extends RecyclerView.Adapter<TekkenTutori
             public void onClick(View v) {
                 if(mTitles.get(position).equals("Controls")){
                     Toast.makeText(mContext, mTitles.get(position), Toast.LENGTH_SHORT).show();
+                    Intent myIntent = new Intent(mContext, TutorialOverview.class);
+                    myIntent.putExtra("title", mTitles.get(position));
+                    mContext.startActivity(myIntent);
+
                 }
 
                 if(mTitles.get(position).equals("Movement")){
                     Toast.makeText(mContext, mTitles.get(position), Toast.LENGTH_SHORT).show();
+                    Intent myIntent = new Intent(mContext, TutorialOverview.class);
+                    myIntent.putExtra("title", mTitles.get(position));
+                    mContext.startActivity(myIntent);
                 }
 
                 if(mTitles.get(position).equals("Spacing")){
                     Toast.makeText(mContext, mTitles.get(position), Toast.LENGTH_SHORT).show();
+                    Intent myIntent = new Intent(mContext, TutorialOverview.class);
+                    myIntent.putExtra("title", mTitles.get(position));
+                    mContext.startActivity(myIntent);
                 }
             }
         });

@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:background="@drawable/akuma"
+        android:fontFamily="@font/capture"
         android:text="\t\t\t\t\t\tDefault"
         android:textAlignment="textStart"
         android:textColor="#000"

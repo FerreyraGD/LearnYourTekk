@@ -83,6 +83,12 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
                     Intent myIntent = new Intent(mContext, TekkenTutorialMenu.class);
                     mContext.startActivity(myIntent);
                 }
+
+                if(mImageNames.get(i).equals("About")){
+                    Intent myIntent = new Intent(mContext, TutorialOverview.class);
+                    myIntent.putExtra("title", mImageNames.get(i));
+                    mContext.startActivity(myIntent);
+                }
             }
         });
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomFont" parent="">
+        <item name="android:titleTextAppearance">
+            @style/TextAppearance.AppCompat.Widget.ActionBar.Title
+        </item>
+    </style>
+</resources>

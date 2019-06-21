@@ -1,6 +1,7 @@
 package com.gferreyra.herewegoagain;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Layout;
 import android.util.Log;
@@ -39,18 +40,20 @@ public class FrameDataTable extends AppCompatActivity {
     private Realm realm;
     private TableLayout tableLayout;
     private TableLayout header;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceBundle){
         super.onCreate(savedInstanceBundle);
         setContentView(R.layout.framedata);
 
-        Toolbar toolbar = findViewById(R.id.fd_toolbar);
+        toolbar = findViewById(R.id.fd_toolbar);
         setSupportActionBar(toolbar);
 
         //set characters name as table title
         String title = getIntent().getExtras().getString("name");
         getSupportActionBar().setTitle(title);
+        changeTitleFont();
 
         header = findViewById(R.id.header);
         header.setVisibility(View.GONE);
@@ -422,5 +425,18 @@ public class FrameDataTable extends AppCompatActivity {
         }
 
         return currentSize;
+    }
+
+    private void changeTitleFont(){
+        for(int i = 0; i < toolbar.getChildCount(); i++){
+            View view = toolbar.getChildAt(i);
+            if(view instanceof TextView){
+                TextView tv = (TextView) view;
+                if(tv.getText().equals(toolbar.getTitle())){
+                    tv.setTypeface((Typeface.createFromAsset(this.getAssets(), "fonts/capture.ttf")));
+                    break;
+                }
+            }
+        }
     }
 }

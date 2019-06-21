@@ -24,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="#A3190A"
+        android:fontFamily="@font/capture"
         android:paddingTop="10dp"
         android:text="@string/tekken_title"
         android:textAlignment="center"

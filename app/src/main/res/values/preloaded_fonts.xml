@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/monoton</item>
+        <item>@font/nosifer</item>
+        <item>@font/rock_salt</item>
+        <item>@font/syncopate</item>
+        <item>@font/ultra</item>
+    </array>
+</resources>
