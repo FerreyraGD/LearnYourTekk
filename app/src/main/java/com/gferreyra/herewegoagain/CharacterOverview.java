@@ -1,6 +1,5 @@
 package com.gferreyra.herewegoagain;
 
-import android.content.Context;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -11,14 +10,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class CharacterOverview extends AppCompatActivity {
 
@@ -145,9 +136,6 @@ public class CharacterOverview extends AppCompatActivity {
             case "Lili":
                 imageView.setImageResource(R.drawable.lili);
                 break;
-            case "Ling":
-                imageView.setImageResource(R.drawable.ling);
-                break;
             case "LuckyChloe":
                 imageView.setImageResource(R.drawable.luckychloe);
                 break;
@@ -180,6 +168,9 @@ public class CharacterOverview extends AppCompatActivity {
                 break;
             case "Steve":
                 imageView.setImageResource(R.drawable.steve);
+                break;
+            case "Xiaoyu":
+                imageView.setImageResource(R.drawable.xiaoyu);
                 break;
             case "Yoshimitsu":
                 imageView.setImageResource(R.drawable.yoshimitsu);

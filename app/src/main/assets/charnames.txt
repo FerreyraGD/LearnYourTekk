@@ -30,7 +30,6 @@ Lee
 Lei
 Leo
 Lili
-Ling
 LuckyChloe
 Marduk
 MasterRaven
@@ -42,4 +41,5 @@ Panda
 Paul
 Shaheen
 Steve
+Xiaoyu
 Yoshimitsu
