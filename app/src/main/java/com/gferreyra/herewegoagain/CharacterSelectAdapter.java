@@ -57,7 +57,7 @@ public class CharacterSelectAdapter extends RecyclerView.Adapter<CharacterSelect
         Glide.with(mContext)
                 .asBitmap()
                 .load("")
-                .placeholder(mContext.getResources().getIdentifier(img.toLowerCase(), "drawable", mContext.getPackageName()))
+                .placeholder(mContext.getResources().getIdentifier("avatar_" + img.toLowerCase(), "drawable", mContext.getPackageName()))
                 .into(viewHolder.image);
 
         viewHolder.imageName.setText(mImageNames.get(i));

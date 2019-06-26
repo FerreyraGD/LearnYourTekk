@@ -39,14 +39,15 @@ public class MainMenu extends Activity {
     }
 
     private void initImageBitmaps() {
-        mNames.add("Character Overviews");
-        mImageUrls.add("characterselect");
+
+        mNames.add("Tekken 7\n Fundamentals");
+        mImageUrls.add("tekken7img");
 
         mNames.add("Frame Data");
         mImageUrls.add("ninamenu");
 
-        mNames.add("Tekken 7\n Fundamentals");
-        mImageUrls.add("tekken7img");
+        mNames.add("Character Overviews");
+        mImageUrls.add("characterselect");
 
         mNames.add("About");
         mImageUrls.add("framedata");

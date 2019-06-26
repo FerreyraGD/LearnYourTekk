@@ -20,7 +20,7 @@
       "wall_break": "No"
     },
     {
-      "notation": "in rage b+1+2 or WS?b+1+2 AOP b+1+2",
+      "notation": "in rage b+1+2 or WS+b+1+2 AOP b+1+2",
       "hit_level": "m",
       "damage": "55",
       "speed": "20 pc8~17",

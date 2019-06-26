@@ -9,14 +9,3319 @@
     <string name="background_splash">Background Splash Screen image</string>
     <string name="bg_splash">BG Splash image</string>
     <string name="introduction">Yo here is the introduction to the app!</string>
-
-    <string name="akuma_overview">Akuma:\n
-        \tLore Description: placeholderblahblah\n
-        \tDifficulty: Advanced\n
-        \tPlaystyle: Akuma is this and that and etc.\n
-        \tWho should main him?: blahblahblah \n </string>
-
     <string name="title_activity_character_overview">CharacterOverview</string>
     <string name="tekken_introduction">Learn the fundamentals of Tekken 7 and use them to improve your game!</string>
     <string name="tekken_title">Tekken 7 Fundamentals</string>
+
+    <string name="akuma_overview">\t<b>Name</b>: Akuma or Gouki in Japan\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Starring as a guest character from the Street Fighter series, Akuma has made his way to Tekken 7 as a mysterious demon
+        smack dab in the middle of the Mishima feud. Akuma is a unique character versus most of the cast in the game as he brings over some mechanics
+        from the Street Fighter games. He has a meter gauge that builds up as he fights his opponent and he can burn that meter on special moves that
+        can help extend combos and keep up the pressure game.\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> f,d,d/f+1 or f,d,d/f+2\n</b>
+        “Shoryuken”. Its i10 light version is one of Akuma’s primary launchers (with meter), while heavy Shoryu deals more damage itself and has full invulnerability 8 frames in. Use 1,d,f,d/f+1 to punish -10 or worse on block moves. Many of Akuma’s attacks can be cancelled into Shoryuken. Light Shoryu has a high crush window.
+
+    \n\n<b> qcb+3 _ qcb+4\n</b>
+        “Tatsu”. A key special move in Akuma’s combos but not very useful otherwise. qcb+3 links into Light Shoryu on hit. Its air version gives frame advantage on block and is overall a decent way of getting in thanks to its tracking properties.
+
+    \n\n<b> qcf+1 _ qcf+2\n</b>
+        “Hadouken”. Helps Akuma hold his ground. qcf+1 can be focus cancelled (qcf+1,1+2~f,f) to get frame advantage on block (+5) or a guaranteed launch on hit (+15).
+
+    \n\n<b> f,d,d/f+3 _ 4->3_4_n \n</b>
+        “Demon Flip”. The stance itself goes over a lot of attacks (many mids and highs included); certain attacks can be cancelled into DFLIP to keep the pressure going. ‘3’ is a homing attack, ‘4’ is a linear + on block divekick, ‘1+3_2+4’ is an unbreakable throw, and no input during DFLIP gives a knockdown low. The latter two options are supposed to be used very sparingly (both are very unsafe if ducked).
+
+    \n\n<b> 1+2\n</b>
+        Power Crush with unique properties: can be cancelled by inputting f,f or b,b either before it hits or after. Charges up whenever 1+2 is held down: the move becomes a NH launcher with level 2 charge and an unblockable launcher with max charge.
+
+    \n\n<b> 1,1\n</b>
+        NCc, second hit can be cancelled into Tatsu. It’s advised to input 1,1~qcb every time and tap 3 whenever a counter hit is detected in order to get a combo.
+
+    \n\n<b> d/f+1,1\n</b>
+        Akuma’s i13 punish, gives +6 on hit, doesn’t jail. A solid mid poke. d/f+1,2 (mid,mid, -13 on block) serves as a mixup.
+
+    \n\n<b> 4,3\n</b>
+        NC, Homing, wall splat, huge advantage on hit, gives S! if the second hit lands as CH. Second hit is duckable. Can be used as a -14 punish thanks to good range.
+
+    \n\n<b> b+1\n</b>
+        Fast high launcher. Cancel it into DFLIP 3 to get a combo. Good hitbox.
+
+    \n\n<b> d/f+2,1\n</b>
+        Akuma’s version of Twin Pistons. Guaranteed after a deep jump in 2 or 4. Solid block- and whiff-punish.
+
+    \n\n<b> WR3 _ f,f,f+3\n</b>
+        A solid running attack. Has low crush frames, hits grounded.
+
+    \n\n<b> d+3\n</b>
+        Fast low poke, can be cancelled into Akuma’s special attacks. d+3,qcb+3 is NC on clean hit. d+3~DFLIP is a good way to pressure your opponent.
+
+    \n\n<b> d+4\n</b>
+        Akuma’s knockdown sweep. High crushes early on, has decent range, can be performed out of crouch.
+
+    \n\n<b> WS2\n</b>
+        The other half of the full crouch mixup. Demon Flip cancellable (which makes certain punish attempts whiff).
+
+    \n\n<b> Forward Jump 4\n</b>
+        Very good pressure tool, although linear. Gives +14 on hit (+17 if it hits close to the ground), which means a free b+1 into full combo.\n
+
+    \n<b>Punishes</b>:\n\n
+        i10: 1,2; 1 xx L.DP_H.DP\n
+        i12: d+2 xx qcb+3_L.DP_H.DP\n
+        i13: d/f+1,1; d/f+1,2\n
+        i14: 4,3; b+1 xx DFLIP 3 launch\n
+        i15: 2 xx qcb+3_qcf+1\n
+        i16 d/f+2,1 launch\n\n
+
+    <b>WS Punishes</b>:\n\n
+        i11: WS4,4\n
+        i12: d+2 xx qcb+3_L.DP_H.DP\n
+        i13: WS3\n
+        i15: WS2 launch\n
+    </string>
+
+    <string name="alisa_overview">\t<b>Name</b>: Alisa Bosconovitch \n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Alisa is a defensive type of character who excels at space control, zoning their opponent and dealing damage with great poking versus high damage combos\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n
+        <li>Good pokes</li>\n
+        <li>Good defensive options</li>\n
+        <li>Good crushing moves</li>\n
+        <li>Good range on attacks</li>\n
+        <li>Good keep-out game</li>\n
+        <li>Great side stepping ability</li>\n
+        \nCons:\n
+        <li>Lot of key moves are weak to side step right</li>\n
+        <li>Stance abilities/moves are hard to pull off against a extremely aggressive/pressuring opponent</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> b+1\n</b>
+        A safe mid with good tracking that leaves her in FC and can be used in combos.
+
+    \n\n<b> d/b+3\n</b>
+         Fast, good range, good tracking and instant high crush that it’s difficult to punish from maximum range.
+
+    \n\n<b>4\n</b>
+        Extremely fast and homing counter hit launcher that wall splats and it’s safe. Used to discourage opponents from pressing buttons.
+
+    \n\n<b>b+3\n</b>
+        Powerful, safe, damaging, homing knockdown with good range, has slight high crush frames at start up.
+
+    \n\n<b>WR2 _ f,f,f+2\n</b>
+        Fast pressure tool with a guaranteed follow-up on hit for easy massive damage. Alternate it with WR3,4 and/or f,f,f+3,4 for one of her strongest most annoying mix-ups.
+
+    \n\n<b>WR3,4 _ f,f,f+3,4\n</b>
+        Safe, high damage knock down and wall splat that’s used to discourage opponents from ducking her WR2.
+
+    \n\n<b> d/f+1\n</b>
+        Fast mid poke with a chunky hitbox and good follow-ups.
+
+    \n\n<b>d/f+4\n</b>
+        Another fast mid poke with good range and admirable tracking used when pressuring opponents.
+
+    \n\n<b>FC d/f+1+2	\n</b>
+        Her best low poke that’s good plus frames on hit. Can be mixed up with WS1+2 thanks to their similar animations.
+
+    \n\n<b>WS1+2\n</b>
+        Safe mid knockdown that gives a guaranteed follow-up on hit. Hold down 1+2 for 3 different levels of charge that become safer and more damaging the longer you hold.
+
+    \n\n<b>f+3,2\n</b>
+        Now her best i14 punisher and one of the few to get a 14f launcher, auto screwattack launcher. Also has a mid option.
+
+    \n\n<b> d+3\n</b>
+        Long range low-crushing low that gives her access to her d/b+1 stance and FC mixups.
+
+    \n\n<b>DES 2\n</b>
+        Safe high crushing launcher from her DES stance, hits grounded. New to T7 she has a just frame DES 2:1 that takes you out of DES so you can do a normal combo that does more damage.
+
+    \n\n<b>u/f+3,2\n</b>
+        Hit confirmable and highly damaging hopkick. Can be hit confirmable to uf+3, 3+4 that transitions into fly for mixups on block (careful with Jack, he can option select float for a juggle on block).
+
+    \n\n<b>1,1\n</b>
+        High damage 10f punisher, 2nd hit delayable that knds on ch for guaranteed follow up, can go into DES stance by pressing 1+2 afterwards.\n
+
+        \n<b>Punishes</b>:\n\n
+        i10 - 1,1 (+5, 25dmg)\n
+        i12 - 2,4 (KND/W!, 31dmg)\n
+        i14 - f3,2 (Launch) or f1+2 (+7, Long Range, 25dmg)\n
+        i15 - uf4,4 (Launch)\n
+        i16 - df2 (Launch)\n
+        i17 - bf2 (KND/W!, Long Range, 26dmg)\n
+        i19 . b3+4 (Launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4 (+6, 15dmg)\n
+        i13 - WS1,2 (+6, 21dmg)\n
+        i15 - uf4,4 (Launch)\n
+        i17 - WS2 (Launch)\n
+    </string>
+
+    <string name="anna_overview">\t<b>Name</b>: Anna Williams\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Anna Willams is a high risk, high reward character who has a mixup 50/50 heavy play style and if she can land her moves, she can dish out a TON of damage\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>i13 Rage Art which is safe on block but a high</li>\n
+        <li>CJM stance, auto hopkicks lows and auto breaks throws</li>\n
+        <li>Easy plus frames (qcf+1, f,f+2)</li>\n
+        <li>Can do a crazy amount of damage with her combos</li>\n
+        \nCons:\n <li>Risky/unsafe in general(Very high risk, high reward)</li>\n
+        <li>Bad Whiff Punishing</li>\n
+        <li>Lack of good punishment tools after i14</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> ff+2\n</b>
+         Knockdown on hit, +6 on block, homing, high
+
+    \n\n<b> d3, 2\n</b>
+         High risk high reward, CH launcher starting off high crushing low
+
+    \n\n<b> 2, 3b\n</b>
+          10 frame punish leading to stance mixups (+2 on hit which can lead to CHJ 1)
+
+    \n\n<b> CHJ 1\n</b>
+         11 frame move, high, -9 OB, +15 OH (guaranteed b2, 2 or RA on normal/counter hit)
+
+    \n\n<b> QCF1\n</b>
+        +3 on block CH launcher, high
+
+    \n\n<b> db3+4, 4\n</b>
+        Pseudo hellsweep. On the verge of seeable (but not really online). Use with extreme caution.
+
+    \n\n<b> Any FC move\n</b>
+         Anna has amazing mixups from FC, this includes strings that start with d3 and d4
+
+    \n\n<b> d4, 1\n</b>
+        Quick low poke that can cancel into stance and sidestep
+
+    \n\n<b> SS3\n</b>
+        +4 on block, +8 on hit, KND on CH, mid, slow, but cancelling strings into SS makes this a real threat
+
+    \n\n<b> df1+2\n</b>
+         11 frame move, mid, +1 OB, +5 OH, +19 on CH (does 0 damage but guarantees f4 on CH, great low risk pressure tool)
+
+    \n\n<b> d2 or df1, 2\n</b>
+        Solid pokes that dissuade people from crouching to avoid Anna\'s beefy lows and highs
+
+    \n\n<b> d/f+2\n</b>
+        High crush frames (or at the very least, having an evasive hitbox) whilst only being -12 OB
+
+    \n\n<b> d/f+3\n</b>
+        Move can go into many followups, notably df3, 1 and df3, 2 for their SS / CHJ / CD cancels. Anna makes up for her lack of punishment by having these mixup options.
+
+    \n\n<b> WS3b\n</b>
+         The exact same as WS4, but leading into stance at +2 OH, (just like Anna\'s i10 punish; 2, 3b) Unlearn punishing lows with WS4 and use this instead.
+
+    \n\n<b> f2, 3\n</b>
+         14 frame wall splat (replace b2, 2 with this when near walls for punishment / CHJ 1 followup) most consistent tailspin on float combos\n
+    \n<b>Punishes</b>:\n\n
+        i10: 1,2 or 2,3 (hold b for CJM)\n
+        i13: d/f+1,2 or b+1+2 (RA)\n
+        i14: f+2,3 or f+2+3 or d/f3,4\n
+        i15: b+2,2 (gives a free hit d/b+3, female opponents can also hit 2,2 and will interrupt)\n
+        i16: d/f+2\n\n
+
+    \n<b>WS Punishes</b>:\n\n
+        i10: D1\n
+        i11: WS+3 (hold b for CJM)\n
+        i13: WS+1,2\n
+        i17: cc df2 or ff3\n
+        i19: WS+2\n
+    </string>
+
+    <string name="armorking_overview">\t<b>Name</b>: Armor King\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Mishima-style wavedash character who has a great 50/50 mix-up grab game, a good poke game and is a well rounded character\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good pokes</li>\n
+        <li>Amazing 50/50 throw mix up and grab game</li>\n
+        <li>Good whiff punishment tools</li>\n
+         <li>Above average backdash and sidestep</li>\n
+        \nCons:\n
+        <li>Mediocre slow lows that can be super punished on block</li>\n
+        <li>Poor range on his hopkick</li>\n
+        <li>Has mediocre/average pressuring tools</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+1\n</b>
+        i13/-1 on block
+
+    \n\n<b> F,f+2\n</b>
+        -11~12 but usually safe mid poke with good range, pushback on block and KND on hit.
+
+    \n\n<b> F,n,d,df2\n</b>
+        Called "dark upper"; i14 high launcher, same properties as Wind God Fist which means its a great whiff punisher
+
+    \n\n<b> F2,1\n</b>
+        Extremely strong whiff punish
+
+    \n\n<b> F,f4\n</b>
+        High damage/long range wall bounce which is usually safe because of push-back
+
+    \n\n<b> Df1+2\n</b>
+        Mid homing KND
+
+    \n\n<b> Ff3\n</b>
+        High homing launcher
+
+    \n\n<b> F1+4\n</b>
+        i13 punish with insane range (punishes Bryan\'s 3+4 on block!)
+
+    \n\n<b> F, hcf1 Giant Swing\n</b>
+        Best throw in the game. Bufferable, i10, high damage, looks like a 1+2 break
+
+    \n\n<b> Wr2+4\n</b>
+        Shining Wizard, high damage throw and combo ender. Mixup for GS, except for insane people that can tell the animation apart
+
+    \n\n<b> Db,n,f2+4\n</b>
+        Tombstone. High damage 2 break throw to make the throw mixup complete. Gives strong oki options afterwards
+
+    \n\n<b> d+3\n</b>
+        Low poke with good damage and +1 on hit. Sets up GS or movement.
+
+    \n\n<b> d/b+3\n</b>
+        Counter Hit low launcher that high crushes
+
+    \n\n<b> D4\n</b>
+        Enhanced "generic d4" with more damage and range, but slightly slower startup at i14
+
+    \n\n<b> CD1, f,n,d,df1\n</b>
+        Possibly one of the best moves in game, plus on block, huge pushback, normal hit knockdown, and at max range is a launcher
+
+    \n\n<b> F4\n</b>
+        mishima style axe kick, mid/+2 on block, hits grounded\n
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 2,1\n
+        i12 - b+1,2\n
+        i13 - f+1+4\n
+        i14 - db+2,4 / CD+2\n
+        i15 - uf4 / f+2,1 (long range)\n
+        i16 - b+3, dash f+1+4\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS+4\n
+        i15 - uf+4\n
+        i16 - WS+1\n
+        i23 - uf,n,4\n
+    </string>
+
+    <string name="asuka_overview">\t<b>Name</b>: Asuka Kazama\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Asuka is a defensive character with a large amount of keepout tools who plays a spaced out zoning game as they break down their opponent slowly and meticulously\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great poke game</li>\n
+        <li>Amazing keep out game with good selection of defensive options</li>\n
+        <li>Good whiff punishment</li>\n
+        <li>Lots of CH crushing moves</li>\n
+        \nCons:\n <li>Could struggle opening up a defensive/turtle opponent</li>\n
+        <li>Her i10 punishment is not the considered bad/not the best</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> f+2\n</b>
+        One of the strongest whiff punishers in the game, also an extremely easy input for what it is
+
+    \n\n<b> b+3\n</b>
+         Strong keepout move, can be extremely awkward to punish and it gives Asuka a combo on normal hit. It has some high crush and low crush frames during the animation
+
+    \n\n<b> d+3+4\n</b>
+        An extremely fast CH launcher which also low crushes very early. One of the best panic moves in the game. Makes the opponent hesitate using lows or pressuring at – frames vs Asuka
+
+    \n\n<b> SS2\n</b>
+        An extremely evasive move that knocks down on hit. Very strong panic tool and was made safe in T7 from -12 in TTT2. Makes the opponent hesitate in pressuring Asuka
+
+    \n\n<b> d/b+3\n</b>
+        A ranged low that leaves the opponent in crouching at +4 meaning they cannot step one way. Very good to clip the opponent’s movement and harass them from range
+
+    \n\n<b> d+2\n</b>
+        A ranged mid that complements DB3. It’s a CH launcher that leaves the opponent in crouching with pushback on block and on hit, extremely good to control space with Asuka
+
+    \n\n<b> u/f+3\n</b>
+        A CH ranged mid launcher that low crushes and has quick recovery. Very good as a keepout tool and interrupt the opponent\’s approach
+
+    \n\n<b> d/b+4\n</b>
+        A high crushing low that’s 0 on hit, good to approach the opponent with and keep the pressure on upclose. Option to go into FC or not afterwards by holding ~d.
+
+    \n\n<b> f+4\n</b>
+        A plus on block homing high launcher. Really good to shut down people sidewalking Asuka, and to keep the advantage on block if you “guessed wrong” on their stepping
+
+    \n\n<b> f,f+3\n</b>
+        A homing mid with tons of range, good to keep people in check at a range
+
+    \n\n<b> d+1+2\n</b>
+        A knockdown low that guarantees a F2 at the wall and rage drive in open
+
+    \n\n<b> d/f+1\n</b>
+        A good mid poke to keep opponents in check, has a high CH followup and a mid CH launcher
+
+    \n\n<b> 1\n</b>
+        A jab with tons of followups, low followups, mid follows with even more followups after that. Good to harass the opponent upclose
+
+    \n\n<b> WS1+2\n</b>
+        A CH launcher from crouching, can be cancelled with ~d and is good for closing the gap with the opponent. On CH, she gets an unscaled f2 for a LOT of damage
+
+    \n\n<b> f,f+1+2 (Rage Drive)\n</b>
+        Uses up her rage, hits grounded so it’s guaranteed after moves like D1+2 (Very strong option) anywhere. Can be used as a damaging combo ender with RD into ff1 post screw\n
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1\n
+        i12 - 2,1\n
+        i13 - d/f+1\n
+        i14 - u/f+2\n
+        i15 - d/f+2 and b+4,2\n
+        i16 - b+3\n
+        i17 - f+2\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1\n
+        i11 - WS+4\n
+        i13 - WS+2\n
+        i15 - WS+1,4\n
+        i16 - WS+2\n
+        i19 - WS+3\n
+    </string>
+
+    <string name="bob_overview">\t<b>Name</b>: Robert "Bob" Richards\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Bob is a well rounded character who excels at pressuring the opponent and comboing them with his excellent Counter Hit launching tools. He also has access to great poke tools\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Very good range on a lot of his moves</li>\n
+        <li>Good mobility/speed for a large character(insert "SIZE AND SPEED" quote here)</li>\n
+        <li>Easy execution</li>\n
+        <li>Consistent combos</li>\n
+        <li>Strong harassment lows that force tough decisions</li>\n
+        \nCons:\n <li>No 15f launcher, slow standing launchers in general, usually relies on a counter hit to launch</li>\n
+        <li>Has lots of dangerous unsafe moves that are very punishable so care is needed</li>\n
+        <li>Not especially tricky because of his easy simple execution, requires strong fundamentals at high level which you can learn!</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,2[1+2]\n</b>
+        The occasional 1+2 starts a juggle on counter hit and scares the opponents from taking their turn after 1,2
+
+    \n\n<b> 2,1[4]\n</b>
+        The optional 4 ender works similar to the aforementioned 1,2,1+2, guarantees a B+3 on counter hit, but loses to sidestep instead of blocking. 2,1 can also be mixed with 1,d+4 for a -12 on block low
+
+    \n\n<b> d/f+1[2]\n</b>
+        Standard d/f+1. Anti-ssr. Occasionally you can do the 2nd, punishable hit
+
+    \n\n<b> d/f+2\n</b>
+        A safe counter hit launcher with good range. Tracks against side step left
+
+    \n\n<b> u/f+3\n</b>
+        Everybody needs a low crushing hopkick launcher. A bit slow to hit but has great range
+
+    \n\n<b> cd4,1+2\n</b>
+        Bob’s “big threatening low”. d/b+3+4,4 is similar but on hit grants +8f advantage instead of a knockdown
+
+    \n\n<b> SS1+2\n</b>
+        A fast mid that knocks down. Great in conjunction with the sidestep’s evasiveness. Also good for wallsplats
+
+    \n\n<b> d/b+3\n</b>
+        Bob’s best low poke is nothing spectacular, but it leaves him at +2 on hit
+
+    \n\n<b> WS2,1\n</b>
+        Bob’s fastest launcher can only be done from crouching. You can use this as instant while standing as well. Always confirm a whiff before inputting the 2nd hit
+
+    \n\n<b> f,f+2\n</b>
+        Bob’s advancing mid of choice for farther ranges, wallsplats and tracks to his left
+
+    \n\n<b> cd1\n</b>
+        Bob’s “electric”, good to advance after f,f+2 scares the opponents from crouching. Gets a juggle on counter hit
+
+    \n\n<b>b+2,2\n</b>
+        Hits fast and very low to the ground. This move is extremely useful against low profile stances (Ling, Eddy etc.), and in uncommon situations like capitalizing on backturned opponents with the full b+2244
+
+    \n\n<b> u/f+1+2\n</b>
+        Punishes far whiffs faster than the hopkick. Near the wall you can go for a high risk high reward mixup by mixing between the high and mid
+
+    \n\n<b> f,f+1+2\n</b>
+        Bob’s launcher 1+2 throw
+
+    \n\n<b> d+1\n</b>
+        Ground hitting mid which has good tracking to both sides and good range, perfect to hit low stances like RLX, it also leaves Bob with lower hurtbox so jabs will whiff, so the opponent can only block punish it with crouch jabs if they even reach\n
+
+     \n<b>Punishes</b>:\n\n
+        10f: 1,1,2 or 1,4\n
+        12f: f+2,3 (wall splats, launch punishable -15)\n
+        14f: df+1,2 (-12)\n
+        16f: uf+1+2,4 or uf+1+2,1+2\n
+        18f: db+1+2 (high crush, fastest standing launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        11f: ws4\n
+        14f: ws2,1 (launcher)\n
+    </string>
+
+    <string name="bryan_overview">\t<b>Name</b>: Bryan Fury\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Bryan is a (CYBORG PSYCHOPATH TERMINATOR) defensive poking character with great whiff punishment tools, good keepout tools, large selection of Counter Hit tools and a threatening (HARD AF to do) unblockable for offense\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great combo damage</li>\n
+        <li>Superb CH tools</li>\n
+        <li>Great Keepout tools</li>\n
+        <li>Good pressure tools</li>\n
+        <li>Amazing wall damage</li>\n
+        <li>Interesting, unique Taunt game</li>\n
+        \nCons:\n <li>Linear moves</li>\n
+        <li>Poor mixups</li>\n
+        <li>No easy mode 15 frames mid launcher</li>\n
+        <li>Poor ground hitting options</li>\n
+        <li>Poor punishment tools</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,2\n</b>
+         Jab string with a High-mid-low mixup. All 3 last hits can be delayable, the mid is safe and CH launches for a small combo. The low KNDs on CH and leaves you at +2 on hit and -12 on block
+
+    \n\n<b> 3+4\n</b>
+        Amazing Keepout tool. Launches on CH for an easy 74 damage combo. Sets up a taunt mixup on hit. You can also pick up characters for a 40 damage float combo with d/b+2. Insane pushback on Block, making it safe. Poor tracking and poor recovery on whiff
+
+    \n\n<b> b+1\n</b>
+        High damage CH launcher. +7 on hit, giving you a free mixup between a CH launching mid like f+3 and a chunky low like QCB+3 (although that\'s not really Bryans strength). +3 on Block
+
+    \n\n<b> df+1, 1, 1, 1, 2\n</b>
+         Really good move, although a tiny bit slow at i15. Super easy to hit confirm. Deals up to 34 damage on hit. -10 on block
+
+    \n\n<b> f, b+2\n</b>
+        High damage i14 launcher. Amazing whiff punisher as well, although if you can\'t do a reliable sidestep into this you can use SS+1, which will do the same thing but net you a combo that deals 4 less damage or so. Safe on block but it\'s a high and has poor tracking properties
+
+    \n\n<b> f+3\n</b>
+        Low range and poor tracking. The good thing about this move is that it is relatively fast at i16, but it launches on CH and is completely neutral on block
+
+    \n\n<b> f, F+2\n</b>
+         Mach Punch. Your armored move. It deals 30 damage and KNDs on hit. Technically -10 on block but it has pushback so it\'s only punishable against the wall
+
+    \n\n<b> f, F+4\n</b>
+         Mach Kick. High damage CH launcher. It\'s a high so it can be ducked, it\'s -10 on block but it forces crouch, so most characters will always get a downjab at most. The thing with the move is that it has a built in sidestep left, which can be kinda tilting for the opponent.
+        Also homing. Gives a free d+4 on normal hit or a free QCB+4 if you hit them in the back
+
+    \n\n<b> QCB+3\n</b>
+        super annoying chunky low poke. -13 so only 3 characters can launch it on block. Really chunky and leaves you at +4 on hit. Grants a free QCB+4 on CH for 41 damage or a d+3+4, 2 against the wall for 45 damage
+
+    \n\n<b> QCB+2,4\n</b>
+        Deals 42 damage, which is quite nice. This move is the bane of the people who like to press buttons. It also has slight evasive properties
+
+    \n\n<b> FC d/f+4\n</b>
+        This is essentially a Mach kick that crushes highs. Deals slightly less damage but it\'s still good. It\'s not a homing move however. It\'s also -10 on block but it doesn\'t force crouch
+
+    \n\n<b> b+4\n</b>
+        When you look at what the move does, it really is nothing special. You can follow it up with a super clutch Mach Punch in open terrain or a Jet Uppercut against the wall. Still, it\'s -10 but it has a bit of pushback
+
+    \n\n<b> 1+3+4\n</b>
+        Taunt. It\'s slow, but you can cancel it at any time into anything, making people not want to press buttons. It gives you up to 16 frames of advantage on hit, meaning it can net you anything from a small poke to a full launch, depending on your execution. The most important follow ups you need to learn how to do is Taunt 2, 3; Taunt f+2, 1, 4 and Taunt b+4. However, if you just started learning Bryan, Taunt is the last thing you should be working on
+
+    \n\n<b> u+4\n</b>
+        Safe mid launcher, low crush. Hard to punish on whiff. It is better to use the neutral orbital because Bryan’s hurtbox is positioned safer while abusing the disjointed hitbox, active frames, and quick recovery
+
+    \n\n<b> d/b+3\n</b>
+         Low poke with god tracking and high crush
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 2, 3 or f+1, 4\n
+        i13 - df+2, 1\n
+        i14 - f, b+2 (launch)\n
+        i18 - f+4, 1\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - d+1\n
+        i11 - ws+4\n
+        i12 - ws+3\n
+        i15 - ws+1\n
+        i18 - ws+2, b+2\n
+    </string>
+
+    <string name="claudio_overview">\t<b>Name</b>: Claudio Serafino\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Claudio is an anime main character/well-rounded character who fights with a unique stance/state called Starburst which grants him unique variations of strings and unique moves\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great Keepout</li>\n
+        <li>Good pressure tools</li>\n
+        <li>Good homing moves</li>\n
+        <li>Can gain momentum in a match with his unique Starburst stance</li>\n
+        <li>Great range on his moves</li>\n
+        <li>Has one of the best hopkicks in the game</li>\n
+        \nCons:\n <li>Without his unique stance his poking game is limited</li>\n
+        <li>Low game isn\'t that strong</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> f+3\n</b>
+        Good range, safe, homing, wall splat, low crush, and screws. Only downside is the startup, but this will be claudios main poke tool
+
+    \n\n<b> u/f+4\n</b>
+        Everything you want out of a hopkick. Primary whiff punisher. Goes under highs, lows and occasionally mids
+
+    \n\n<b> STB f1+2, 1+2\n</b>
+        Pretty much the best use for STB. Safe mid launcher. Excellent range and can punish deathfist and hei ff+2. Another good whiff punisher
+
+    \n\n<b> SS4\n</b>
+        One of his primary low pokes. Has deceptive range. +3 on hit. Mixup with sidestep into f+3
+
+    \n\n<b> b+3\n</b>
+        Fastest mid poke he’s got. Just something you have to use
+
+    \n\n<b> d/f+2\n</b>
+        CH launching mid. Similar to Kaz’s df+2, but more unsafe and linear. Still useable
+
+    \n\n<b> 4 (Magic 4)\n</b>
+        CH4 and CH4,3 both lead to combos. If you want to CH someone up close then this is what you press. Any further out i would wait for the whiff punish with hopkick
+
+    \n\n<b> f,f,f+2\n</b>
+        Superman punch. Good frames on block and gets you in, but its a high so dont be predictable with it. Learn your iWR. Puts him into STB if it hits too
+
+    \n\n<b> u/f+3\n</b>
+        This move and f+4 mostly function the same. F+4 has 1 more frame of advantage but slightly more pushback (and a KND on CH). Other than those differences they are the goto plus on block mids
+
+    \n\n<b> d/b+3\n</b>
+        Much slower and riskier compared to his other lows, but gives a combo on CH
+
+    \n\n<b> b+1\n</b>
+        Wallsplating homing mid tool that is mainly relevant at the wall. Tail spins/screws opponent
+
+    \n\n<b> b+4, 2\n</b>
+        NCc knd/wallsplating tool. Complementary to b+1 but also grants STB on hit
+
+    \n\n<b> d+1, 2\n</b>
+        Good pressure tool out of STB. Amazing hitbox and NC
+
+    \n\n<b> d+3\n</b>
+        Long range low poke, hard to punish on shallow block which can create whiff opportunities
+
+    \n\n<b> 1+2:d+1+2:f+2\n</b>
+        Claudios demoman. Does a grip of dmg and can be hard to punish due to weird recovery, gains stb after third hit
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 12\n
+        i12 - f22 - Hopkick punish. STB on hit\n
+        i13 - d1+2 - Alternative hopkick punish\n
+        i14 - b2 STB on hit\n
+        i15 - df12_uf4 - Typically pick df12 for blocked rage arts unless you have STB\n
+        i16 - STB f1+2,1+2 - Best rage art punish\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - ws4\n
+        i12 - ws11\n
+        i15 - ws2 and uf4 - ws2 gives STB on hit\n
+    </string>
+
+    <string name="deviljin_overview">\t<b>Name</b>: Devil Jin\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Devil Jin is considered one of the characters with the best toolsets in the game. He excels are offense, defense, and has a move for every situation. Being a Mishima character, he uses wave dashing, hellsweep, and an electric in his kit\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Very well-rounded</li>\n
+        <li>Good pokes</li>\n
+        <li>Good 50/50 mix ups</li>\n
+        <li>Good defensive options</li>\n
+        <li>Has a LAUNCHING hellsweep</li>\n
+        \nCons:\n <li>Being a Mishima character, he requires high execution but at a beginner level I have heard he is a fundamentally great character even without reliance on his electric</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> f,n,d,d/f+2 (EWGF)\n</b>
+        No doubt the best launcher in the game, also one of the fastest at 14f. 23 damage, +5 on block. Great tool to use for pressure and in combos too. Enough said.\n
+    \n\n<b> 1,1>2\n</b>
+        One of the best 10f punishers in the game. 27 damage, knocks down for good Wavedash mix-up, 1,1 is -1 on block, 2 is hit conformable with practice.\n
+    \n\n<b> d/f+1>2\n</b>
+        A 13f mid, mid safe string which sets up the base for his poking game, 26 Damage. df+1 is solid +8 on NH and the whole string is +3 on NH. Not a NC but Delaying ability on 2nd hit helps a lot in pressuring\n
+    \n\n<b> d/f+2\n</b>
+        A 15f safe mid which launches on CH, 15 Damage. One of the 2 primary CH fishing tool for DVJ because of its mentioned properties and decent range.\n
+    \n\n<b> d/b+2\n</b>
+        Strong low poke with good high crush potential, 16 Damage. Leaves both you and your opponent crouching on hit but since it gives +4 frames on NH, it’s a very good move to go for because you can do WS-moves like WS4, WS1>2 or a throw after it without getting interrupted\n
+    \n\n<b> b+1>2\n</b>
+        12f Punisher with great range, 30 Damage. Punishes get up kicks with ease and a must for punishing at wall because it wall splats. 2nd hit can be cancelled by holding ‘b’ which can be used to play scary mind games\n
+    \n\n<b> b+4\n</b>
+        Demon Steel Pedal, 22 damage. Safe mid that is +6 on NH and stuns on CH for juggle. Other one of the CH fishing tool for him. Can be easily done from a Wavedash which in turn scares those interrupting the WD. It also hits grounded thus making his ground game atrocious\n
+    \n\n<b> WS2\n</b>
+        A Mid that screws on NH as well as in a combo, 20 damage. Duck highs in a string and hit WS2 to ensure a screw, 15f fast thus his WS punisher too. Learn this from a Wavedash and be the master of his Wavedash mix-up\n
+    \n\n<b> u/f+4\n</b>
+        Good low crushing mid poke. 21 Damage+Knocks down on hit and guarantees a dash up b+4. Can be done from a Wavedash for mix-up\n
+    \n\n<b> f,f+2\n</b>
+        Quick powerful mid that knocks down on hit and pushes back on block which in turn makes it impossible to punish in the open, 24 Damage. Can be done from a Wavedash for mix-up at wake. Great move when fishing for wall splats.\n
+    \n\n<b> b,f+2>1>2/d+2/4	\n</b>
+        High damage 3 hit string, 1st and 2nd hit are delayable NC mid pokes (24 Damage, +1 on NH) and the threat of the string’s delayable third hit makes opponents reluctant to punish it on block (use carefully in the open because 3rd hit (Any) can be Side stepped to left). b,f+2>1>2 (48 Damage) works great for wall pressure, you can delay all the hits which helps in fooling the opponent, it can also be used as a wall ender. b,f+2,1,d+2 serves great as a wall carrier\n
+    \n\n<b> cd3\n</b>
+        A Safe mid launcher that hits grounded, 21 Damage. Wavedash into it works great for Oki after 1,1>2 and other knd moves\n
+    \n\n<b> WR3_f,f,f+3\n</b>
+        Slash kick with low crush property and heavy advantage on block, 30 Damage. This move can be easily executed from CD thus can be executed from point blank range. Devil Jin can also do this move from his Wavedash\n
+    \n\n<b> cd4\n</b>
+        Also known as Hellsweep, 10 Damage. Scariest low in the game which trips on NH for a Juggle. Its Unseeability leads to opponents ducking in fear and eating his mids thus vital for his Wavedash Mix-up\n
+    \n\n<b> WS1>2/4\n</b>
+        WS1>2 are his good old twin piston. 26 Damage. 2 Hit 13f mid mid safe string that is a NC and can be delayed as well as hit confirmed. Enough said already. WS1,4 is a 13f WS punisher that knocks down and wall splats, 35 Damage\n
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1>2 \n
+        i12 - b+1>2 \n
+        i13 - d/b+2 \n
+        i14 - EWGF\n\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4 \n
+        i13 - WS1>2 and WS1,4
+        i15 - WS2 \n
+
+    </string>
+
+    <string name="dragunov_overview">\t<b>Name</b>: Sergei Dragunov\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Dragunov is a rushdown ruthless pressuring character who constantly annoys the opponent with his mix ups and dangerous launching lows(especially dangerous to beginners) He has great punishment tools and keep out tools and will counter hit launch you into a combo if you are caught pressing buttons at the wrong time.\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great pressure</li>\n
+        <li>Good range</li>\n
+        <li>Decent poke game</li>\n
+        <li>Good 50/50 mix up</li>\n
+        \nCons:\n <li>Poor tracking moves especially against characters with great side steps</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> f,f,f+2_iWR2\n</b>
+        Main pressure tool, + on block CH launcher. Used with d+2 for mix-up. Tracks, hard to punish if Side Stepped by the opponnent
+
+    \n\n<b> d+2\n</b>
+        High crushes, Tracking invisible low with good damage and neutral on hit, +10 on CH.
+
+    \n\n<b> qcf+3\n</b>
+        Invisible low that ATs on CH. Goes under some mids, airborne during parts of animation so he can’t get hopkicked out of it
+
+    \n\n<b> d/f+2\n</b>
+        i15 df+2 punisher, longer range compared to generic df+2 but unsafe
+
+    \n\n<b> 1,2,1\n</b>
+        i10 NCC, CH confirmable, first two hits are safe. KND/Wallsplats
+
+    \n\n<b> b+1+2\n</b>
+        +6 on block, gives free stomp on hit. Short range, use with caution if not at wall and in open ground
+
+    \n\n<b> B+4,2,1\n</b>
+        Fast mid starting combo
+
+    \n\n<b> b+4,3\n</b>
+        NCc, CH confirmable. Last hit does not jail. Tons of damage on CH. Wallsplat tool, non-jailing, good damage, second hit tracks well. Safe on block, mixup with b+4,2 to keep people from ducking
+
+    \n\n<b> u/f+4\n</b>
+        Safe low crushing mid with good tracking to both sides(?), gives mini combo with d+4,1,3 on hit. Launches if wall is to dragunov’s right, pickup with iWS4 or d+2
+
+    \n\n<b> b+3\n</b>
+        i14 homing high punisher, gives tailspin on NH and W! if opp back is to wall. Reaches all the way from earth to pluto. Be wary about using as poke/punisher as it’s high
+
+    \n\n<b> 4,1\n</b>
+        i12 punisher, +8 on hit and jails
+
+    \n\n<b> d/f+4\n</b>
+        Great keepout poke with lots of range. Extremely linear, use with caution against steppers
+
+    \n\n<b> d/f+1\n</b>
+        Standard i13 mid poke that tracks to Dragunov’s left. Has a high extension (d/f+1,4) that’s NCc; causes knockdown/wallsplat on hit
+
+    \n\n<b> f+2+3\n</b>
+        Command grab that does 45 points of damage, get a free back combo (Only if opp quickstands) with b+2,1,3 or b+2 into a WS+1+2 or WS+4 f+1+4 and f+2+3 are 11f grabs that do 5 points more damage than your standard 1 or 2 throw and require true 1 armed throw breaks
+
+    \n\n<b> qcf+2\n</b>
+        NH launcher, whiff punisher. Done out of his qcf so 1 can be delayed for extra range. Only -1 on block, allowing for SS shenanigans on block.Qcf+2 is a mid NH launcher, you can mix this up if they start to duck qcf+1 out of snakedash. -13, so use with caution
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1 (or 1,2 or 1,3) and 2,1\n
+        i12 - 4,1 and d/f+4\n
+        i14 - b+3 and f+4,4\n
+        i15 - d/f+2 and f+1+2 and qcf+1 and qcf+2 (Launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4\n
+        i12 - WS1,2 (or WS 1,3) and WS+1+2\n
+        i15 - WS2\n
+        i16 - WS3\n
+    </string>
+
+    <string name="eddy_overview">\t<b>Name</b>: Eddy Gordo\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Crazy breakdancing Eddy is a unique, unorthodox character who uses different stances in his 50/50 mixup game. Hes all about catching the opponent pressing buttons, messing him up with his good pressure game and using mind games of his mix ups to cause the opponent to whiff   \n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great keep-out</li>\n
+        <li>Great WS punishment tools</li>\n
+        \nCons:\n <li>Fast lows are very unsafe and his good ones are very slow</li>\n
+        <li>Apparently hard to approach opponent once they learn to react to his key irw3 and ss3~d moves</li>\n
+        <li>Terrible standing punishment and in general has very few tools when in standing position</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+2\n</b>
+        Safe, mid counterhit launcher
+
+    \n\n<b> RLX 3~4\n</b>
+        Mid launcher option from relax stance. Other component of the 50/50. Especially scary near the wall because the opponent will not be able to backdash both of the mixup options
+
+    \n\n<b> RLX 4~3\n</b>
+        Low launcher option from relax stance. Now staggers on block so it’s easier to punish. Scary near the wall for the same reasons as rlx 3~4
+
+    \n\n<b> u/f+4\n</b>
+        Safe low crushing mid poke. Wall splats
+
+    \n\n<b> d/f3+4\n</b>
+        Typical choice for whiff punish launch. Can be more tricky to punish than usual because it has a bit of pushback on block
+
+    \n\n<b> WS1,3\n</b>
+        i13 while standing launch punisher. One of the best in the game along with Josie and a few others. Poking with -13 lows against Eddy is much riskier than usual
+
+    \n\n<b> ss4\n</b>
+
+    \n\n<b> ss3+4\n</b>
+
+    \n\n<b> d3~4\n</b>
+
+    \n\n<b> 1,2\n</b>
+
+    \n\n<b> d\f+1,1\n</b>
+
+    \n\n<b> Magic 4\n</b>
+
+    \n\n<b> fc d\f+4\n</b>
+
+    \n\n<b> f+3+4\n</b>
+
+    \n\n<b> d\f+3\n</b>
+
+     \n<b>Punishes</b>:\n\n
+        i10: 1,2\n
+        i13: d/f+1,1 b+3~f 4\n
+        i15: d/f+3+4 (launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10: Full crouch + 1
+        i11: ws+4
+        i13: ws+1,3 (launch)
+        i15: ws+2
+    </string>
+
+    <string name="eliza_overview">\t<b>Name</b>: Eliza\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n The sleepy, vampire waifu is a unique character similar to Akuma where her playstyle/moveset isn\'t like usual Tekken characters and she plays more like a 2D fighting character with a meter. With meter, her combos are extremely dangerous and she is a high risk, high reward character. \n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n
+        <li>Good range(plus whoosh fireball)</li>\n
+        <li>If you have the execution, her damage is crazy high</li>\n
+        <li>Great wall carry and high damage wall combos</li>\n
+        \nCons:\n <li>Requires a good execution to get the most out of the character</li>\n
+        <li>A LOT of her moves are very unsafe, you have to risk a lot to open up opponent</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> d+1\n</b>
+        Special cancellable. When Cancelled into dp+2 it’s a decent i10 punish that can be done from full crouch as well. With Super, it becomes a powerful i10 launcher. Cancel into qcb+4 for pressure on block
+
+    \n\n<b> d+3\n</b>
+        Special cancellable. Decent range low, combos into dp+2_1+2, qcb+1+2 and Super, but only on a clean hit. Otherwise it’s just a poking tool
+
+    \n\n<b> qcf+1 _ qcf+2\n</b>
+        Special cancellable. i14 punisher from crouching. Combos into dp+1 on normal hit for a full combo
+
+    \n\n<b> b+4\n</b>
+        Special cancellable. Combos into dp+1 on normal hit for a full combo. Highest damage starter without meter
+
+    \n\n<b> f,f+3,4\n</b>
+        Long reaching homing move, safe, jails on block, Screw launcher on normal hit. Can be used as a -15 and whiff punisher.
+    \n\n<b> 2,2\n</b>
+        Special cancelable, second hit mid, NC on hit, on block can cancel into special to frametrap/restart pressure
+
+    \n\n<b> qcb+4\n</b>
+        Divekick. Can be done on the ground or in the air. Cancel from special cancellable strings for pressure
+
+    \n\n<b> qcb+3+4 (EX)\n</b>
+        A mid launcher, usually safe due to the pushback.
+
+    \n\n<b> qcb+2\n</b>
+        Counter hit launcher for a full combo, cancel from special cancellable strings to fish for counter hits. Usually safe due to pushback
+
+    \n\n<b> qcf+2\n</b>
+        HADOKEN! Fireball. Use for zoning and frame traps.
+
+    \n\n<b> d/f+2,3\n</b>
+        NC launcher, -16 and whiff punisher
+
+    \n\n<b> f,f+2\n</b>
+        Wallsplats, safe mid check in neutral that leads to a knock down on hit. Has good tracking. Recovery can be canceled by holding back
+
+    \n\n<b> qcb+1+2 (EX)\n</b>
+        Wallsplats. Combos from d+3 for big damage from a low in the corner
+
+    \n\n<b> 4 (Magic 4)\n</b>
+        Relatively fast homing move, safe on block, screws during juggles. Gives a combo on counter hit (Screw starter)
+
+    \n\n<b> qcfqcf+1+2 (Super)\n</b>
+        Very fast and safe launcher that launches really high. Huge pushback on block. Can punish things that are usually safe. Combos from d+3 (low) or 1 (i10) or d+1 (i10) for big damage from strong options
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1 xx DP 2 (KND)\n
+            - 1 xx DP 1+2 (KND, meter)\n
+            - 1 xx qcb+1+2 (W!, meter)\n
+            - 1,2\n
+        i12 - d/f+4\n
+        i13 - 1+2 (KND/W!)\n
+            - d/f+1,2\n
+            - d/f+1,4\n
+        i14 - 2,2 xx DP 2 (KND)\n
+            - 2,2 xx DP 1+2 (KND, meter)\n
+            - 2,2 xx qcb+1+2 (W!, meter)\n
+        i15 - b+4 xx DP 1 (launch)\n
+        i16 - d/f+2,3 (launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1 xx DP 2 (KND)\n
+            - FC d+1 xx DP 1+2 (KND, meter)\n
+            - FC d+1 xx qcb+1+2 (W!, meter)\n
+        i11 - WS+4\n
+        i14 - WS+1 xx DP 1 (launch)\n
+        i15 - WS+2 (KND)\n
+            - WS+3 (launch)\n
+    </string>
+
+    <string name="feng_overview">\t<b>Name</b>: Feng Wei\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Feng is a versatile character who can be played many different ways and he excels in his strong poke game, good 50/50 mix up and good overall pressure. Overall a great character who can do it all very well!\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great and unique poking tools</li>\n
+        <li>Great 50/50 mix up</li>\n
+        <li>Great wall damage, okizeme and wall carry</li>\n
+        <li>Great evasion and panic moves</li>\n
+        \nCons:\n <li>Weak WS punishers</li>\n
+        <li>Low juggle damage</li>\n
+        <li>Poor range on some of his moves including hopkick</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,1\n</b>
+        2nd hit gives full combo on CH. Unsafe, but since it’s the startup for his 10-hit it can be mixed up with f+1,1,2(1) to catch ppl pressing buttons after the 1,1. Second hit of 1,1 can be delayed if not doing f+1,1
+
+    \n\n<b> b+4\n</b>
+        Mid, safe, fast, practically tracks 180. Only downside is the range
+
+    \n\n<b> d/b+3\n</b>
+        Super good low, great range and tracks at the tip. +4~5 OC
+
+    \n\n<b> d+2\n</b>
+        Another great low. +2~3 on hit now, guaranteed CC d+3+4 on CH
+
+    \n\n<b> qcf+1\n</b>
+        Great crushing properties, even goes under certain mids. Buffed damage and frame advantage in T7, now +2 on hit. Can’t be low parried. Launches on CH
+
+    \n\n<b> b+1+2\n</b>
+        His main whiff punishment tool, a fast mid shoulder that KNDs and wallsplats. Death on block
+
+    \n\n<b> d/f+2,2\n</b>
+        Safe mid,mid string that KNDs and wallsplats. It is a bit slow, but it’s one of his most damaging wallsplat moves
+
+    \n\n<b> qcf+1+2\n</b>
+        Great pressure tool. On CH gives guaranteed d+3+4
+
+    \n\n<b> WS1\n</b>
+        Fast mid, tracks slightly to his left. Best utilized if done from snakedash (d, df~n+1). Good for approaching in the neutral game
+
+    \n\n<b> d/f+3\n</b>
+        Launches on NH, mid, safe and fairly quick. Can be utilized with SS+4 for launching SS mixups, but range is short
+
+    \n\n<b> b+1\n</b>
+        Gives guaranteed dash up b+1+2 on CH for big damage. Difficult to punish because of how fast it is
+
+    \n\n<b> u/f+2\n</b>
+        Evasive mid that tracks to his left (their right). Practically safe because of pushback. Be careful that you don’t become predictable when using it, as it can easily be sidestepped to your right (their left). Also has no range so a single backdash will lead to you eating a launcher
+
+    \n\n<b> d/f+1\n</b>
+        Tracks slightly to his left. Not as fast as a lot of other df+1s, but in return it’s 0 on block. Now gives a techable stun on CH
+
+    \n\n<b> SS4\n</b>
+        A unseeable sweep that gives full combo on clean hit (not at tip range). Tracks and highcrushes. Massively unsafe, so don’t get predictable with it. Use with SS 1+2, (ss) df+3 for SS mixups
+
+    \n\n<b> d/b+1,4\n</b>
+        Fast, highcrushing mid with several followups. Wallsplats, KNDs and tailspins should you catch a float with it. The second hit doesn’t jail though, but can be mixed up with db+1,2 which is mid,mid (and -12 on block)
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2,2\n
+            - 1,3\n
+            - 2,4\n
+            - 1,2\n
+        i12 - b+4\n
+        i13 - b+1+2\n
+        i14 - d/f+1\n
+        i15 - u/f+4\n
+        i16 - d/b+1,4\n
+        i18 - f+4\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC+1\n
+        i11 - WS+4\n
+        i14 - WS+1,2\n
+        i15 - WS+3\n
+            - WS+2\n
+    </string>
+
+    <string name="geese_overview">\t<b>Name</b>: Geese Howard\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Guest character from the King of Fighters series(or Fatal Fury technically) is in Tekken as a very unique character who plays more similar to 2d fighting characters using a meter and systems from KOF. He is an offensive monster who can dish out stupid amounts of damage as long as he has meter. \n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>HUGE damage potential</li>\n
+        <li>Good 50/50 mix up</li>\n
+        <li>Unique parries that skilled players can take advantage of</li>\n
+         <li>Good Okizeme</li>\n
+        \nCons:\n <li>Needs a high level of execution</li>\n
+        <li>Lack of good launchers so punishment isn\'t as strong as most characters</li>\n
+        <li>Struggles at range against opponents and will suffer if he cannot get in</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 2\n</b>
+        i15 mid that combos into f+1 naturally and leads to combos. -13 on block
+
+    \n\n<b> 4\n</b>
+        Slower than your average standing 4 at i16~17 but makes up for it. It\'s safe, homing, and launches the opponent via Screw! on Counter Hit
+
+    \n\n<b> 1+2\n</b>
+        i14 mid that\'s Safe (-9) on block and +4 on hit. On CH you\'re guaranteed a follow-up
+
+    \n\n<b> b+2\n</b>
+         Slow mid that makes up for it in mild backswing-esque evasiveness and being highly safe (-3) on block. On hit it sends the opponent flying away and will bounce them off the wall if they come in contact with one for a combo
+
+    \n\n<b> d/f+1\n</b>
+        Pretty typical d/f+1 poke. Mid, i13, and -1 on block and +7~+8 on hit. Great poke
+
+    \n\n<b> d/f+2\n</b>
+        Homing mid that puts the opponent in a spin animation that can Wall-splat(W!) them. Safe on block
+
+    \n\n<b> d/f+1,4\n</b>
+        For when people try to duck d/f+1,1. Crumple State launcher on CH, Knockdown on hit , and W! at the wall. -14 on block so don\'t throw it out whenever
+
+    \n\n<b> d/f+4\n</b>
+        i14 mid kick with good range. Safe. Good for keep-out or closing out rounds
+
+    \n\n<b> d+3\n</b>
+        High crushing low poke that allows for combos on CH. You can make you opponent hesitant to punish it
+
+    \n\n<b> d+4\n</b>
+        High crushing low poke with great range that is special-cancellable. Also acts as a CH launcher. Incredibly unsafe (-31)
+
+    \n\n<b> d+1+2\n</b>
+        High Crushing, KND low that\'s relatively fast. Guarantees a ground grab on hit
+
+    \n\n<b> SS+3\n</b>
+        Move that\'s highly advantageous on hit. Having built in evasive properties is nice, too. Gets you a small float combo on CH
+
+    \n\n<b> qcb+2\n</b>
+        High special move that allows for mix-ups and combos. Typically used following f+1 or another special-cancellable move
+
+    \n\n<b> qcb+2,1\n</b>
+        High, Mid string and Natural Combo. It\'s -15 on block but hit-confirmable. Results in a KND and does not wall-splat
+
+    \n\n<b> qcb+2,3\n</b>
+        High, Mid string. Safe on block and guarantees a ground throw on hit
+
+     \n<b>Punishes</b>:\n\n
+        i9 - Raging Storm\n
+        i10 - 1,1,2\n
+            - 1,qcb1,(super)\n
+        i12 - b1,2\n
+        i14 - b3,2 MAX\n
+        i15 - 2,f1,(special move)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i9 - Raging Storm\n
+        i10 - FC1,qcb1,(super)\n
+        i11 - WS4\n
+        i13 - WS1,qcb1,(super)\n
+        i15 - FC df1\n
+        i18 - WS2,f2\n
+    </string>
+
+    <string name="gigas_overview">\t<b>Name</b>: Gigas\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Gigas is a giant poking character with great Counter Hit tools, great range, and some 50/50 mix up. His large hitbox means his movement is not the best and he can get hit by a lot and be comboed by stuff that other characters wouldn\'t have to suffer. This along with a lot of his kit being below average in comparison to the other characters means if you choose Gigas you will need to work twice as hard to make up for his shortcomings\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Great range</li>\n
+        <li>Good pokes</li>\n
+        <li>Good damage potential</li>\n
+        <li>Great Counter Hit tools</li>\n
+        <li>Good keepout</li>\n
+        <li>Has one of the best i10 punishes in the game</li>\n
+        \nCons:\n <li>His command grabs suffer from having a weak mix-up potential so opponents will break often</li>\n
+         <li>Apparently lacks variety in his fighting style and must be played in his traditional poking style</li>\n
+         <li>Large hitbox so weak movement and larger target</li>\n
+        <li>Weak defensive options</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b>  1,2\n</b>
+        Gigas doesn’t have a lot going for him but at least he has long arms! Don’t continue into the 2nd, unsafe hit unless the hits are guaranteed, as frame punishment or whiff punishment. Can wallsplat.
+
+    \n\n<b> d/f+1\n</b>
+        Quick mid poke. One frame slower than most d/f+1 pokes but has more range due to Gigas’ long arms.
+
+    \n\n<b> d/b+2\n</b>
+        Same as Marduk’s QCF+2, except easier/quicker to input and worse on block (launch punishable); however, on CH it will KND for follow-ups.
+
+    \n\n<b>  WR 2\n</b>
+        Quick running shoulder. Big + frames on block, KND on hit. Can wallsplat. Can hit grounded opponents as they roll
+
+    \n\n<b> d+2\n</b>
+        Great longer range launcher. Unsafe on block. Extremely powerful as a whiff punisher
+
+    \n\n<b> f,d/f,d,d/b,b,f+1+2 (1+2 grab)\n</b>
+        Big damage throw. Does huge damage if the opponent hits the wall. Will do wall impact to the front of Gigas.
+
+    \n\n<b> d+3[2]\n</b>
+        The low by its own is -12, and the mid afterwards can catch punish attempts, and on block will only get you punished with a weak full crouch d+1, so mix between the 2 options. The string can cause a ground break in juggles, in the stages where it’s possible.
+
+    \n\n<b> b+2* (hold)\n</b>
+        The regular b+2 is unsafe on block. Charging it provides frame advantage on block and is a good way to start GOL (walking stance) mixups.
+
+    \n\n<b> d/f+3\n</b>
+        i13 mid. Can be mixed up with the extensions of punishable mids or safe on block highs (1 _ 1+2 _ 1+2, 1+2)
+
+    \n\n<b> d/f+4[1+2]\n</b>
+        Mix between the 2 options. Also a solid option to combo after a wallsplat
+
+    \n\n<b> u/f+3\n</b>
+        Full launch on CH. Safe on block.
+
+    \n\n<b> WS+4\n</b>
+        Stuns on CH and d/b+1+2 is guaranteed. 2 frames slower than a standard WS+4
+
+    \n\n<b> f+1+2\n</b>
+        Quick headbutt that does big damage and gives big + on CH. -10 on block but has very quick animation so can be difficult to reliably punish.
+
+    \n\n<b> f,f+4[2]\n</b>
+        The second hit can be ducked, but it comes out very quickly so you can mix it up by just doing f,f+4 without the 2. Full launch on hit and safe on block.
+
+    \n\n<b> f+2,f+1\n</b>
+        Safe (but duckable). Can mix it up with f+2,d+1. f+2 and f+2,f+1 give combo on CH. Very long range.
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2\n
+        i15 - d+2\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1\n
+        i11 - WS1\n
+        i13 - WS4\n
+        i15 - WS2,3_4\n
+        i18 - WS3\n
+    </string>
+
+    <string name="heihachi_overview">\t<b>Name</b>: Heihachi Mishima\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,b+2\n</b>
+        Effective CH string and safe on block and plus frames on hit.
+
+    \n\n<b> d/f+1\n</b>
+        Can be done to pressure the opponent from up close and poke around with. Has two possible follow-ups that leads to either a high or a mid
+
+    \n\n<b> f,f+2\n</b>
+        Powerful mid launcher with quite a bit of push back that makes difficult to punish consistently (some punishes may be character-specific)
+
+    \n\n<b> f,N,d,d/f+2 (EWGF)\n</b>
+        Extremely effective whiff punisher, can be used defensively/setting up a wall, and has offensive applications due to plus frames
+
+    \n\n<b> f+3\n</b>
+        Safe mid that will launch on CH
+
+    \n\n<b> f+4\n</b>
+        Can be used while pressuring the opponent or to prevent opponent from conducting strings from the mid-to-close range. Knockdown on CH. Hits on crouching opponents is +13 meaning a free df1,2 is guaranteed after for big damage
+
+    \n\n<b> b+4\n</b>
+        Homing mid that will cause a knockdown and is safe on block
+
+    \n\n<b> d/b+2\n</b>
+        Heavy-hitting low that will crush highs. Plus frames on hit but unsafe on block
+
+    \n\n<b> f,f+3\n</b>
+        Safe mid launcher
+
+    \n\n<b> WS4\n</b>
+        Safe mid that can be followed-up from multiple lows like db3, Hellsweeps, or db2 if the player does not want to follow up with another low. Hit-confirmable into the secondary 4 input. WS44 is also an effective ws punisher (besides ws1)
+
+    \n\n<b> u/f+4n</b>
+        Low crush, safe, and a powerful mid that can lead into Tail Spin
+
+    \n\n<b> u/f+3, 4\n</b>
+        Low crush and decent “going-in” tool for drawing yourself a bit closer to the opponent. Can also lead to Tail Spin. Slightly advantageous on block
+
+    \n\n<b> 1,1,2\n</b>
+        Block punishment that will lead into knockdown scenario. Heihachi will be free to initiate pressure towards the floored opponent as they try to recover. The player can hit-confirm this. Wallsplats
+
+    \n\n<b> 1,2,2\n</b>
+        Block punishment that will lead into frame advantage on hit. Tick throws, lows, EWGF setup, SS to give up your turn if you’re expecting buttons, or the like. Unsafe on block but effective as a secondary i10 frame block punishment tool
+
+    \n\n<b> f, n, df+1(OTGF)\n</b>
+        Safe on block but is difficult to pull off. However, the player is also rewarded for landing it in a neutral situation as well; it also launches. This was not the case in previous games
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1,2 or 1,2,2 or 2,2\n
+        i12 - f1+2\n
+        i13 - d/f+1,2\n
+        i14 - EWGF or 3,4 or b+3,3\n
+        i15 - QCF2 or b/f+2,1\n
+        i21 - OTGF\n
+        i22 - ff2 or ff3\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4,4\n
+        i14 - WS1\n
+        i16 - CC EWGF\n
+        i23 - CC OTGF\n
+    </string>
+
+    <string name="hwoarang_overview">\t<b>Name</b>: Hwoarang\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,2,3_1,2,4\n</b>
+        Your generic 1,2 jabs but with Hwoarang you can go into your left/right flamingo stance depending on what you end your string and start your mixup
+
+    \n\n<b> 4,3\n</b>
+        Good NC punisher that you can cancel the second hit to go into LFS if you want to sacrifice damage for a higher reward from a mixup
+
+    \n\n<b> d/f+2\n</b>
+        A launcher with decent range but doesn’t launch crouchers
+
+    \n\n<b> u/f+3+4\n</b>
+        Hwoarang hops and does two kicks in the air but be careful not to do it from far since the first hit doesn’t have a lot of range and the second hit is a high so it can get ducked and punished
+
+    \n\n<b> b+3\n</b>
+        Mid launcher with a long of range, mostly used for whiff punishing so should be used with consideration
+
+    \n\n<b> WS4,4\n</b>
+        Your go to while standing punisher, this move gets you good advantage on hit and puts you in RFF which has some of your best moves
+
+    \n\n<b> f,N,d/f+4\n</b>
+        This is your best launcher since it launches your opponent really high in the air to have time to land RFF 3~4 which leads to really high damage and really good corner carry. It’s also safe due to pushback
+
+    \n\n<b> d/f+4\n</b>
+        A good get off me move to use when you feel like you’re pressured since Hwoarang doesn’t have any keep out tools
+
+    \n\n<b> RFF 3~4\n</b>
+        This was always a great move to use after JFSR but it got better in T7 since now it’s a homing, power crush and a screw move even on natural hit, it still carries the risk of getting ducked and punished since it has a lot of start up.
+
+    \n\n<b> d/b+3\n</b>
+        Decent high crushing low poke that leaves you neutral on hit
+
+    \n\n<b> d+3,4\n</b>
+        One of Hwoarang’s best pokes, it’s a NC but don’t use it too much since the second hit is a high and it can be ducked and punished
+
+    \n\n<b> b+1\n</b>
+        A new evasive move Hwoarang got
+
+    \n\n<b> d/f+3,4\n</b>
+        Good NC that does decent damage and gives a lot of advantage. Don’t expect to be using this move a lot since Hwoarang has better moves to use instead
+
+    \n\n<b> LFF f,F+3\n</b>
+        Good oki tool since it hits grounded opponents and puts you in RFF
+
+    \n\n<b> LFS f+3\n</b>
+        Fast mid kick that is safe and has a lot of range because Hwoarang moves slightly forward and fully extends his leg and is really hard to step
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1\n
+            - 1,2\n
+        i11 - 4,3\n
+            - 4,4\n
+        i14 - u/f+3+4,4\n
+        i15 - d/f+2\n
+        i16 - u/b+3,3\n
+        i17 - b+3\n
+        i19 - JFSR\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC 1\n
+        i11 - WS 4,4\n
+        i13 - WS 3 Free Follow-up of b+3 or ff+3\n
+        i14 - u/f3+4,4\n
+        i16 - u/b3,3 Launcher\n
+    </string>
+
+    <string name="jack7_overview">\t<b>Name</b>: Jack-7\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 2_ 2,1 _ 2,1,2	\n</b>
+        While it’s 11f startup, (1 frame slower than most jabs) it’s a great jab string that offers some sweet benefits: Jack’s long arms, the 1 being mid so the string can’t be crouched under and punished, and the last hit offering a great value- Being an optional frame trap that launches and only -12 on block. (Usually mid hitting frame traps like this in T7 are just as punishable and don’t grant a full juggle on hit.
+
+    \n\n<b> d/b+1\n</b>
+        It’s a great and annoying low poke. +3f on hit. Be mindful that it doesn’t high crush.
+
+    \n\n<b> d/f+1 _ d/f+1,1 _ d/f+1,2,1,2\n</b>
+        You need a quick low mid to mix with the quick poke. Like Jack-7’s jab’s, it’s 1 frame slower than its parallels with other characters, but it has great optional frame traps which make the opponent afraid to take turns after blocking d/f+1, allowing Jack to attack again even when on frame disadvantage. What’s even nicer is that it while many moves in the game only have a single ender as a frame trap, d/f+1 has 2 different frametrap enders, each requiring a different approach to punish. The d/f+1,1 ender is a -10 mid, and d/f+1,2,1,2 is a string of highs. (d/f+1),2,1 is a launcher if it hits (you can pick up with d/f+1 and continue a small juggle) and if you spot a block or a crouch you can mix between doing the last 2 or not, to make it harder for the opponent to punish
+
+    \n\n<b> FC d/b+1\n</b>
+        This is like an improved version of d/b+1. Has slightly better damage, much better frame advantage on hit (+6f), crushes high all the way, and safe on block. The downside, besides the slightly shorter range, is that it requires you to condition the opponents to respect you and let you get in and enter a full crouch state right in front of them. When sandwiching the opponent with the wall, you can continue mixing the rest of the FC d/b+1,1,1,2 string. If the last low hits, the mid is guaranteed
+
+    \n\n<b> f,f+1\n</b>
+        Jack only has 2 great safe mids, d/f+1 and ff+1. ff+1 is the beefy option, acting like a safe launcher in terms of damage and threat. The only way to get guaranteed damage afterwards is by buffering a EMGF very early, which isn’t that hard but will require a bit of practice to get used to. Refer to this video on how to do it: https://www.youtube.com/watch?v=37rO3lmYjhYJack is overall an easy execution character, so almost all your training mode time should be dedicated to practicing backdash canceling, and ff+1 into EMGF. Once you can do the ff+1 EMGF combo consistently, ff+1 becomes one of the most important tools in Jack-7’s arsenal, and serves many roles. It gives you a “rush-in” move, and allows to poke from afar. It scares the opponent from reacting to forward dashes, allowing you to start doing dash->fc d/b+1. It also serves as a long range whiff punisher in cases you are hesitant to use ff+1+2 (which is unsafe if blocked)
+
+    \n\n<b> d/f+2\n</b>
+        Long range mid launcher but unsafe on block. Useful for whiff punishing, and after sidestepping. Jack-7 is weak against sidestep left up close, and this move is one of his only ways to deter opponent from doing it. While your standard juggle from it is 4 b+1 d/f+1,1 b+322, you’ll need to omit the b+1 if you’ve launched after a sidestep left
+
+    \n\n<b> f+2\n</b>
+        Jack’s fastest move and a rewarding panic button if it nails a counter hit, allowing you to combo into ff+1 or ff+4 which is a bit more damaging but also a bit harder to connect. Be wary as it’s unsafe on block, so keep 2,1 in mind as a safer but less rewarding alternative for a high panic button
+
+    \n\n<b> d+4 _\n</b>
+        Jack’s fastest move and a rewarding panic button if it nails a counter hit, allowing you to combo into ff+1 or ff+4 which is a bit more damaging but also a bit harder to connect. Be wary as it’s unsafe on block, so keep 2,1 in mind as a safer but less rewarding alternative for a high panic button
+
+    \n\n<b> ws+2_ws+2,1\n</b>
+        As a ws 14 frame punisher, it’s a natural combo that knocks down. Jack’s low pokes (d/b+1, FC d/b+1, and d+4) leave him in crouch state and with frame advantage on hit, so from there his while standing attacks are a good way to continue offense. While ws+4 is the fastest, ws+2 has better range, and has the option to continue into the second hit as a frame trap, which launches on counter hit, but is pretty unsafe on block
+
+    \n\n<b> b,d/b,d,d/f+1 (Debugger)	\n</b>
+        Can be executed faster via the input d/b,d,d/f+1. A big low sweep that crushes highs, has long range and high damage, but very punishable on block. When Jack-7 is low on life, he gains access to one of the better Rage Drives in the game- A followup to the Debugger, done by pressing 2. Not only this makes the Debugger much stronger on hit, but also safe on block. Having a big damaging safe on block low is great for allowing Jack-7 to make comebacks. Just be careful of getting low parried. The Rage Drive also causes some block damage if the opponent is close to the wall
+
+    \n\n<b> f,f+1+2\n</b>
+        A very long ranged launcher. You can juggle afterwards with d/f+1,1 4 b+322. Used to punish whiffs from afar, or to block punish specific moves which a lot of pushback.It’s highly unsafe when blocked, so when unsure if it will hit, use ff+1 instead
+
+    \n\n<b> f,f+3\n</b>
+        Ground hitting mid with frame advantage on block. Good for oki
+
+    \n\n<b> WS1\n</b>
+        While standing launcher. Also good when you want to mix FC d/b+1 with a more rewarding while standing mid compared to ws+4 and ws+2
+
+    \n\n<b> d/f+3,2 _\n</b>
+        Hit-confirmable wall splat
+
+    \n\n<b> Command throws\n</b>
+        d/b,f+1+2 _ u/f+1+2,d,d/f+2 _ d/f+2+4 _ d/f,d/f+2+4 _ qcf+1	h
+
+     \n<b>Punishes</b>:\n\n
+        i10 - f+2\n
+        i11 - 2,1\n
+        i13 - d/f+3+4\n
+        i14 - d/f+1\n
+        i15 - d/f+2\n
+        i16 - f,f+1+2\n
+            - f,f+1\n
+            - b+4\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS+4\n
+        i12 - FC+d/b+1\n
+        i14 - WS+2,1\n
+        i15 - WS+1\n
+            - WS+3,2\n
+    </string>
+
+    <string name="jin_overview">\t<b>Name</b>: Jin Kazama\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 2,1>4\n</b>
+        A very good h-m-m blockstring and the backbone of Jin’s pressure game. The last 4 being delayable means you can opt to do 2,1 followed by a low, a throw or what have you, and mix it up with the delayed 4 followup. 2,1 by itself is +6 on hit, allowing for pressure shenanigans
+
+    \n\n<b> 4 (Magic 4)\n</b>
+        One of the fastest homing (sidestep tracking) moves in the game. +1 with the spin effect stun on hit, with W! near a wall. Full launch and combo on CH makes it a great CH fishing tool as well. High though, so beware
+
+    \n\n<b> d/b+4\n</b>
+        Bread and butter low poke. +2 on hit lets you continue your pressure game. Decently fast at i20, and launches(!) for a full combo on CH. A must have in your arsenal
+
+    \n\n<b> d+4\n</b>
+        Another bnb low. Sneaky fast, high crush, really useful as a round ender. -2 on hit however, be aware
+
+    \n\n<b> f+3\n</b>
+        A mid poke with immense stopping power thanks to its speed and pushback. Can be used to get an aggressive opponent off your case, with relative safety in case it is blocked. +3 on hit, in case you want to turn the tides
+
+    \n\n<b> u/f+2\n</b>
+        A quick mid poke with a built in sidestep to the left. Can be used to evade and counter some linear moves, or get around to the opponent’s side/back in tandem with ssl. +6 on hit, knockdown on CH
+
+    \n\n<b> f,f+3\n</b>
+        The oki option amongst all oki options. +3 on block, launches on normal hit, lets you go straight into your poking game with things like 2,1 or db+4
+
+    \n\n<b> f+4[~f]\n</b>
+        De facto opener at mid/long range. Safe long range mid, with a ZEN transition that is +9 on hit and -1 on block, allowing you to do ZEN mixups. Can be mixed up with no stance transition that has pushback and leaves you at a range to bait whiff punishes, or stance cancel into block to condition opponents into attacking you so you can respond with an appropriate move. This move and the mixups stemming from it deserve its own section.
+
+    \n\n<b> ZEN_CDS 1+2\n</b>
+        Big launcher from ZEN/CDS that’s relatively safe and makes for some very good mixups : f+4~f ZEN 1+2 cannot be interrupted by anything slower than 13f, which can be mixed up with other ZEN moves. As a standalone move it is still good; after evading something using CDS you can use this to punish
+
+    \n\n<b> b+1+2 in rage (Rage Art)\n</b>
+        One of the fastest non-reversal Rage Arts in the game at i13. RA armor makes it a very good trade tool, and it deals a good chunk of damage even when used as a combo ender. Good move overall
+
+    \n\n<b> ZEN 3 _ CDS 3 and cd+3 _\n</b>
+        A very good safe mid from any of his stances, from crouchdash or from while standing. Homing, around +2 on hit with W! on walls nearby and a launch on counter hit makes it a good move to stop people from doing ss~move shenanigans. Also makes for a good mixup with the low when done from stance
+
+    \n\n<b> f,N,d,df+2 (EWHF)\n</b>
+        Jin’s flavor of the standard Mishima launcher. Launches on normal hit now, with very damaging combos. Paired with a slightly bigger hitbox, and good sidestep tracking to Jin’s otherwise weak side, this is now an indispensible move in Jin’s arsenal. Punisher, combo filler, pressure, this move does it all
+
+    \n\n<b> cd1+2,3,1 in rage and cd1+2 in rage\n</b>
+        This move is basically EWGF on steroids. A straight screw on normal hit like ewhf leading into massive damage. Massive + frames on block leading into a free ZEN mixup on block. Also usable as damage filler and a wall carry in combos.
+
+    \n\n<b> eCD+1\n</b>
+        Mid launcher from crouch dash. Is basically a high-risk alternative to cd+3, with a high launch on hit and -12 on block. Animation-wise it makes for a mixup with cd+4
+
+    \n\n<b> cd4\n</b>
+        Low launcher from crouch dash, makes for a mixup with eCD+1 animation wise. One of the very few i20 knockdown lows in the game which give a full combo on hit. cd+4 gives a backturned combo, however, so damage is sort of limited, but still a threat
+
+     \n<b>Punishes</b>:\n\n
+        i10: 2,4\n
+        i12: 1+2\n
+        i13: d/f+1,4, Rage Art\n
+        i14: f+1+2, EWHF\n
+        i15: d+3+4\n
+        i16: f+4 (Deathfist punisher)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10: FC 1\n
+        i11: WS4\n
+        i13: WS1,2\n
+        i14: WS2\n
+    </string>
+
+    <string name="josie_overview">\t<b>Name</b>: Josie Rizal\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+4\n</b>
+        While it’s -14 without any followup, it puts you in Switch Stance which has a bunch of great followups and can be cancelled into crouch dash, great hitbox (hits Ling’s AOP) and can be used for resets
+
+    \n\n<b> 3 _ 3,3 _ 3,2[~f]\n</b>
+        Safe (3 on its own) i13 with a high/mid mixup followup, delayable and can cancel into crouch dash
+
+    \n\n<b> 1,2\n</b>
+        Can either stop after the jabs or continue into a small mixup. The risk-reward ratio of this mixup is not in Josie’s favor though: 1,2,3 ends with a mid and is -11. 1,2,d+4 ends with a launch punishable low, and 1,2,d+4,4 may can punish attempts with an extra high hit, but it too can be launch punished if the opponent waits for it
+
+    \n\n<b> 1,2,4 _ 2,4\n</b>
+        Fast entry into Switch Stance. 1,2,4 is reactable but 2,4 has a frame slower startup
+
+    \n\n<b> d+4\n</b>
+        Fast low, only punishable via crouch jab or low parry, good range, very annoying
+
+    \n\n<b> f+1+2\n</b>
+        14 frame punish, good whiff punish, gives guaranteed d/f1,4,2 on NH and CH
+
+    \n\n<b> d/f+2\n</b>
+        Probably the overall best NH d/f+2 launcher in the game, amazing range, launches crouchers, goes under jabs situationally, and only -13
+
+    \n\n<b> u/f+3\n</b>
+        Orbital, range and startup aren’t amazing, but the amount of mids this goes over is insane, even some mid Rage Arts whiff under this
+
+    \n\n<b> d/f+1\n</b>
+        The optional, delayable followup (d/f+1,4,2) can make the opponent scared to attack afterwards. If the second hit scores CH then the final hit is guaranteed, and also grants you a free d+3+4 afterwards
+
+    \n\n<b> cd3\n</b>
+        Super long range low, +4 on hit, helps to keep people locked in place trying to block it from long range
+
+    \n\n<b> f,f+4\n</b>
+        Homing, mid, CH launcher, range is a bit iffy, but if people hit buttons it will launch at whiff range, top korean players (Knee) still don’t punish consistently when it’s whiffed in their face, though it is definitely possible if you look for it
+
+    \n\n<b> f,f+3\n</b>
+        Slow mid with good range that leaves you close and +6 on block
+
+    \n\n<b> b+4,3\n</b>
+        Long range poke that moves you closer, has followups but they’re interruptible on block and it leaves you +5 on hit by itself anyway
+
+    \n\n<b> d/f+3\n</b>
+        High crushing low, slow but its followups (d/f+3,2_d/f+3,2~f) make it tricky to punish. Natural combo on counter hit. If the first hit is a CH then the second hit won’t knock down, if they block the first hit and get CH by the second it will knock down/wallsplat
+
+    \n\n<b> u/f+4\n</b>
+        Hopkick. It also goes under jabs sometimes
+
+     \n<b>Punishes</b>:\n\n
+        i10	- 1,4,3 or 1,2,2
+        i12	- f+2,4
+        i14	- f+1+2
+        i15	- u/f+4 or d/f+2
+
+        \n<b>WS Punishes</b>:\n\n
+        i11	- ws 4
+        i13	- ws 2,1
+        i15	- u/f+4
+    </string>
+
+    <string name="julia_overview">\t<b>Name</b>: Julia Chang\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 14 Moves</b>:\n
+
+    \n<b> f+f+1\n</b>
+        It’s a mid that leaves at only -2 on block and high evades. You can basically spam this to cover distance and approach, the 4 extension is safe but high, and natural combo with ff1 if performed with absolutely no delay, and will CH launch an opponent that blocks the first hit but tries interrupting afterwards
+
+    \n\n<b>  shotgun (d, df1)\n</b>
+
+
+    \n\n<b> ff3\n</b>
+        14 on block but fast and mid with a nice hit box. Do ff1+2 for easy follow up or fff21 for a ton of damage that isn’t too hard either
+
+    \n\n<b> f,cd,f+43\n</b>
+        a ridiculous option from crouch. You get ff3 guaranteed when wall prevents pushback which is bananas. Launch punishable but it’s low mid which can be tricky to guard. On open ground do d1+2 or ff2 follow up
+
+    \n\n<b> b4\n</b>
+        a step killing monster. You get uf3+4 into ff3 guaranteed on normal hit
+
+    \n\n<b> f3,4\n</b>
+        Good low, can cover it with safe mid extension
+
+    \n\n<b> b3\n</b>
+        The first hit of b3 is a Ch launch (convert with ff1) and difficult to punish despite how unsafe it is for fear of the second kick which is a normal launch. Pretty unsafe to do the extension, although both crush highs so worth using for the first hit at least
+
+    \n\n<b> 1,1\n</b>
+        Great jab
+
+    \n\n<b> d/f+1\n</b>
+
+    \n\n<b> u/f+4,3\n</b>
+
+    \n\n<b> magic 4\n</b>
+
+    \n\n<b> f+f+f+1\n</b>
+
+    \n\n<b> qcb, f2\n</b>
+        Command grab that does a ton of damage
+
+    \n\n<b> f3~1\n</b>
+        Very fast move with super long range. Its high but safe.
+
+     \n<b>Punishes</b>:\n\n
+        i10 1,2 or 1,1
+        i12 2~b 1+2 or ff1,4 or f2,4
+        i13 df3,1+2 or ff4 for pushback
+        i15 qcf2 or df2,1 or fff+1 for ranged punish
+        i16 uf4,3
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 ws+4
+        i12 FC df+2
+        i13 ff+1,4
+        i14 ff+3
+        i15 ws+1
+        i16 uf+4,3
+    </string>
+
+    <string name="katarina_overview">\t<b>Name</b>: Katarina Alves\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,1,1\n</b>
+        Standard string. Can catch SS Right and ducking opponents. Only -5 so not many options for opponent after they block
+
+    \n\n<b> 2,2\n</b>
+        Long reaching punisher, gives W!, decent damage and NC
+
+    \n\n<b> 4,4,4\n</b>
+        Great string that can lead to CH combo. 2nd hit is safe, 3rd hit jails. Can be interrupted after 3rd hit if you continue the string but can catch people off guard on occasion
+
+    \n\n<b> d+1\n</b>
+        Long reaching poke. Good to throw out. Leads to free u/b+4 on CH
+
+    \n\n<b> d+3\n</b>
+        Close range poke. Can be followed up with another 3 for opponents who duck or a 4 if they stay standing. Followups are NCC
+
+    \n\n<b> f,f+3\n</b>
+        Long reaching poke. Can hit in instances where 2, 2 misses. Pushes Kat away making it very safe. Kat bends sideways making it hard for some highs to hit her
+
+    \n\n<b> d/f+1\n</b>
+        Great pressure mid poke. Good for keeping the opponent in place
+
+    \n\n<b> d/f+4\n</b>
+        Great mid that can lead to CH combo. Fairly good range. Lowers Kat’s hitbox during the first few frames. Tracks to her right
+
+    \n\n<b> u/f+3+4\n</b>
+        Long traveling mid. Free dash in u/b+4 if it hits. Also starts combo if only the 2nd kick hits
+
+    \n\n<b> u/f+4,4\n</b>
+        Katarina’s hopkick. 2nd hit needed for combo starter. Can sometimes duck highs at the start of the move. Fairly long range
+
+    \n\n<b> d/b+3\n</b>
+        KND low which puts opponent FDFT. Gives a free u/b+4 at the wall
+
+    \n\n<b> FC d/f+4\n</b>
+        High damaging low poke. Used sparingly can lead to a lot of free damage and crouch mixup
+
+    \n\n<b> d/f+3+4\n</b>
+        Long range low poke
+
+    \n\n<b> f,f+4\n</b>
+        KND homing move with a lot of pushback making it safe vs most opponents. Not too risky to throw out
+
+    \n\n<b> d/f+2,2 _ d/f+2,4\n</b>
+        Both are NC and give W!, d/f+2,2 knocks down. Mid is only -10 and high is +1 on block which allows for more offense and CH setups with 4,4,4
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1
+        i11 - 4
+        i12 - 2,2
+        i13 - df1,1
+        i15 - uf4,4 (Launch)
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4 (+8, 15dmg)
+        i13 - WS1,1 (+4, 21dmg)
+        i15 - WS2 (Launch) or uf4,4 (Launch)
+    </string>
+
+    <string name="kazumi_overview">\t<b>Name</b>: Kazumi Mishima\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+1 _ d/f+1,2\n</b>
+        Possibly her best move. This is one of the tools that helps define Kazumi as that “poke heavy” kind of character. It is a mid hitting poke that slightly tracks both ways. People are not likely to press buttons after blocking df+1 because of the extension df+1_2
+
+    \n\n<b> WR2 _ f,f,f+2\n</b>
+        She does sort of a lunging demon paw where she pushes back her opponent making this almost seem like it is plus. This move wallsplats as well and knocks down on hit
+
+    \n\n<b> 1,1,2\n</b>
+        The good ole Mishima 1, 1, 2. Amazing 10f punish that knocks down the opponent after the 3rd hit. This can be hit confirmable so just hit the breaks after hitting 1, 1 if they are blocking those. Speaking of the 1, 1 part, it can be used to apply pressure too
+
+    \n\n<b> CH 4 (Magic 4)\n</b>
+        Kazumis counter hit 4 is very good! She can set up and fish for this CH 4 using her poking style and movement. She gets a huge combo off of her CH 4. This move (and many other CH 4s) can also be called “Magic 4”
+
+    \n\n<b> d/b+4\n</b>
+        Kazumi struggles having a great low but this one gets the job done. Although its start up is a bit sluggish, but it is +4 on hit
+
+    \n\n<b> d/f+1+2\n</b>
+        Kazumis command throw. It requires a real break and it is important since Tekken 7s throw system has changed a bit. This leaves the opponent far away so you could use this to create space too
+
+    \n\n<b> f,f+4\n</b>
+        Kazumis axe kick. This is used to whiff punish opponents
+
+    \n\n<b> WS4,4\n</b>
+        Great while standing punish at 13 frames. It leaves her +13 on hit. This a great move that can turn the tides and start an offense off of a punish
+
+    \n\n<b> FLY b+1+2\n</b>
+        An unbreakable throw out of Kazumis fly stance (f+3+4). It has slow startup but it wallsplats and is a great way to catch people being very defensive at the wall. You could also use it in tech trap situations as well
+
+    \n\n<b> u/f+4\n</b>
+        Short ranged hopkick
+
+    \n\n<b> b+2\n</b>
+        This is one of Kazumis screw moves, however it’s also one of her homing moves. It has decent range and if you hit with this you have +12. It also is safe
+
+    \n\n<b> B,f+2,1,1+2\n</b>
+        This is usually your typical combo ender. It does good damage and is a good wall carry. This will wallsplat opponents who are standing but it is a bit risky to go for
+
+    \n\n<b> d+2\n</b>
+        Use this move if opponents are not standing up and are just laying on the floor, chilling
+
+    \n\n<b> d/f+2\n</b>
+        TIGER UPPERCUT!! If your opponent blocks this you will get launched.
+
+    \n\n<b> 2+3\n</b>
+        Kazumis tiger she can launch. Don’t be fooled by the -30, this thing is pretty much impossible to punish since it knocks you back a ton on block
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 112\n
+        i12 - 1+2\n
+        i13 - df12 - This is your blocked hopkick punish\n
+        i15 - uf4\n
+        i18 - df 2 - This is your blocked rage art punish\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - fc d1\n
+        i11 - ws44 - This is your blocked low poke or low wakeup kick punish\n
+        i12 - ws12\n
+        i15 - uf4\n
+        i18 - ws2 - This is your blocked snake edge punish. I have more confidence in it than uf4.\n
+    </string>
+
+    <string name="kazuya_overview">\t<b>Name</b>: Kazuya Mishima\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> f,N,d/f+2 _ f,N,d,d/f+2 (EWGF)\n</b>
+        With f,N,d/f+2 input, it is the fastest launcher in the game at 13f. f,N,d,d/f+2 input makes it 14f. 23 damage, +5 on block. Great tool to use for pressure and in combos too. Enough said
+
+    \n\n<b> 1,1>2\n</b>
+        One of the best 10f punishers in the game. 27 damage, knocks down for good Wavedash mix-up, 1,1 is -1 on block, 2 is hit conformable with practice
+
+    \n\n<b> f+4\n</b>
+        Kazuya lock-down move. 20 damage, +4 on block and +7 on hit, forces crouch in both cases. KND on CH, f,f+4 or d+3+4 is guaranteed. Devil Kazuya Version gives +17 frames on crouched opponent, df+1,2 or ewgf is guaranteed thus making it a launcher for mix-ups
+
+    \n\n<b> d/f+2\n</b>
+        Homing move, 22 damage, +5 on NH and stuns for juggle on CH, best choice for CH fishing, has a 13f standing status on stun that can be followed up with JF pewgf for a full launch (extremely hard but good reward)
+
+    \n\n<b> cd4,1\n</b>
+        Kazuya’s infamous hellsweep. Unseeable, damaging low (33 damage) that knocks down for Wavedash mix-up, death on block. Devil Kazuya can extend it by inputting f,n,d,d/f+1,u/f before 2nd hit connects, making him do a tgf+heaven’s door out of CD4,1 and dealing a total of 49 damage. A “trip” from “hell” to “heaven”
+
+    \n\n<b> b+1>2\n</b>
+        11f punisher, 33 damage. Knocks down and wall splats on hit. Good for punishing get up kicks + an opponent against the walls
+
+    \n\n<b> WS1,2\n</b>
+        Fastest WS launcher in the game at 13f, 22 damage, can punish -13 lows and really good for “duck and punish” highs in strings. Range is bad so use it carefully in the open. cd1+4 in Rage (Rage Drive)	m	i19~	+2 A dream comes true version of his tgf/b+1+4, 19f, crushes high and some mids, 45 damage, can be followed up with ‘u/f’ for Heaven’s door that transforms him to Devil and does 18 more damage. +2 on block
+
+    \n\n<b> d/b+4\n</b>
+        Kazuya “go to” low poke, 18 damage, +4 on NH and God awful frames on CH. Only -12
+
+    \n\n<b> f,f+4\n</b>
+        22 damage, mid that is +6 on NH and stuns on CH for juggle, and only jab punishable. It also hits grounded thus making his ground game atrocious.
+
+    \n\n<b> f,f+3\n</b>
+        Another Kazuya lock-down move that is a launcher, 25 damage, can be easily used as mix-up tool from Wavedash. Learning it from a Wavedash will fuel your mix-up
+
+    \n\n<b> cd3+4_FCd/f+3+4\n</b>
+        A crushing mid that crushes all highs and some mids, 24 damage, knocks down on hit after which f,f+4 is guaranteed. Good tool to use in a Wavedash mix-up
+
+    \n\n<b> f+3\n</b>
+        A mid with awesome range, 22 damage, safe and tracks a little from far, +5 on hit and God awful frames on CH. Using it from close is not recommended
+
+    \n\n<b> SS3\n</b>
+        A safe mid with good range from Side Step that gives a short juggle on hit. 23 damage
+
+    \n\n<b> u/f+3\n</b>
+        A low crushing safe mid that knocks down and wall splats, first choice for mix-ups at wall. 25 damage
+
+    \n\n<b> Forward Jump 4\n</b>
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1,2
+            - 1,2,2
+        i11 - b+1,2
+        i12 - 2,2
+        i13 - f,n,d/f+2 (PEWGF)
+        i14 - f,n,d,d/f+2 (EWGF)
+            - f,f+2
+            - d/f+2
+        i15 - f,n,d,d/f+2 (WGF)
+            - DVK d/f+1,2
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC+1
+        i11 - WS+4,4
+        i13 - WS+1,2
+        i16 - WS+2
+    </string>
+
+    <string name="king_overview">\t<b>Name</b>: King\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves + Command Throws</b>:\n
+
+    \n<b> 1[2] _ 2,1\n</b>
+        The basic string move for almost every character in the game.Some players crouch instantly after seeing the animation of the first hit if they block (1, 2) try not to do a mixup into command throws so often. You can go for a 50/50 situation by completing the string 1,2,1,1,2,4 the last three hits (mid,mid,low) are naturals and you got around +1~2frames on hit. Also the 3rd hit of the string (mid) is delayable but a skilled player can SSR so beware of whiff punish or reversal/parry moves. 2,1 is the best i10 punisher, it doesn’t jail on block but second hit cannot be sidestepped ( please confirm), second hit only can be canceled by a reversal/parry move, so be prepared for your chicken move if opponent do a reversal
+
+    \n\n<b> f,f+1\n</b>
+        Good damaging homing mid. On CH tails spins the opponent. The hitbox is now improved so you can use it during juggles as as tailspin
+
+    \n\n<b> b+1,[4]\n</b>
+        It’s a hit confirmable move for CH combos, if not CH still there’s a 50/50 chance to connect the second hit if opponent crouches or react too late. Good for some mix ups if you like to roam around the floor, but beware of oki
+
+    \n\n<b> f,f,N,1+2\n</b>
+        Quick mid that gives a lot of frame advantage on hit (0 on block). On CH gives you massive frame advantage
+
+    \n\n<b> f,f,N,2\n</b>
+        Hard to react to low, goes into a throw animation on CH
+
+    \n\n<b> f+2[1]\n</b>
+        One of King’s longest range punishers, can very good against certain moves that are punishable but have a lot of pushback. The 1 is a high and as this move does not jail the opponent can duck it if they block the first hit. Second hit wall splats and wall breaks. Can be used in juggles to get a wall splat and then go for a break, wall grab or jab into ground grab mixup
+
+    \n\n<b> f+4\n</b>
+        Full homing move that low crushes
+
+    \n\n<b> d/b+3\n</b>
+        Long ranged low that launches on CH. Can easily combo after launching with WS+2,2. Very punishable if blocked. On regular hit can buffer a throw like giant swing or tijuana twister to catch your opponent afterwards
+
+    \n\n<b> d/b+4\n</b>
+        Good ranged low that knocks the opponent down on hit
+
+    \n\n<b> d+3\n</b>
+        Good move for oki, will beat all wake up buttons except toe tap which it trades with. Will catch them rolling away. On block the most characters can only punish it with a WR+4
+
+    \n\n<b> d+4\n</b>
+        Good, generic low
+
+    \n\n<b> d/f+1[2]\n</b>
+        Good hurtbox makes it a good mid to cover approaches. Can delay the 2 to catch people pressing buttons after the 1. Useful in Oki as it’ll catch people trying to crouch on wakeup or do a slow get up move. Excellent tool for mixups into command throws or just defending to bait and punish
+
+    \n\n<b> d/f+2\n</b>
+        It has a very small window to hitconfirm, so the opponent may crouch if they expect the second hit (d/f+2, 1), so use it wisely, you may eat a whiff punish that leads to big damage combo so don’t be greedy
+
+    \n\n<b> FC d/f+2\n</b>
+            Crumples the opponent on hit, giving you a long time to start juggling them
+
+    \n\n<b> Command Throws\n</b>
+        King’s many command throws require the correct button to break. Many of King’s throws also air grab, meaning they will catch your opponent trying to do any jumping move like a hopkick. Air grabs can not be broken but some have followups that can be. Giant Swing (f,b,d/b,d,d/f,f+1): very high damage, fast startup. Breaks with a 1 and can be quick rise teched to reduce damage (unless it hits a wall). Grab animation is the same as a 1+2 grab, meaning you can not tell by sight it’s a giant swing. On wall splattered opponents it does Shining Torpedo. Can air grab, performing a spinning power slam (floor breaks).\n
+        Muscle Buster(QCB+1+2): 1+2 break. Not as fast as giant swing but has the same start up animation. Will break floors. Leaves you BT to the opponent, letting you do a fast BT 3 to hit them on the ground if they don’t get up fast enough (or a wall keeps them close to you).\n
+        Tijuana Twister(f,b,d/b,d,d/f,f+2): good to mix up with giant swing, but it not a 1+2 grab animation. Breaks with a 2. Drops the opponent at your feet ready for oki. Can not air grab but can grab a wall splattered opponent for a spinning power slam.\n
+        Ultimate Tackle (FC+1+2): Another good tool for FC mixups if you like to combine a FC+1 into a Clothesline Press or FC+d/f+2.\n
+        Power Bomb: done with WR2+4, but can also be done by Jaguar Step and 1+4/2+3. Air grab that can’t be broken, does good damage, floor breaks and let’s king do oki. One of the best combo enders kind has.\n
+        Tomahawk(WR+2+4): Known as shining wizard, this is a 1+2 break done with WR+2+4. As mentioned above on airborne opponents it does a power bomb, but on ground opponents it does a tomahawk and knocks them down at your feet. Can be very effective if you learn to do this move fast and from close range where the opponent as little time to react. Can be buffered after many hits as well. If fast enough, can mix this up with a dash in giant swing to mixup a 1 with a 1+2 break.\n
+        f,N,d,D/F+(1+4 or 2+3): These lead to different chain grabs. After the first grab there is no animation to give away what the next grab is, so the opponent has to guess. Good damage off these if the opponent doesn’t break. Some grabs lead to unbreakable follow ups, and these are the ones most the opponent is most likely to try and break. Can mix up the grabs with any of King’s other moves off f,n,d,D/F or cancel the crouch dash into any of his FC or WR moves. This allows for some good mixup.\n
+        Cobra Clutch: Starts off with a jaguar step and either 1+4 or 2+3. Leads to several chain grab paths, the main one of which involves a lot of 50/50 breaks with no animation differences, meaning your opponent has to guess to break out. Full chain grab does over 100 damage.\n
+        Ground grabs: d/b+1+3 (1 break) or d/b+2+4 (2 break) against an opponent on the ground. After a wall splat you can do a 1,2 and then go for one of these grabs to grab them as they hit the ground. Also useful for grabbing people rolling on the ground, but will not grab quick get up rolls. The d/b+1+4 grab also floor breaks, provided you haven’t already done so in the combo. When done on face down opponent’s these can’t be broken. If you tap d/b when doing the grab they become giant swings but they do very little damage.\n
+        Wall grabs: King can do a couple of grabs on wall splattered opponents. Giant Swing and Tomahawk will do a Shining Torpedo (multiple hits and ends with the opponent on the ground at your feet). Tijuana Twister does a spinning power bomb, which can floor break. Shining Torpedo is in most cases your highest guaranteed damage following a wallsplat.\n
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2\n
+            - 2,1\n
+        i12 - b+1,2\n
+        i13 - d/f+2\n
+        i14 - d/f+1,2\n
+            - d/f+3\n
+        i15 - u/f+4\n
+        i16 - b+3\n
+            - f+2,1\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1,n+2\n
+        i11 - WS+4\n
+        i13 - WS+1\n
+        i14 - WS+2,2\n
+        i15 - FC d/f+2\n
+        i16 - WS+3\n
+    </string>
+
+    <string name="kuma_overview">\t<b>Name</b>: Kuma\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 13 Moves</b>:\n
+
+    \n<b> WR 1+2 [3+4]\n</b>
+        Plus on block running move that transitions into Hunting Bear Stance (HBS) by inputting 3+4 afterward to apply pressure/mixups. Also knocks down on normal hit
+
+    \n\n<b> d/b+3\n</b>
+        Short-ish range low, but fully safe on block (opponent has to low parry to punish it) and plus on hit
+
+    \n\n<b> f+1,1,1\n</b>
+        First hit is a 10f jab that is +1 on block and +7 on hit. Full string is a 10f natural combo on CH that ends with a launcher, but is launch punishable so be careful. A “get off me” tool
+
+    \n\n<b> 2,1\n</b>
+        10f punish and standard move for up close poking
+
+    \n\n<b> d/b+2\n</b>
+        Long range, high crush, can apply WS and FC mixups afterwards. Can also transition into HBS by pressing 3+4
+
+    \n\n<b> HBS d+1+2\n</b>
+        Mid poke from stance with a HUGE hit confirm window. Last hit also wallsplats from close range
+
+    \n\n<b> b+1\n</b>
+        Power crush. Wallsplats, hits grounded and knocks down standing opponents
+
+    \n\n<b> d/f+2,1\n</b>
+        Kuma/Panda’s go to long range whiff/block punisher and launcher
+
+    \n\n<b> b,f+2\n</b>
+        Long range, safe, punisher for whiff/block that also functions as a S! Move in combos
+
+    \n\n<b> d/f+4\n</b>
+        Short range quick mid poke with good plus frames on hit
+
+    \n\n<b> HBS 2\n</b>
+        Short range low from stance, but huge plus frame window on hit allowing free mixup opportunities in stance after
+
+    \n\n<b> u/f+1+2\n</b>
+        High hitting mid that allows you to go into HBS after, potentially slipping under any opponent retaliation
+
+    \n\n<b> f,f+2\n</b>
+        Unsafe, but long range mid launcher and the source of Kuma/Pandas most damaging combos
+
+     \n<b>Punishes</b>:\n\n
+        i10: 2,1
+        i11: 1,2
+        i12: db1,2
+        i13: f2,1 (KND,Wallsplat)
+        i14: d+1+2 (hits mid, KND/Wallsplat)
+        i15: d/f+2,1 (launch)
+        i16: b,f+2 (works on deathfist)
+
+        \n<b>WS Punishes</b>:\n\n
+        i10: FC d+1
+        i11: WS+4
+        i13: WS+1,1
+        i15: WS+2 (launch)
+    </string>
+
+    <string name="lars_overview">\t<b>Name</b>: Lars Alexandersson\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+       <b>Top 15 Moves</b>:\n
+
+    \n<b> d/b+2,1\n</b>
+        Mid-Mid safe poke, good range
+
+    \n\n<b> d/f+1\n</b>
+        Solid mid poke to keep the opponent in check
+
+    \n\n<b> b+1\n</b>
+        Homing move with good reach. Tail spins on airborne opponents
+
+    \n\n<b> WS2,1\n</b>
+        Great WS punish that leaves the opponent crouching on hit and KND on CH
+
+    \n\n<b> f,f+4, 3\n</b>
+        Very damaging low hits and 0 on hit. Some opponents might look for this move thanks to the “f, f” input in hopes of blocking it, so it’s important to not be too obvious with it
+
+    \n\n<b> f+1+2\n</b>
+        “Arc blast” is a great 15 frame mid launch
+
+    \n\n<b> u+4 _ u/f+4\n</b>
+        Orbital kick that launches on hit. Great range and safe on block gives this move low risk for a high reward
+
+    \n\n<b> d/b+4\n</b>
+        Low sweep with + frames on hit and launch on CH. Also crushes highs
+
+    \n\n<b> f+2,4\n</b>
+        Powerful 12 frame punish that KND and wall splats on hit
+
+    \n\n<b> f,f,f+3\n</b>
+        Long range slash kick with heavy + frames on block
+
+    \n\n<b> d/b+1, 3\n</b>
+        NC low poke with high crushing frames on the first hit
+
+    \n\n<b> f,b+2,1\n</b>
+        14 frame launcher with great range. Good for whiff punishing
+
+    \n\n<b> FCd/f+1+2\n</b>
+        Double-hit NC low poke that requires full crouch. Usually used as a mixup combined with WS moves
+
+    \n\n<b> WS1\n</b>
+        WS launcher. Hold forward on hit to go into SE-stance for a full combo
+
+    \n\n<b> SS2\n</b>
+        KND on hit and pushback on block which prevents most punishment. Guaranteed stomp (d+3+4) on hit
+
+     \n<b>Punishes</b>:\n\n
+        10f - 1,2 / 2,1 / 1,1\n
+        12f - f+2,4\n
+        13f - f+1+4\n
+        14f - f,b+2,1\n
+        15f - f+1+2 / d/f+2,1\n
+        16f - u/f+3\n
+
+        \n<b>WS Punishes</b>:\n\n
+        11f - ws4\n
+        13f - ws2,1\n
+        15f - ws1\n
+
+    </string>
+
+    <string name="law_overview">\t<b>Name</b>: Marshall Law\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> 1,1,2,2 _ 1,2,2\n</b>
+        i10 punisher, last hit is mid, keeps opponents from ducking. It also makes his 1,1,2 safe. After 1,2,2 you also have the option to punish eager retaliation by finishing the string (1,2,2,2,2) with another set of h,m
+
+    \n\n<b> 1,2,3\n</b>
+        Wall splats on CH, good distance, can be a 10f punisher. Safe to throw out, but very linear
+
+    \n\n<b> d/f+1\n</b>
+        Law’s main mid poke tool, good when paired with his low poke db+3. Is also the start of his 10 string and +5 on hit
+
+    \n\n<b> d/b+3\n</b>
+        Law’s main low poke, good to mix up with df+1. On CH it knocksdown
+
+    \n\n<b> b+2\n</b>
+        Another good mid poke, slower startup than df+1 and has followups (b+2,1. b+2,2. b+2,3). It’s also safe
+
+    \n\n<b> FC d/f,d,d/f+3\n</b>
+        Law’s slide, on a good mixup tool with WS+2. unseeable on fastest input and on hit guarantees a get up 3
+
+    \n\n<b> 4\n</b>
+        His i11 punisher, launches on CH, and has follow ups (4,3. 4,3,4). Good for catching opponents pressing buttons when you’re + frames
+
+    \n\n<b> f+3+4\n</b>
+        Safe mid, that forces crouch on hit. On block you can side step or try to interrupt opponent with d+1 or d+2. Also launches on CH
+
+    \n\n<b> f,f,f+3\n</b>
+        Safe mid that is plus on block, linear and seeable from a distance so try doing it at close distances for better + frames
+
+    \n\n<b> b+4,[3]\n</b>
+        A good homing move and 14 frame punisher with b+4,3. Holding back takes Law into back turned, and is safer at -4. On hit is +4~6
+
+    \n\n<b> WS4\n</b>
+        i11 while standing punisher, +7 on hit, and can be DSS’d making it +17. DSS 2 is guaranteed on hit
+
+    \n\n<b> d/f+2\n</b>
+        A safe mid launcher that doesn’t launch crouching opponents
+
+    \n\n<b> BT d+3\n</b>
+        Fast low out of backturn, uninterruptable after b+4 on hit
+
+    \n\n<b> f+1+2\n</b>
+        CH launcher, plus on block and on hit it forces crouch
+
+    \n\n<b> 3+4[4]\n</b>
+        Another good i14 punish, is not punished as much with the 4 followup. 3+4,4 is a 14 frame launcher that is also a tailspin
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1,2\n
+            - 2,b+2\n
+            - 1,2\n
+        i11 - 4,3\n
+        i12 - 3,4\n
+            - u/f+1,3(for punishing wakeup kick)\n
+        i13 - d/f+1\n
+            - d/f+4\n
+        i14 - b+4,3\n
+            - 3+4,4\n
+            - b+1,2\n
+        i15 - u/f+4\n
+            - d/f+2\n
+        i16 - b+2\n
+        i17 - f,f+4,3\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1\n
+            - WS+1+2\n
+        i11 - WS+4\n
+        i13 - WS+1,2\n
+        i15 - WS+2\n
+        i16 - WS+3\n
+    </string>
+
+    <string name="lee_overview">\t<b>Name</b>: Lee Chaolan\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+       <b>Top 15 Moves</b>:\n
+
+    \n<b> b+4[b+4~3(HMS)]\n</b>
+        Safe, mid, CH launcher, also now buffed to KND crouching opponents (FDFA). Can transition to HMS by inputting b+4~3
+
+    \n\n<b> d/f+1\n</b>
+        Fast mid poke to start offense and fish for CHs
+
+    \n\n<b> FC d/f,d,D/F+3\n</b>
+        Good low from FC, guaranteeing getup low 3, or wake up for oki options
+
+    \n\n<b> 1+2\n</b>
+        Safe mid homing move, CH combo starter
+
+    \n\n<b> 1,3:3:3\n</b>
+        Solid 10 frame punisher, good damage which gives KND and wallsplats. Practice this JF. As Lee doesn’t have an i11, or i12 punisher that knocks down, this is the go to move if you want to punish them hard in the -10~12 area
+
+    \n\n<b> f+1+2\n</b>
+        13 frame punisher (buff carried over from TR) which gives KND
+
+    \n\n<b> WS2,3\n</b>
+        14 frame ws punisher, fewer matchups can launch punish it (compared to TTT2 when it was -16), with it’s former T6 properties returned (to some extent), makes this a viable FC mixup tool both in the open and by the wall
+
+    \n\n<b> d/b+3+4\n</b>
+        Decent low poke, now trips on CH for guaranteed BK (flop over) or f+3+4 (oki)
+
+    \n\n<b> FC d/f+4\n</b>
+        Refer to d/b+3+4, FC alternative. Can transition to HMS by inputting FC d/f+4~3, can also be done by doing d/f+4 from HMS
+
+    \n\n<b> d+3~4\n</b>
+        High crushes, pretty much the common low to keep opponents alert. HMS transition for guaranteed followup on CH (example HMS+4)
+
+    \n\n<b> 2,2,3\n</b>
+        Anti buttons, NCc, good panic button, gives wallsplat on counter hit and knocks them away
+
+    \n\n<b> WR+3,4 _ f,f,f+3,4\n</b>
+        Doesn’t launch anymore but instead gives a backrollable KND. should be used to initiate offense because of the plus frames
+
+    \n\n<b> b+1:1,2\n</b>
+        Decent ranged whiff and block punisher, where hopkick and df+2 would whiff. Also wallsplats.
+
+    \n\n<b> 4[4]\n</b>
+        Anti buttons, CH launch magic 4, good panic button.
+
+    \n\n<b> f,f+3\n</b>
+        With a bit of pushback on block, the move is mostly safe vs most of the matchups, wallsplats and makes for a good whiff punisher and keep out tool every now and again
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 21 (+ frames, can transition to HMS and also has followups), 124 (good damage but negative), 13:3:3\n
+        i11 - 44, 43, f4\n
+        i12 - d+4\n
+        i13 - df1, df4, f+1+2\n
+        i14 - f21, 33, b2,4\n
+        i15 - uf4, f+33333, b1:1:2\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - WS3,3 (with two followup variations). All of them launch punishable on block, but they can go infinite\n
+        i11 - WS4 (it\'s +5 on hit, but not as much damage as ws3,3)\n
+        i14 - WS2,3 (follow up with ff+3, tight window) or ws2,4 (gives you a free turn to follow up with a mixup)\n
+        i15 - crouch cancel, UF4\n
+        i18 - FC uf+4 (the flip)\n
+    </string>
+
+    <string name="lei_overview">\t<b>Name</b>: Lei Wulong\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> f n 1 (Razor Rush)\n</b>
+        This 5 hit string is one of the most versatile strings in the game. The first 2 hits are a natural combo, and the first 4 hits natural combo on counter hit. You can get endless mixups from this stance
+
+    \n\n<b> f n 4\n</b>
+        This string is a combination move, it can be used a springboard for stance switches, a solid punish option, or even a counter hit string
+
+    \n\n<b> ff3\n</b>
+        ~i17 Mid launcher with excellent range and tracking. It is useful as a random launch and a whiff punisher alongside df2
+
+    \n\n<b> d/b4\n</b>
+        This is his principle low threat and one of the main reasons to duck vs Lei. This move can land at 2 ranges, clean hit range and long range
+
+    \n\n<b> df1\n</b>
+        Comes out in 13 frames, but -4 on block. However, it has extensions in the form of df11, which is both a natural combo and safe on block (-9)
+
+    \n\n<b> d4\n</b>
+        12 frame low, solid at close range. Neutral (+0 frames) on hit with possible extensions. It’s good against pressure as well as to harass the opponent without really giving up your turn
+
+    \n\n<b> 1+2\n</b>
+        His i14 punisher and a natural combo, this string can leave you in back turned (BT) with 1+2 or 1+2, 1 (+ on block but high ender)
+
+    \n\n<b> uf3\n</b>
+        Basically a safe on block hopkick that only launches on counter hit. Not only is it good if you expect a low, but it can also be done as a quick transition to Crane. Uf3 into Crane 1+2 is an easy trap to catch people with a safe high launcher, even if uf3 is blocked or misses
+
+    \n\n<b> df2\n</b>
+        Generic i15 launcher. Average range, safe on block, doesn’t launch crouchers on normal hit
+
+    \n\n<b> F+4\n</b>
+        High crushing CH launcher, safe
+
+    \n\n<b> BT D+1\n</b>
+        Tracks both sides still and is a high crushing CH launcher
+
+    \n\n<b> WS+3+4\n</b>
+        Mostly used as a standard launcher for lows that stagger on block, it is also useful to just toss it out when anticipating highs since most of its animation will crush them
+
+    \n\n<b> PAN 2\n</b>
+        The evasive Panther Stance needs both of its primary knockdowns to keep the opponent guessing, but this attack is greater than the PAN 1,2 sweep. For one, it produces a full juggle on normal hit. Also, unlike the launch punish vulnerability of the low/high attack (he\'s dead if they duck it), the uppercut is a mere -12 on block. It also hits grounded when at the fallen opponent\'s left side, so this is an all around great move
+
+    \n\n<b> f+3+4\n</b>
+        Parry move
+
+    \n\n<b> Tiger 4\n</b>
+        Unseeable high crushing long range low normal hit launcher. Good damage
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1 (19dmg +5 on hit) or 1,2 (19dmg +6 on hit) or 2,1 (23dmg +3 on hit)\n
+        i12 - df+4 (15dmg +7 on hit) or f2,1 (24dmg) or fn+4,1,2 (38dmg -4 on hit) (HARD)\n
+        i13 - df+1,1 (25dmg)\n
+        i14 - 1+2,1 (28dmg +8 backturned) or 3 (30dmg)\n
+        i15 - df+2 (launch)\n
+        i16 - f+3,1 long range punish (Deathfist, Asuka\'s b+3) or f,3+3 (launch) (HARD)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - ws3 (25dmg -5 on hit -16 on block) or fc1 (5dmg +6 on hit)\n
+        i11 - ws4 (15dmg +7on hit)\n
+        i14 - ws2,1 (27dmg 0 on hit)\n
+        i15 - uf4\n
+        i16 - ws3+4 (launch)\n
+    </string>
+
+    <string name="leo_overview">\t<b>Name</b>: Leo Kliesen\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> b+1,4\n</b>
+        Mid-mid string that gives a KNK-mixup on block and launches for a full combo on CH
+
+    \n\n<b> d/f+2\n</b>
+        Long-range i15 launcher, punisher and keepaway tool
+
+    \n\n<b> d/f+1\n</b>
+        Safe close-range mid poke. Simple, but good. Has a “2” follow up that you can sometimes surprise with, also safe
+
+    \n\n<b> d/b+4, 1\n</b>
+        Basically a hellsweep. Unseeable, damaging, KD low that crushes highs. Unsafe
+
+    \n\n<b> WS4,1+2\n</b>
+        Arguably the best i11 WS punisher in the game
+
+    \n\n<b> 1,4\n</b>
+        i10 punisher. Safe on block and jails. Can also be used a poking tool
+
+    \n\n<b> BOK2\n</b>
+        Safe on block mid launcher with huge range, comes from evasive stance which crushes all highs and some mids, Scrub-killer
+
+    \n\n<b> u/f+4\n</b>
+        Above-average hopkick. No more, no less. Thus, very useful move
+
+    \n\n<b> FC d/f+3\n</b>
+        Long-range sweep. Insane as wall oki since hitting it near the wall guarantees a second one. You can fool opponents by doing it from BOK too hold ‘d’ during BOK and do df+3
+
+    \n\n<b> d/b+1+2, 1\n</b>
+        Hit-confirmable mid-mid. Natural combo. Wallsplats, knocks down, after 1st hit, you can transition into BOK, thus deadly at wall
+
+    \n\n<b> u+3+4\n</b>
+        Hits grounded. High profiles. Dangerous as wall oki
+
+    \n\n<b> qcf+1\n</b>
+        Fast, high-crushing low with good tracking. Can link WS 4, 1+2 on CH for huge damage
+
+    \n\n<b> WS2\n</b>
+        i16 WS launcher
+
+    \n\n<b> BOK3\n</b>
+        Incredibly plus-on-block homing move that gives a tailspin combo on hit. Useful against people that try to sidestep BOK2
+
+    \n\n<b> d/f+2+3\n</b>
+        High-crushing low that knocks down on hit. Very dangerous near the wall, mixup with u+3+4 near wall after knd is best
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,4\n
+            - 1,2\n
+        i11 - 2,2\n
+        i13 - u/f+1,2\n
+            - d/f+1\n
+        i14 - f,f+2\n
+            - f+2,2\n
+            - 3,2\n
+        i15 - d/f+2\n
+            - u/f+4\n
+            - u/f+3+4\n
+
+       \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1
+        i11 - WS+4, 1+2
+        i13 - WS+1+2
+            - WS+3,1
+        i14 - WS+1
+        i16 - WS+2
+    </string>
+
+    <string name="lili_overview">\t<b>Name</b>: Emilie "Lili" De Rochefort\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+3\n</b>
+        Mid that forces crouch, +8~+9 on hit which allows for guaranteed pressure afterwards and a Ch launcher. Great pressure tool
+
+    \n\n<b> f,F+4\n</b>
+        One of her most damaging lows that allow her to go Backturned,(BT) +4 on hit and +9 on ch which leaves the opponent in a stunned state which can guarantee a free follow up to BT1,2 if user went BT
+
+    \n\n<b> qcf+3+4\n</b>
+        Double high that wall splats and jails. Tracks her weak side well if u draw out the qcf. Crushes lows and can crush some highs if done instantly out of qcf. Encourages opponents to duck which gives her access to many of her wall splatting mids. Great pressuring tool against an opponent whose back is at the wall
+
+    \n\n<b> qcf+1,2\n</b>
+        One of her best long range whiff punishers. Crushes some mids, second hit can be cancelled into BT, last hit is a ch launcher which will catch people that try to punish the first hit. Also wall splats
+
+    \n\n<b> qcf+2,1\n</b>
+        Safe decent ranged homing move that lead to a knockdown
+
+    \n\n<b> b+1,F\n</b>
+        Great hitbox, gives Lili a safer approach to her opponent, +9 on hit if cancelled into crouch dash.(cd) Good recovery on whiff
+
+    \n\n<b> d/f+1\n</b>
+        Her fastest mid poke, +7 on hit, leaves you right in your opponent’s face, can sidestep(ss) after it, hard to whiff punish. One of her “go to” moves in the neutral
+
+    \n\n<b> 2,4\n</b>
+        Her i10 punish, KND, wall splats, will not reach in some cases. If you aren’t sure if it will connect, I’d recommend using jabs (1,2) for the punish
+
+    \n\n<b> 1+2\n</b>
+        One of the only 12f mids in the game, also her main i12 punish with minor pushback. Will not punish some 12f moves, for example, Face up Feet Toward(FUFT) wake up 4. In this event you can use her alternate i12 punish.(4,1) Can be used as a panic move or as a frametrap, KND, wall splats. If opponent does not roll back tech off the KND, then it gives a free f,F+4
+
+    \n\n<b> WS4\n</b>
+        Her i11 ws punish. Gives a knockdown and can combo at wall with db1 fc df+1
+
+    \n\n<b> BT 1+2\n</b>
+        Natural hit(NH) launcher from BT, forces the opponent in a crouch state, it only being -10~-9 means the only punish the opponent can do is downjab which makes this move abusable
+
+    \n\n<b> SS1+2\n</b>
+        Ch launcher, sometimes crushes jabs, can SS after it, also the recovery of the animation makes it look more – than it is which can trick the opponent
+
+    \n\n<b> u/f+3\n</b>
+        A hopkick. Good range, tracks her weakside well but is not recommended to be used for tracking
+
+    \n\n<b> d/f+3+4\n</b>
+        Good mid range move, can be hard to get around. Has follow ups that put the opponent and yourself into a guessing game. Crushes lows, in some circumstances it evades highs, NH launcher. Easily steppable. Not something to throw out frequently
+
+    \n\n<b> f+3\n</b>
+        Lili’s go to tracking move
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2 (+8, 18dmg) or 2,4 (KND/W!, short range, 28dmg)\n
+        i12 - 1+2 (KND/W!, short range, 27dmg), 4,1 (0, 22dmg)\n
+        i13 - f2,3 (KND/W!, long range, 32dmg)\n
+        i15 - uf3 (Launch) or 3,1 (KND/W!, long range, 32dmg)\n
+        i16 - df2 (Launch)\n
+        i17 - d3+4 (Launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4 (KND, 18dmg)\n
+        i13 - WS1,2 (+8, 31dmg)\n
+        i14 - FC df1 to free hit (KND, 25dmg + ?)\n
+        i15 - uf3 (Launch)\n
+        i16 - WS2 (Launch)\n
+    </string>
+
+    <string name="luckychloe_overview">\t<b>Name</b>: Lucky Chloe\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+1\n</b>
+        A good mid poke which is -1 on block making it safe and +6 on hit
+
+    \n\n<b> 4\n</b>
+        Standing 4 is an i12 mid with good range, it’s also safe at -9
+
+    \n\n<b> d/b+4\n</b>
+        It’s an annoying low with SCT stance options built in. the followup db+4,4 is -9 on block and +3 on hit
+
+    \n\n<b> f,f+3\n</b>
+        Linear, but safe with good pushback. Causes knockdown on hit, and can be wallcarry
+
+    \n\n<b> b+3\n</b>
+        Mid homing move, safe in the open, and can go backturned by holding B. It’s also a screw attack. Holding B makes it -8 instead of -11
+
+    \n\n<b> d/b+3\n</b>
+        A high damage low with a follow up or can go into her TWISTL stance
+
+    \n\n<b> d/f+4\n</b>
+        A decent round ender, she does a hop into a really damaging low
+
+    \n\n<b> SS4\n</b>
+        A decent low that launches on CH, can go backturn for roll combo on CH
+
+    \n\n<b> b+1+2\n</b>
+        It’s a power crush, and it wall splats to her left
+
+    \n\n<b> f+2,2\n</b>
+        A mid jab into palm slap that leave the opponent crouching
+
+    \n\n<b> 2,2\n</b>
+        Her i12 punish
+
+    \n\n<b> b+1\n</b>
+        Long range i17 punish, causes flipover on hit leaving opponent face down head towards. Also a wall ender when you do 1, df+1, b+1. Gives better oki
+
+    \n\n<b> b+4\n</b>
+        A knee that launches on CH, safe but linear
+
+    \n\n<b> b+2\n</b>
+        A mid that forces crouch on block, +2 on hit
+
+    \n\n<b> u/f+3\n</b>
+        Her hop kick. Ridiculous high crush ability, crushes lows, tracks to her left, but is launch punishable. U+3 is harder to punish
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2\n
+        i12 - 2,2\n
+        i15 - uf+3\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - Ws4\n
+        i14 - ws1,4\n
+        i16 - ws2\n
+    </string>
+
+    <string name="marduk_overview">\t<b>Name</b>: Craig Marduk\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 15 Moves</b>:\n
+
+    \n<b> db2\n</b>
+        decent frames, ch !S, safe, mid, long range
+
+    \n\n<b> uf3\n</b>
+        One of his only low crush moves, launches on ch, safe at -2
+
+    \n\n<b> f3\n</b>
+        Knee, decent frames, advancing, ch launcher with delayable 2nd hit
+
+    \n\n<b> b3\n</b>
+        +0 on block, ch launcher for 75+dmg, long reach poke
+
+    \n\n<b> d4\n</b>
+        low knee, unparriable, high crushes on frame ~5, good range
+
+    \n\n<b> db4\n</b>
+        low that grounds yourself, relatively safe way to end a round, switches sides on clean hit
+
+    \n\n<b> d1\n</b>
+        Basically his version of a df1, forces crouch, elbow
+
+    \n\n<b> d2,4\n</b>
+        Hit confirmable mid mid string, safe, great +frames on hit
+
+    \n\n<b> db1+2\n</b>
+        Evasive class 1 launcher, decent pushback, meme value
+
+    \n\n<b> d3\n</b>
+        fastest low poke
+
+    \n\n<b> Tackle\n</b>
+        Numerous ways into tackle, oki set ups etc. Should be used until an opp proves they can handle it.
+
+    \n\n<b> Ground Throws\n</b>
+        Both ground throws are huge damage
+
+    \n\n<b> FC df4\n</b>
+        Hugely + on hit, hits grounded, can be used to get free unscaled damage on ends of certain bnbs
+
+    \n\n<b> qcf2\n</b>
+        Low, unseeable, ch 59dmg + floor break combo starter, high crushes
+
+    \n\n<b> ff1+2\n</b>
+        used as a combo ender for big damage. Combo starter for juggle and big damage. 1+2 break
+
+        \n\n<b> ff3(2)\n</b>
+        Using the ff3 by itself is a safe mid but when you add in the threat of letting the second hit go for a huge launch or get a ch ff3 for a massive 47 damage launcher its just a notable move for the damage and mental frame advantage
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 2,1\n
+            - 1, d+2\n
+        i12 - f,f+2\n
+        i13 - d/f+4, 2\n
+        i14 - b+4\n
+        i15 - d/f+1\n
+            - f+1+2\n
+        i16 - d/b+2\n
+        i17 - u/f+1+2\n
+            - d/f+3, d/f+1
+        i18 - qcf+1\n
+
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS1\n
+        i13 - WS4\n
+        i18 - WS3\n
+        i23 - u/f, n, 4
+
+    </string>
+
+    <string name="masterraven_overview">\t<b>Name</b>: Master Raven\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+1\n</b>
+        Fully tracks to Raven’s left, has great range and is +7 on hit
+
+    \n\n<b> 2,4\n</b>
+        10 frames punisher, wallsplats. Only drawback is that it doesn’t always reach
+
+    \n\n<b> 4,1\n</b>
+        12 frames punish that allows for BT mixups. Good range and reaches most -12 moves. Can use 4 by itself as a CH launcher
+
+    \n\n<b> WS2\n</b>
+        CH launcher that can be done from crouch or CD, very good tool to make people afraid of CD
+
+    \n\n<b> d/b+4\n</b>
+        Chunky low that gives free uf3 or RA on CH. Encourages people to duck. +4~+5 on hit. Be careful with this move vs chars with quick vs launchers, however can be hard to punish when from max range
+
+    \n\n<b> FC d/f+3+4\n</b>
+        High risk, high reward low that can be done from crouch or CD. has a high damaging followup and CH launches if only the first hit is done. Staggers on block
+
+    \n\n<b> d/b+2\n</b>
+        Raven’s quickest mid. Leaves her BT, +5~+6 on hit which allows for BT mixups. Good tracking. Has a high followup with db+2,1 that will interrupt any buttons
+
+    \n\n<b> u/f+4\n</b>
+        Low crushing mid that gives KND or W!. Insanely quick recovery and a lot of active frames. Has a pseudo hitconfirmable followup in uf+4,4
+
+    \n\n<b> qcf+4\n</b>
+        Keepout launcher. Leaves Raven BT and takes a large flip backwards making it hard to whiffpunish. Should be spaced so it whiffs or hits, never blocked
+
+    \n\n<b> BT b+2,4\n</b>
+        NC that jails on block. Good for mixing up opponents from BT. First hit can go under jabs at times
+
+    \n\n<b> BT f+4,3\n</b>
+        NC low, high that does a decent amount. Raven’s main threatening low from BT to make people duck. 2nd hit can be ducked on block and launched
+
+    \n\n<b> BT f+2\n</b>
+        Another mid from BT, this one having the best tracking out of them. +6 on hit. Has an NC high followup in BT f+2,4 and an NCC safe mid followup with BT f+2,3
+
+    \n\n<b> f+2,3\n</b>
+        NC with long range. Good whiffpunisher for ending rounds or punishing certain moves with a lot of pushback. 0~+1 OC on hit
+
+    \n\n<b> 3,3\n</b>
+        NC and jails on block. Good range and a solid poke. First hit tracks left, second right. 0~+1 on hit
+
+    \n\n<b> d+3\n</b>
+        Quick low. Good round ender end less of a commitment than db+4. 0~+1 on hit
+
+     \n<b>Punishes</b>:\n\n
+        10f: 1,2 or 2,4 (can wall splat due to s! and does a good deal of damage)\n
+        12f: 4,1 (ends in BT/SDW/LAB)\n
+        13f: d/b+2,1 (used when 4,1 does not reach)\n
+        14f: b+44 (almost never used, but can wall splat due to s!)\n
+        15f: f+2,3 or RAGE f+3+4,2 (Rage Drive - launch)\n
+        16f: d/f+2 (launch - gives nosebleed against crouchers)\n
+        17f: 4~3 or ff+3 (both if done as soon as possible) (both launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10: FC 1 (low jab)\n
+        i11: WS4 (does more damage than WS2)\n
+        i13: WS2 (causes nosebleed) (CH launch)\n
+        i14: WS1 (nc launch)\n
+    </string>
+
+    <string name="miguel_overview">\t<b>Name</b>: Miguel Caballero Rojo\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> d/f+1\n</b>
+        Your normal df1 to check people, has a high extension and mid extension to discourage people from sidestepping/pressing a button after. You can also go into his savage stance by holding forward after df1
+
+    \n\n<b> d/f+2,1\n</b>
+        His main whiff punisher, decent range and launches. First hit tracks vs your opponents left
+
+    \n\n<b> SAV d/b+3\n</b>
+        Good tracking, but weaker to your opponents left. +5 and forces your opponent in crouch. Leaves you right in their face. d3+4 (new move) is guaranteed on CH, can also transition into his SAV stance
+
+    \n\n<b> d/f+3,2\n</b>
+        +5 on hit, great poking string. If they for some reason duck the second hit, a hopkick is guaranteed if they don’t techroll
+
+    \n\n<b> d/b+3\n</b>
+        Leaves you close to your opponent, +3 on hit and you can transition into SAV
+
+    \n\n<b> d/b+4\n</b>
+        Decent amount of damage (24) and leaves you at a range where you can use Miguels great backdash to make attacks whiff. Neutral on hit and forces your opponent in crouch. d3+4 (new kick in 7) is guaranteed on CH. Also well spaced, this can be difficult to punish on block
+
+    \n\n<b> b+1\n</b>
+        Insanely fast CH launcher that leads to a big combo. This can also transition into SAV, but would not advise it
+
+    \n\n<b> d+3\n</b>
+        High crushes insanely fast, +1 on hit. ws4 is a common follow up since you’re left in crouch after, and it covers vs SSL
+
+    \n\n<b> d/f+4\n</b>
+        Covers Miguels weakside (opponents left) insanely good, this and df2 are the main moves you want to use to track vs opponents left
+
+    \n\n<b> SAV u/f+3\n</b>
+        Used for mixing up his SAV db3. Knockdown/wallsplat on normal hit and also low crushes
+
+    \n\n<b> 2,1\n</b>
+        Insanely good 11f punisher and whiff punisher if close enough. The range isn’t all that great, but the damage (40) and it being +7 on hit makes up for that. Can transition into SAV by holding forward after
+
+    \n\n<b> f+4\n</b>
+        Long ranged homing that has an extension (f4,2) which is a natural combo and knocksdown/wallsplats
+
+    \n\n<b> SAV 4\n</b>
+        Great homing move, it knocksdown and wallsplats on normal hit
+
+    \n\n<b> f+2+3\n</b>
+        Insane range, but you are rarely left at anything below -6 frame wise so you can get blown up for stepping after. Used for getting close, and has tracking properties similar to Heihachi ff2 where sometimes it’ll just catch you
+
+    \n\n<b> f+2\n</b>
+        Fast, safe CH launcher that leads to a decent combo
+
+     \n<b>Punishes</b>:\n\n
+        i10 - f+1,2\n
+        i11 - 2,1\n
+        i12 - 4\n
+        i13 - d/f+1,2\n
+        i14 - f+1+2 -> d+1+2\n
+            - d/f+4,1\n
+        i15 - u/f+4\n
+        i16 - d/f+2,1\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - fc d+1\n
+        i11 - fc d/b+2\n
+            - ws+4\n
+        i15 - ws+2,4\n
+            - WS+2,2\n
+            - u/f+4\n
+    </string>
+
+    <string name="negan_overview">\t<b>Name</b>: Negan from The Walking Dead\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 10 Moves</b>:\n
+
+    \n<b> 12,21\n</b>
+
+    \n\n<b> df1\n</b>
+
+    \n\n<b> b1+2\n</b>
+
+    \n\n<b> INT stance moves\n</b>
+
+    \n\n<b> df2\n</b>
+
+    \n\n<b> f1+2\n</b>
+
+    \n\n<b> db4\n</b>
+
+    \n\n<b> uf4\n</b>
+
+    \n\n<b> d2/b22\n</b>
+
+    \n\n<b> ff2\n</b>
+
+    \n\n<b> db2\n</b>
+
+    \n\n<b> WR + 2\n</b>
+
+    \n\n<b> d4/db3\n</b>
+
+    \n\n<b> ff4\n</b>
+
+    \n\n<b> ff1+2\n</b>
+
+     \n<b>Punishes</b>:\n\n
+        i10 1,2,4\n
+        i11: 2,2\n
+        i13: 1+2\n
+        i14: qcf+1, b1+2\n
+        i15: d/f+2\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i13 - WS3\n
+        i15 - WS1\n
+        i18 - WS4\n
+        i20 - WS2\n
+    </string>
+
+    <string name="nina_overview">\t<b>Name</b>: Nina Williams\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> u/f+1\n</b>
+        Safe high damaging launch. Low crushes(not instantly) and extremely good for oki
+
+    \n\n<b> SS1(~b_~f)\n</b>
+        What makes this move extremely good is doing ss1~b or ss 1~f at the wall gives heavy frame advantage forcing an instant frame trap or mixup
+
+    \n\n<b> 1+4\n</b>
+        Safe mid, mid strings will always be op. Beats all crushing moves and leaves them in fc on hit. It creates extremely nasty oki at the wall when used as an ender in conjunction with qcf+2
+
+    \n\n<b> f+2\n</b>
+        13 frame long reaching high that’s +8 on hit. Has extremely good strings after such as f+2,1,4(ends in high tailspins, -4) and f+2,1,1+2(+1 on hit,ends in a mid and leaves them in fc. -12 on block)
+
+    \n\n<b> f+3\n</b>
+        A really good + on block ch launcher. Since it’s double hitting the second one can be ducked and you can be launched punished. Use with discretion
+
+    \n\n<b> d/b+2\n</b>
+        Her longest ranged homing move. It’s a Ch launcher and high crushes at particular ranges and startup frames
+
+    \n\n<b> qcf+1\n</b>
+        Decent range and a great ch launcher
+
+    \n\n<b> d/b+3\n</b>
+        A decent low to add to your frame traps, +3 on hit and it’s good for opening people up
+
+    \n\n<b> d/f+1\n</b>
+        Staple move to nina’s pressure game. Can go into a multitude of strings after. df+1,2/df+1,2(u/d)/df+1,2,3/etc
+
+    \n\n<b> d+2\n</b>
+        Extremely hard to see low. High crushes and tracks one direction. Extension is a high that is a ch launcher(the greatest)
+
+    \n\n<b> d/f+2\n</b>
+        A safe fast mid launcher. Doesn’t launch crouchers unless on ch
+
+    \n\n<b> u/f+2,1\n</b>
+        One of nina’s best launchers, hit confirmable and decent range. Second hit is a ch launcher(very delayable string). Uf2 is also a decent high-crush
+
+    \n\n<b> SS2\n</b>
+        A sidestepping launch that crushes highs. Sometimes difficult to punish
+
+    \n\n<b> d,d/f+4\n</b>
+        A very difficult to see low that is a ch launcher. On normal hit you get a free ff+3. This move is faster when you’re crouching doing it
+
+    \n\n<b> 4\n</b>
+        Basic 4 CH launcher. Has strings from it to catch whiff punishment such as 4,3,2(-13)
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2 (+5, 17dmg)\n
+            - 1,4 (0, 22dmg)\n
+        i12 - b2,2 (+5, 26dmg)\n
+        i14 - f3 (KND/W!, 30dmg)\n
+            - 3,4 (KND/W!, Short Range, 34dmg)\n
+            - df3,4 (+7, 34dmg)\n
+        i15 - df2 (Launch)\n
+            - ff2 to free hit (KND/W!, Long Range, 20dmg + ?)\n
+        i16 - b1+4 (Launch)\n
+        i19 - db3+4 (Launch, Long Range)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - WS4 (+7, 15dmg)\n
+        i13 - WS1,1+2 (KND/W!, 35dmg)\n
+        i15 - WS2 (Launch, Short Range)\n
+    </string>
+
+    <string name="noctis_overview">\t<b>Name</b>: Noctis Lucis Caelum\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 17 Moves</b>:\n
+
+    \n<b> d/f+1\n</b>
+        Safe mid. u/f+1 after d/f+1 hits is uninterruptable ch bait. Can be high crushed
+
+    \n\n<b> u/f+1\n</b>
+        See above
+
+    \n\n<b> d/f+2\n</b>
+        whiff punish tool/ 15f launcher with retarded range. punishes demon uppercut and deathfist easily
+
+    \n\n<b> f,f+1+2\n</b>
+        safe homing mid ch launcher
+
+    \n\n<b> WR 1+2\n</b>
+        safe natural launcher. ~+8 on block
+
+    \n\n<b> d+3\n</b>
+        fast high crushing low with good range. can setup FC d/f+2 if spaced properly ~-3 on hit
+
+    \n\n<b> FC d/f+2\n</b>
+        somewhat seeable (i20+) but unparryable low that has huge + frames on ch. repeat if it counter hits once as the opponent\'s only option is to block it or get hit again. Sets up mid launchers
+
+    \n\n<b> u/f+2\n</b>
+         solid low crushing whiff punish. safe on block
+
+    \n\n<b> f+2\n</b>
+        long range whiff punish. Can punish all fireballs on reaction. Safe
+
+    \n\n<b> d+4,1,1+2\n</b>
+        Demo man that breaks the floor and/or leaves opponent FDFA for oki. Probably his best option for wall damage though tricky to land
+
+    \n\n<b> u/f+3\n</b>
+        Useful i16 launcher that can be used out of FC. Does not seem very evasive (aka not a lightning screw). Prob best launcher for stuff like Snake Edge unless you crouch cancel d/f+2 as Noctis doesn\'t have a delayed hop kick. Able to get 68 dmg if you crouch cancel the landing and continue the combo with 4,2 etc
+
+    \n\n<b> d/b+1+2\n</b>
+        hits on the ground and flips opponent over for FDFA oki especially near walls. useful if you counter hit with d/b+2 or something
+
+    \n\n<b> d/b+1,1+2\n</b>
+        OTG tool to refloat if opponent refuses to get up. Also useful in combos to get a higher wall splat
+
+    \n\n<b> b+1,2\n</b>
+        12f punish. Can also be used in combos for higher wall splat
+
+    \n\n<b> f,f+3+4\n</b>
+        50 dmg high that leaves Noctis on the ground FUFT opponent. Useful for stalling at the end of the round somewhat similar to Bryan b,b+4 or King\'s Exploder
+
+    \n\n<b> f+3,2 and ws 3,2\n</b>
+        First hit causes nosebleed stun. If opponent doesn\'t break it the follow up is guaranteed. If opponent breaks it, Noctis can stop at f+3 or ws 3 and refloat them for a combo with something like d+2,2 forcing a guessing game
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2,2\n
+        i12 - 4,2 - b1,2\n
+        i14 - b3,1\n
+        i15 - df2\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d1\n
+        i11 - ws4\n
+        i13 - ws1,2\n
+        i14 - ws3,2\n
+        i15 - ws22\n
+    </string>
+
+    <string name="panda_overview">\t<b>Name</b>: Panda\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+                 <b>Top 13 Moves</b>:\n
+
+    \n<b> WR 1+2 [3+4]\n</b>
+        Plus on block running move that transitions into Hunting Bear Stance (HBS) by inputting 3+4 afterward to apply pressure/mixups. Also knocks down on normal hit
+
+    \n\n<b> d/b+3\n</b>
+        Short-ish range low, but fully safe on block (opponent has to low parry to punish it) and plus on hit
+
+    \n\n<b> f+1,1,1\n</b>
+        First hit is a 10f jab that is +1 on block and +7 on hit. Full string is a 10f natural combo on CH that ends with a launcher, but is launch punishable so be careful. A “get off me” tool
+
+    \n\n<b> 2,1\n</b>
+        10f punish and standard move for up close poking
+
+    \n\n<b> d/b+2\n</b>
+        Long range, high crush, can apply WS and FC mixups afterwards. Can also transition into HBS by pressing 3+4
+
+    \n\n<b> HBS d+1+2\n</b>
+        Mid poke from stance with a HUGE hit confirm window. Last hit also wallsplats from close range
+
+    \n\n<b> b+1\n</b>
+        Power crush. Wallsplats, hits grounded and knocks down standing opponents
+
+    \n\n<b> d/f+2,1\n</b>
+        Kuma/Panda’s go to long range whiff/block punisher and launcher
+
+    \n\n<b> b,f+2\n</b>
+        Long range, safe, punisher for whiff/block that also functions as a S! Move in combos
+
+    \n\n<b> d/f+4\n</b>
+        Short range quick mid poke with good plus frames on hit
+
+    \n\n<b> HBS 2\n</b>
+        Short range low from stance, but huge plus frame window on hit allowing free mixup opportunities in stance after
+
+    \n\n<b> u/f+1+2\n</b>
+        High hitting mid that allows you to go into HBS after, potentially slipping under any opponent retaliation
+
+    \n\n<b> f,f+2\n</b>
+        Unsafe, but long range mid launcher and the source of Kuma/Pandas most damaging combos
+
+     \n<b>Punishes</b>:\n\n
+        i10: 2,1
+        i11: 1,2
+        i12: db1,2
+        i13: f2,1 (KND,Wallsplat)
+        i14: d+1+2 (hits mid, KND/Wallsplat)
+        i15: d/f+2,1 (launch)
+        i16: b,f+2 (works on deathfist)
+
+        \n<b>WS Punishes</b>:\n\n
+        i10: FC d+1
+        i11: WS+4
+        i13: WS+1,1
+        i15: WS+2 (launch)
+    </string>
+
+    <string name="paul_overview">\t<b>Name</b>: Paul Phoenix\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> qcf+2\n</b>
+        Whiff punisher, high damage, pushback on block so majority of cast has trouble punishing.Linear and steppable
+
+    \n\n<b> d+4:2:1+2\n</b>
+        Use with qcf+2 for high risk/reward damaging 50/50s. Can also be used as a combo and wall ender.Unsafe with heavy pushback if last hit blocked. First hit staggers on block, KND only on clean hit
+
+    \n\n<b> qcb+4\n</b>
+        A Homing high, knocks down on NH and a CH launcher that is +3 on block and screws in a combo. Good range, can be done out of df+1,b for pressure
+
+    \n\n<b> SS3\n</b>
+        Only -12 on block,+4 on hit, +12 on visually confirmable CH with guaranteed followups (d+1+2 or b+1,2). Dangerous at wall
+
+    \n\n<b> b+3\n</b>
+        i14 NH launcher knee.No range, can only punish moves with no pushback. Safe so can be used as a frame trap but be careful with range and because it’s a high too
+
+    \n\n<b> qcf+3\n</b>
+        CH launcher, high crushes, can be done out of qcf
+
+    \n\n<b> d/f+1\n</b>
+        Mid poke that can transition into his backsway stance (df+1,b)
+
+    \n\n<b> f,f+2->followups\n</b>
+        f,f+2 can also be done from full crouch via d/f+2. f,f+2:1(‘1’ needs to be hit right when f,f+2 hits) is NC that knocks down and Wall Splats, safe on block at -4 but 2nd hit can be crouched under
+
+    \n\n<b> f,f+2,1\n</b>
+        mid mid string that is a natural combo on counter hit, but -12 on block. You might execute this accidentally trying to do f,f+2:1.This string is that it can be cancelled by holding ‘b’ which you can use to your advantage. Between both hits there is a 10 frame gap so you might eat 10f punishers if you abuse it
+
+    \n\n<b> f,f+2>2\n</b>
+        a mid low string, the low on it is a launcher and is -19 but thanks to a huge pushback, lots of launchers can’t reach it to punish. The second hit can be delayed as well as cancelled by holding ‘b’. Use this for those who interrupt your f,f+2,1 cancels because the 2nd hit crushes highs
+
+    \n\n<b> f+1+2\n</b>
+        Paul’s Lockdown move, 20f mid which is +3 on block and +8 on hit, forces crouch in both conditions, on CH it knockdowns which can’t be tech rolled
+
+    \n\n<b> b+2,1/1*\n</b>
+        18f uber damaging safe mid mid string, both hits are safe on block, 2nd hit can be charged which gives +8 on block and forces crouch, uber pressuring, charged 2nd hit also hits grounded because of which the string works greatly as a combo ender, 1st hit will spike and charged 2nd hit will hit grounded, if they try to get up, there is always a threat of quick ‘2’ which will hit them
+
+    \n\n<b> u/b+2\n</b>
+        A safe homing mid that knocks down, wall splats and stuns on CH for combo, enough said already. The stun has 13f standing status thus d+1+2 is guaranteed which leads to damaging wall combos
+
+    \n\n<b> qcb+1\n</b>
+        A Lockdown mid form his backsway that -2 on block and forces crouch. On hit, it knocks down in FDFA position for a guaranteed db+2. On CH, it launches for a beefy juggle. Can be done from df+1~b for pressure
+
+    \n\n<b> d/f+2\n</b>
+        Safe launcher. Doesn’t launch crouchers
+
+    \n\n<b> d/b+2\n</b>
+        Grants a juggle on CH and evades under highs during the startup
+
+    \n\n<b> f,f+4\n</b>
+        Slow and linear but hits grounded and good to chase opponents after a knockdown
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2\n
+        i12 - d+1+2\n
+            - b+1,2\n
+        i14 - b+3\n
+            - d/f+1\n
+        i15 - d/f+2\n
+            - hopkicks (u/f+4 or u/f+3,4)\n
+            - Deathfist\n
+
+        <b>WS Punishes</b>:\n\n
+        i10 - FC d+1\n
+        i11 - WS+4\n
+        i13 - Ws 3,2\n
+        i14 - FC d/f+2,1\n
+        i15 - Hopkick\n
+        i16 - WS+2\n
+    </string>
+
+    <string name="shaheen_overview">\t<b>Name</b>: Shaheen\n\
+        <b>Difficulty</b>: Beginner-friendly\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> 4,1\n</b>
+        11 frames CH launcher
+
+    \n\n<b> u/f+4\n</b>
+        Hopkick, big hitbox, good whiff punish
+
+    \n\n<b> d/f+4 _ ws+4\n</b>
+        Mid poke, good pushback useful for keepout. Linear
+
+    \n\n<b> d+4\n</b>
+        Low poke which is +1 on hit allowing further pressure
+
+    \n\n<b> 4,4\n</b>
+        2nd hit KND for guaranteed b+4 after.
+
+    \n\n<b> d/f+3\n</b>
+        Homing, tail spin, good range
+
+    \n\n<b> Slide\n</b>
+        Gives guaranteed getup 3 on hit, or oki options. Slides are now low parryable so keep that in mind
+
+    \n\n<b> d/f+1\n</b>
+        Good mid poke to start offense. Tracks to his left
+
+    \n\n<b> d/f+2\n</b>
+        Standard d/f2 launcher. Doesn’t launch crouchers
+
+    \n\n<b> d/b+2,1\n</b>
+        Mid high string, nc. 2nd hit duckable on block. Wall splat and KND
+
+    \n\n<b> u+3 _ u/f+3	\n</b>
+        Shaheens orbital. Primarily used out of a slide mixup but can be thrown out too
+
+    \n\n<b> WS 2\n</b>
+        Like Kazuya’s WS 2, this move is high risk high reward. Should again be used as mixup with slide
+
+    \n\n<b> f,f+3\n</b>
+        Can be done with ff+3/wr+3 or out of SNK stance. Mid 2hit launcher that on hit flips them to the other side
+
+    \n\n<b> b+3\n</b>
+        Solid mid thats +3 on hit and KND on CH into guaranteed stuff
+
+    \n\n<b> d/f+1+4\n</b>
+        Shaheen’s best command throw. Decent oki after
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,2_2,1 (16 DMG, +5_17 DMG, +0)\n
+        i11 - 4,1 (28 DMG, +4)\n
+        i12 - f+2,3 (32 DMG, +9)\n
+        i13 - d/f+1 (12 DMG, +5)\n
+        i14 - d/b+2,1_f,b+2 (35 DMG, KND_55 DMG, KND)\n
+            - (Rage Drive) - d/b+2,4 (Launch)\n
+        i15 - u/f+4_d/f+2 (Launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - ws+4 (16 DMG, +5)\n
+        i13 - ws+3,3 (KND)\n
+        i14 - ws+1 (16 DMG, +4)\n
+        i15 - u/f+4 (Launch)\n
+        i16 - ws+2 (Launch)\n
+    </string>
+
+    <string name="steve_overview">\t<b>Name</b>: Steve Fox\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> b+1,B\n</b>
+        One of Steves main counter hit tools. Safe on block, very + on hit and gives a combo on CH
+
+    \n\n<b> 1,2,1\n</b>
+        Three-hit NCc string that jails and can be canceled into Flicker (FLK) stance or into Peekaboo (PAB). Transitioning into a stance afterwards leaves him at -1 on block
+
+    \n\n<b> d/f+2, Duck cancel\n</b>
+        Another great counter hit tool. Confirm the combo on counter hit by doing Duck 1 instead of canceling the Duck
+
+    \n\n<b> Ext Duck f+2, Duck\n</b>
+        +15 frames on block means he can follow it up with an unblockable Duck f+2 or Duck cancel WS+1, 2 for big damage.Since it’s a high it can be ducked, but as a mixup instead of going for the Ext Duck f+2 he can go for Ext Duck 1 which is a mid
+
+    \n\n<b> PAB d+1 _ FC d/f+1\n</b>
+        Good low poke that leaves him in PAB stance afterwards
+
+    \n\n<b> d/f+1+2\n</b>
+        Also known as ‘Sonic Fang’. Insane range and one of Steves best whiff punishers
+
+    \n\n<b> Duck Stance 2\n</b>
+        Long range launcher with good high crush potential thanks to the duck stance
+
+    \n\n<b> qcf+1,B\n</b>
+        Steves “deathfist”. Cancels into FLK afterwards. This move is usually used when his opponent has their back to the wall to fish for a wall splat
+
+    \n\n<b> d/b+3, 2\n</b>
+        NC string with KND on hit. Albatross (ALB) d+2 is guaranteed after the KND
+
+    \n\n<b> f+1+2,2\n</b>
+        Primary punish for -15. KND on hit
+
+    \n\n<b> b+2\n</b>
+        Steves “fastest” launcher. Short range. He leans back in the animation of this move and can crush highs. Considering this is his fastest launcher means that -16 moves against him can’t be launch punished. This can sometimes be abused
+
+    \n\n<b> f,f,f+2\n</b>
+        Jumping animation which gives low crush. KND on hit and heavy frame advantage on block
+
+    \n\n<b> d+1 _ d+2~1~DCK cancel\n</b>
+        d+1 is a standard low poke that you just have to use with steve. d+2~1 is an NCc low-mid poke that is most effective when opponent is low on health. it is imperative to dck cancel the move at all times to make it safe
+
+    \n\n<b> WS1,2\n</b>
+        Steves 11 frame WS punish and arguably one of the best WS-punishers in the game. The second hit can be delayed to try to catch people attacking if the first hit is blocked
+
+    \n\n<b> FLK 1,d _ u+1\n</b>
+        KND on normal hit and combo on CH. After the normal hit KND he gets a free d/b+2 follow up
+
+     \n<b>Punishes</b>:\n\n
+        i10 - 1,1,2\n
+        i12 - 2,1~f_b\n
+        i13 - b+1,2~f\n
+        i14 - df+1+2\n
+        i15 - f+1+2,2 (for damage)\n
+        i16 - f,f+2, f,f+2_db+2 (long range, deathfist etc)\n
+        i17 - b+2 (launch)\n
+        i22 - uf+2 (launch)\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i11 - ws+1,2\n
+        i18 - FC df+2\n
+        i22 - uf+2\n
+    </string>
+
+    <string name="xiaoyu_overview">\t<b>Name</b>: Ling Xiaoyu\n\
+        <b>Difficulty</b>: Intermediate\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+        <b>Top 18 Moves</b>:\n
+
+    \n<b> 1,d+2\n</b>
+        i10 punish for most -10 moves (that don’t have ridiculous pushback). Leaves her BT, 2nd hit on ch gives a free bt b+3
+
+    \n\n<b> d/f+1\n</b>
+        Generic good poke mid which high crushes and can transition into RDS
+
+    \n\n<b> SS4\n</b>
+        Good low poke that CH launches and reaches very far with good tracking. Only -13 on block too which is not a huge punish considering the reward
+
+    \n\n<b> d/f+2~1\n</b>
+        Her i15 launcher which reaches very far and tracks both ways and hits grounded. -12 on block which people still seem to forget sometimes and try to launch it
+
+    \n\n<b> b+1\n</b>
+        A good panic button as it comes out i8 when the generic fastest button for characters is i10. On hit goes into RDS as well and can enforce RDS mixups from there
+
+    \n\n<b> d/b+4\n</b>
+        Generic but good low poke that’s harder to react too than SS4 and on CH gets a juggle
+
+    \n\n<b> RDS f+3+4, 3+4\n</b>
+        This is a conditioning move. From RDS empty rookick can be used after conditioning people to block and fear pressing a button as it crushes highs and some mids. The rookick is a launcher which will hit people who crouch in fear of throws and lows that she has from RDS. Note that it is launch punishable on block as she remains backturned afterwards. If people mess up the punish a lot of Xiaoyus tend to use RDS f+1+2 as a parry attempt
+
+    \n\n<b> RDS 4\n</b>
+        Xiaoyu’s launcher from backturn. It comes out i13 which is as fast as an EWGF and whilst some characters can launch punish this for free, for some others it can be tricky if you space the move. This is a top 15 move sheerly because of the mixups she has from RDS in general
+
+    \n\n<b> RDS d+3,3+4 (With Rage)\n</b>
+        Xiaoyu’s rage drive. This is argued the best in the game for good reason. It is a low mid launcher which jails on block and is safe. What else is there to say? Oh and it comes off of RDS stance where she already has access to an i13 mid launcher and grabs.And whilst it’s not really a top move, the normal version (RDS d3,4) tailspins which is worth mentioning
+
+    \n\n<b> f+1+2\n</b>
+        Her i12 punisher, does good damage, knocks the opponent far away
+
+    \n\n<b> 4\n</b>
+        Generic standing 4 but has really good reach and can be good for getting a magic 4
+
+    \n\n<b> f,f+3\n</b>
+        Good tracking mid that puts her into RDS, and reaches far. Is good in the neutral.
+
+    \n\n<b> 4~3\n</b>
+        A tech jump mid that CH launches and is also used a lot after a tailspin for okizeme mixups
+
+    \n\n<b> WS2\n</b>
+        Good ch launcher non charged or ws punish for incredibly punish blocked lows like snake edge or Xiaoyu’s SS3 in a mirror match by charging the WS2 all the way. If you can do the instant version this is a good poke to look for CH’s
+
+    \n\n<b> D+1+2 AOP\n</b>
+        Art of phoenix stance. One of the most notorious stances in the series. This lowers Xiaoyu’s hurtbox and crushes highs and probably more than it should mids as well. She has a number of good moves from this stance as well
+
+    \n\n<b> AOP 4~3\n</b>
+        One of the best lows that Xiaoyu has. Was good in tag 2 and now has been buffed even more, this move knocks opponents down and opens up for good okizeme mixups, and on block Xiaoyu remains on the floor making the punish minimal, has to be low parried to get a good punish
+
+    \n\n<b> AOP 2>1\n</b>
+        Hit confirmable natural combo. Does 30 damage and sends the opponent far
+
+    \n\n<b> AOP u/f+3\n</b>
+        Think of a hopkick, that’s what this is. Except it has a safe followup with AOP u/f+3,3, though it is a high and can be crouched, or AOP u/f+3,1 which is a mid but is unsafe (-4 but she remains in aop)
+
+     \n<b>Punishes</b>:\n\n
+        i8~12 - b+1\n
+        i10 - 1, d+2\n
+        i12 - f+1+2\n
+            - d/f+4\n
+        i13 - b+4,4\n
+        i14 - f,f+3\n
+            - 3 (i14~15)\n
+        i15 - d/f+2,1\n
+        i22 - u/b+3+4\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1\n
+        i11~12  - WS+4\n
+                - WS+1\n
+        i13~15 - WS+2\n
+        i22 - WS+2*\n
+    </string>
+
+    <string name="yoshimitsu_overview">\t<b>Name</b>: Yoshimitsu\n\
+        <b>Difficulty</b>: Advanced\n\n
+
+        <b>Description</b>:\n Placeholder\n\n
+        <b>Playstyle</b>: \n Pros:\n
+        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
+        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
+            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+
+         <b>Top 15 Moves</b>:\n
+
+    \n<b> 1+4 _ WS1+4\n</b>
+        Fastest move in the game, can punish “safe” moves and interrupt some strings. Leads to a full combo
+
+    \n\n<b> FC d/f+1 _ FC d/b,b+1\n</b>
+        Unblockable low sweep that leads to a full combo. Scary at the wall or as a FC mixup
+
+    \n\n<b> f+1+2\n</b>
+        Long range safe mid. Good pushback and wide hitbox
+
+    \n\n<b> 3~4\n</b>
+        Good approaching move, TJ and can transition into DGF by pressing “u”
+
+    \n\n<b> f,F+4\n</b>
+        High damage mid launcher, good range and can lead to BT mixups
+
+    \n\n<b> d/f+2\n</b>
+        Generic uppercut launcher, doesn’t launch crouching opponents. On block you can duck into ws+1+4 if opponent is jab happy
+
+    \n\n<b> f,N,d,d/f+1\n</b>
+        Long range launcher, pretty safe from max range and can transition into KIN with 1+2 to crush highs(with kin f+2) or avoid some mids(with kin b+1+2)
+
+    \n\n<b> d/b+3, 3\n</b>
+        Fast low string(TC),can followup with ‘4’ for a safe mid or continue with ‘3’ for more lows. (only the first 2 hits are NC)
+
+    \n\n<b> d/f+1\n</b>
+        Safe mid poke, decent range and has a high extension with 2 or mid with 4 (mid extension is -14)
+
+    \n\n<b> b+2, 2\n</b>
+        His best non launching punisher, KND on hit and has good pushback on block
+
+    \n\n<b> SS1\n</b>
+        Safe mid CH launcher, has a wide hitbox, some high evasion and pushback
+
+    \n\n<b> SS4 _ KIN+4\n</b>
+        Homing, CH launcher and can transition into KIN with 1+2 or MED with 3+4
+
+    \n\n<b> BT d/b+1 _ d+1 _ d/f+1\n</b>
+        Quick low poke with good range , TC and +3 on hit (Can be done from MED by quickly pressing f,df+1 or b,db+1)
+
+    \n\n<b> FC d/f+4\n</b>
+        CH launching low, decent tracking and + on hit. Can also be done with d,d/f+4
+
+    \n\n<b> NSS FC d/f+3\n</b>
+        NH low sweep launcher (only available without the sword, 2+3)
+
+     \n<b>Punishes</b>:\n\n
+        i6 - 1+4 (situational)\n
+        i10 - 1,1\n
+            - 1,2\n
+            - 2,2\n
+        i12 - d/f+4\n
+        i13 - d/f+1,4\n
+        i14 - b+2,2\n
+        i15 - u/f+3\n
+            - 4,4\n
+            - d/f+2\n
+        i17 - f,n,d,d/f+1\n
+            - f,f+4\n
+
+        \n<b>NSS(No Sword Stance)</b>:\n\n
+        i8 - NSS 1+4\n
+        i10 - NSS 2,1\n
+        i12 - NSS d/f+4\n
+        i13 - NSS d/f+1+2\n
+        i14 - NSS b+2,2\n
+        i15 - NSS d/f+2\n
+            - NSS u/f+3\n
+        i17 - NSS CD+1\n
+
+        \n<b>WS Punishes</b>:\n\n
+        i10 - FC d+1\n
+        i14 - WS+1,2\n
+        i15 - WS+2,1\n
+        i16 - WS+3,2\n
+    </string>
+
 </resources>
