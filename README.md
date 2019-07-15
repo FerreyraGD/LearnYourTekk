@@ -42,8 +42,13 @@ Some of the UI widgets and design patterns used in the mobile app include:
 
 Screenshots
 -------------
-
-<img src="screenshots/composite-1.png" height="400" alt="Screenshot"/> 
+* <img src="https://user-images.githubusercontent.com/39919952/61255154-09207600-a72d-11e9-8de2-bda8a9dd087d.png" height="400" alt="Screenshot"/> 
+* <img src="https://user-images.githubusercontent.com/39919952/61255155-09207600-a72d-11e9-8de8-7e31509f0f0b.png" height="400" alt="Screenshot"/> 
+* <img src="https://user-images.githubusercontent.com/39919952/61255156-09207600-a72d-11e9-9402-45599553fc52.png" height="400" alt="Screenshot"/> 
+* <img src="https://user-images.githubusercontent.com/39919952/61255157-09207600-a72d-11e9-85e7-2e203293d796.png" height="400" alt="Screenshot"/> 
+* <img src="https://user-images.githubusercontent.com/39919952/61255158-09207600-a72d-11e9-82fd-075715a56705.png" height="400" alt="Screenshot"/> 
+* <img src="https://user-images.githubusercontent.com/39919952/61255159-09207600-a72d-11e9-9bc8-77060bc9eb1d.png" height="400" alt="Screenshot"/> 
+<img src="https://user-images.githubusercontent.com/39919952/61255160-09207600-a72d-11e9-8c1e-9797d2e9c3b8.png" height="400" alt="Screenshot"/> 
 
 Pre-requisites
 --------------
