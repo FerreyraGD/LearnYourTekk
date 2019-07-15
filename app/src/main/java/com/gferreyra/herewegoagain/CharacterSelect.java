@@ -35,6 +35,8 @@ public class CharacterSelect extends Activity {
         }
     }
 
+    //loads all 45 character's names and inserts them into ArrayLists for future use
+    //and moves on to recyclerview method
     private void initImageBitmaps() throws IOException {
         ArrayList<String> charList = loadCharNamesFromAsset(this);
         for(int i = 0; i < charList.size(); i++){
@@ -44,12 +46,15 @@ public class CharacterSelect extends Activity {
         initRecyclerView();
     }
 
+    //Creates and sets adapter for recyclerview
+    //Populates recyclerview with images and names of characters in a grid list
     private void initRecyclerView() {
         RecyclerView recyclerView = findViewById(R.id.recycler_character_select);
         String previousTitle = (String) getIntent().getExtras().get("menuTitle");
         Log.d(TAG, "PreviousTitle is: " + previousTitle);
         CharacterSelectAdapter adapter = new CharacterSelectAdapter(mNames, mImageUrls, this, getIntent(), previousTitle);
         recyclerView.setAdapter(adapter);
+        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 4));
     }
 

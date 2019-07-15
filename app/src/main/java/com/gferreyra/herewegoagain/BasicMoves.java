@@ -4,6 +4,8 @@ import io.realm.RealmObject;
 import io.realm.RealmResults;
 import io.realm.annotations.LinkingObjects;
 
+//Object class to represent the Basic Move notation and information for a character's specific attack move in the game of Tekken 7
+
 public class BasicMoves extends RealmObject {
 
     private String notation;
@@ -36,6 +38,8 @@ public class BasicMoves extends RealmObject {
 
     private String wall_break;
 
+
+    //SET / GET METHODS
     @LinkingObjects("basicmoves")
     private final RealmResults<CharacterData> character = null;
 

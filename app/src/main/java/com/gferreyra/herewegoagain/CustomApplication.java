@@ -1,12 +1,15 @@
 package com.gferreyra.herewegoagain;
 
 import android.app.Application;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
+//Custom Application class to load database when application is launched so that way the database is set ahead of time
+//This allows us to have access to database throughout the entire application(in any activity)
 public class CustomApplication extends Application {
 
     private String TAG = "CustomApplication";
@@ -29,6 +32,5 @@ public class CustomApplication extends Application {
         Log.d(TAG, "Realm Configured");
 
         //Realm.deleteRealm(realmConfig);
-
     }
 }

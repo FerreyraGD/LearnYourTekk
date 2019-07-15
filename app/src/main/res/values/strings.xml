@@ -8,7 +8,7 @@
     <string name="tab_text_3">Punishes</string>
     <string name="background_splash">Background Splash Screen image</string>
     <string name="bg_splash">BG Splash image</string>
-    <string name="introduction">Yo here is the introduction to the app!</string>
+    <string name="introduction">Study the frame data and overview of a character in order to improve at Tekken 7!</string>
     <string name="title_activity_character_overview">CharacterOverview</string>
     <string name="tekken_introduction">Learn the fundamentals of Tekken 7 and use them to improve your game!</string>
     <string name="tekken_title">Tekken 7 Fundamentals</string>
@@ -2434,11 +2434,15 @@
     <string name="marduk_overview">\t<b>Name</b>: Craig Marduk\n\
         <b>Difficulty</b>: Intermediate\n\n
 
-        <b>Description</b>:\n Placeholder\n\n
+        <b>Description</b>:\n Marduk is a monster damage dealer with a great mix-up grab game, great Counter Hit moves and good poke game to wear down opponents. Unique playstyle that requires a higher execution to play but if you can handle it, he is very rewarding to play\n\n
         <b>Playstyle</b>: \n Pros:\n
-        <li>Good Poke game</li>\n <li>Great 50/50 mix up</li>\n <li>Potential to do ridiculously high combo damage with full meter</li>\n
-        \nCons:\n <li>Lots of his moves are unsafe so he is a high risk, high reward with certain moves</li>\n <li>Without his meter filled he is definitely at a disadvantage
-            so you need to be able to carefully manage his meter throughout the fight and use it wisely</li>\n\n
+        <li>Good Poke game</li>\n
+        <li>Great CH moves</li>\n
+        <li>Great 50/50 mix up with his grabs</li>\n
+        <li>High damage from his grabs and combos</li>\n
+        \nCons:\n <li>Weak whiff punishment, lack of a good ranged knock up</li>\n
+        <li>A lot of slower moves in his move set means you have to know the character very well to execute him at a high level</li>\n
+        <li>Lack of a fast mid and lacks ways out of pressure</li>\n\n
 
         <b>Top 15 Moves</b>:\n
 
@@ -2470,7 +2474,7 @@
         Evasive class 1 launcher, decent pushback, meme value
 
     \n\n<b> d3\n</b>
-        fastest low poke
+        Fastest low poke
 
     \n\n<b> Tackle\n</b>
         Numerous ways into tackle, oki set ups etc. Should be used until an opp proves they can handle it.
@@ -2492,15 +2496,15 @@
 
      \n<b>Punishes</b>:\n\n
         i10 - 2,1\n
-            - 1, d+2\n
+            \t- 1, d+2\n
         i12 - f,f+2\n
         i13 - d/f+4, 2\n
         i14 - b+4\n
         i15 - d/f+1\n
-            - f+1+2\n
+            \t- f+1+2\n
         i16 - d/b+2\n
         i17 - u/f+1+2\n
-            - d/f+3, d/f+1
+            \t- d/f+3, d/f+1
         i18 - qcf+1\n
 
 
@@ -3323,5 +3327,6 @@
         i15 - WS+2,1\n
         i16 - WS+3,2\n
     </string>
+    <string name="nocurrent">No Current News</string>
 
 </resources>

@@ -17,17 +17,21 @@ import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
+//CURRENTLY WORKING ON
+//Custom Adapter to initalize/create recyclerview and populate it with options in the menu for the user to select
 public class TekkenTutorialMenuAdapter extends RecyclerView.Adapter<TekkenTutorialMenuAdapter.ViewHolder>{
     private String TAG = "TekkenTutorialMenuAdapter";
     private ArrayList<String> mTitles = new ArrayList<>();
     private Context mContext;
 
+    //Constructor
     public TekkenTutorialMenuAdapter(ArrayList<String> mTitles, Context mContext){
         this.mTitles = mTitles;
         this.mContext = mContext;
     }
 
 
+    //ViewHolder that populates holder with views using the custom layout for items in the tutorial menu
     @NonNull
     @Override
     public TekkenTutorialMenuAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -36,10 +40,13 @@ public class TekkenTutorialMenuAdapter extends RecyclerView.Adapter<TekkenTutori
         return holder;
     }
 
+    //Sets images and text for each item in the recyclerView tutorial menu
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
         Log.d(TAG, "onBindViewHolder: called.");
-        holder.titleName.setText(mTitles.get(position));
+        holder.titleName.setText(mTitles.get(position)); //sets title name
+
+        //set image of each item in the tutorial menu
         switch(mTitles.get(position)){
             case "Controls":
                 holder.titleName.setBackgroundResource(R.drawable.alisa);
@@ -64,6 +71,8 @@ public class TekkenTutorialMenuAdapter extends RecyclerView.Adapter<TekkenTutori
                 break;
         }
 
+        //Detects if/when a user selects an item in the list of the tutorial menu and starts the SAME reused activity(TutorialOverview)
+        //passing the name of the selected option to the new activity
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,11 +102,13 @@ public class TekkenTutorialMenuAdapter extends RecyclerView.Adapter<TekkenTutori
 
     }
 
+    //sets how many items appear in recyclerview
     @Override
     public int getItemCount() {
         return mTitles.size();
     }
 
+    //Custom ViewHolder class that holds the items in the recyclerview
     public class ViewHolder extends RecyclerView.ViewHolder{
         TextView titleName;
         RelativeLayout parentLayout;

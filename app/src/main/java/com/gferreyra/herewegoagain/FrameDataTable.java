@@ -1,6 +1,7 @@
 package com.gferreyra.herewegoagain;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Layout;
@@ -35,6 +36,7 @@ import io.realm.Realm;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
+//Activity where the information about a character's moveset is displayed in a table for view to go through and filter through
 public class FrameDataTable extends AppCompatActivity {
     private String TAG = "FrameDataTable";
     private Realm realm;
@@ -55,42 +57,16 @@ public class FrameDataTable extends AppCompatActivity {
         getSupportActionBar().setTitle(title);
         changeTitleFont();
 
+        //hide header table row until table is populated with data from database
         header = findViewById(R.id.header);
         header.setVisibility(View.GONE);
 
+        //table is created and populated with data from database about the specific character
         populateTable();
 
-        //realm.close();
-
-
-
-        ArrayList<String> list = new ArrayList<>();
-        list.add("1");
-        list.add("h");
-        list.add("7");
-        list.add("8");
-        list.add("11");
-        list.add("5");
-        list.add("4");
-        list.add("Nothing");
-
-        //TODO EXAMPLE CODE OF ADDING A ROW TO TABLE
-        /*
-        tableLayout = findViewById(R.id.gridTable);
-        TableRow tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
-        ((TextView)tableRow.findViewById(R.id.row_command)).setText(list.get(0));
-
-        tableLayout.addView(tableRow);
-
-        tableLayout = findViewById(R.id.gridTable);
-        tableRow = (TableRow)LayoutInflater.from(this).inflate(R.layout.layout_row, null);
-        ((TextView)tableRow.findViewById(R.id.row_command)).setText(list.get(1));
-
-        tableLayout.addView(tableRow);
-        tableLayout.requestLayout();
-        */
     }
 
+    //Creates the drawer menu of filtering options
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -98,16 +74,15 @@ public class FrameDataTable extends AppCompatActivity {
         return true;
     }
 
+    //IF user selects an option from the options filtering menu then will filter table accordingly
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        TableLayout currentTable = findViewById(R.id.gridTable);
-        View viewCurrentTable;
-        ScrollView scrollView;
         int id = item.getItemId();
 
+        //if the item is already checked then will uncheck item, otherwise sets check marker for item
         if(!item.isChecked()){
             item.setChecked(true);
         }
@@ -115,16 +90,8 @@ public class FrameDataTable extends AppCompatActivity {
             item.setChecked(false);
         }
 
+        //calls method to filter table of data based off selected filtering option
         if(id == R.id.action_default){
-            /*
-            ArrayList<View> allViews = new ArrayList<>();
-            for(int k = 0; k < currentTable.getChildCount(); k++){
-                viewCurrentTable = currentTable.getChildAt(k);
-                viewCurrentTable.setVisibility(View.VISIBLE);
-                allViews.add(viewCurrentTable);
-            }
-            setHeightDefault(allViews);
-            */
             filterTable("");
             return true;
         }
@@ -168,6 +135,9 @@ public class FrameDataTable extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //Filters the table based off filtering option selected in menu
+    //IF Default is selected, simply resets table to the full set of data
+    //Can be an empty table if the character has no moves fitting that filtering option
     private void filterTable(String filterTitle){
         TableLayout currentTable = findViewById(R.id.gridTable);
         View viewCurrentTable;
@@ -176,47 +146,43 @@ public class FrameDataTable extends AppCompatActivity {
         ArrayList<View> oldTables = new ArrayList<>();
 
 
+        //Goes through each tuple in table, checks the "Notes" section for the filtering word and saves the tuples
+        //as a copy and sets that table as the new table in recyclerview
         for(int i = 0; i < currentTable.getChildCount(); i++){
-            viewCurrentTable = currentTable.getChildAt(i);
-            oldTables.add(viewCurrentTable);
-            TextView textView = viewCurrentTable.findViewById(R.id.row_notes);
+            viewCurrentTable = currentTable.getChildAt(i); //gets row view inside current table
+            oldTables.add(viewCurrentTable); //saves view as a copy for future use
+            TextView textView = viewCurrentTable.findViewById(R.id.row_notes); //finds row notes TextView Object for that tuple in order to search through it for filtering keyword
+
+            //IF Notes section does not include filtering word then sets tuple to be invisible
             if(!textView.getText().toString().toLowerCase().contains(filterTitle)){
                 viewCurrentTable.setVisibility(View.INVISIBLE);
                 tables.add(viewCurrentTable);
             }
+
+            //NOTES SECTION does include filtering word so we keep tuple as VISIBLE.
+            //IF filtering from a previously filtered table list, then we need to set a possibly invisible tuple to be visible
             else{
                 viewCurrentTable.setVisibility(View.VISIBLE);
             }
+            //requests layout to be shown in activity
             viewCurrentTable.requestLayout();
         }
 
+        //sets height of table and height of tuples to be set based off filter table size
+        //and defaults view to be at the top of the scrollable list/table so it bounces to top with filtered results
         setHeightDefault(oldTables);
-        setInvisibleRowHeight(tables);
+        setInvisibleRowHeight(tables); //sets invisible tuples to have height of 0 so they do not take up unneeded space
         scrollView = findViewById(R.id.scroll_layout);
         scrollView.scrollTo(0,0);
     }
 
-    private void checkTableVisibility(){
-        TableLayout tableL = findViewById(R.id.gridTable);
-        View viewTable;
-        int check = 0;
-        for(int i = 0; i < tableL.getChildCount(); i++){
-            viewTable = tableL.getChildAt(i);
-            if(viewTable.getVisibility() == View.VISIBLE){
-                check++;
-            }
-
-            Log.d(TAG, "Check is: " + check);
-            if(check == 0){
-                Toast.makeText(this, "Yo its empty", Toast.LENGTH_SHORT);
-            }
-        }
-    }
-
+    //All tuples that are set to Invisible still take up space in the table so it sets all their heights/widths to 0
+    //This allows our filtered table list to appear at the top and for unneeded empty space to be removed in table
     private void setInvisibleRowHeight(ArrayList<View> invisibleTables){
         TextView commandBox, hitLevelBox, damageBox, startBox,
                 blockBox, hitBox, notesBox, counterHitBox;
 
+        //goes through each textView in a tuple and sets height to 0
         for(int k = 0; k < invisibleTables.size(); k++){
             commandBox = invisibleTables.get(k).findViewById(R.id.row_command);
             hitLevelBox = invisibleTables.get(k).findViewById(R.id.row_hitlevel);
@@ -239,6 +205,7 @@ public class FrameDataTable extends AppCompatActivity {
         }
     }
 
+    //sets height of VISIBLE tuples to be Wrap_Content in order to properly fit all the data in the rows
     private void setHeightDefault(ArrayList<View> allTables){
         TextView commandBox, hitLevelBox, damageBox, startBox,
                 blockBox, hitBox, notesBox, counterHitBox;
@@ -269,21 +236,19 @@ public class FrameDataTable extends AppCompatActivity {
         super.onDestroy();
     }
 
-    private RealmResults<CharacterData> getCharacterDatabase(){
-        RealmQuery<CharacterData> query = realm.where(CharacterData.class);
-        RealmResults<CharacterData> result = query.findAll();
-        return result;
-    }
-
+    //Queries database for the JSON information of a Character's Move set data
     private RealmResults<BasicMoves> getBasicMovesDatabase(){
         RealmQuery<BasicMoves> query = realm.where(BasicMoves.class);
         RealmResults<BasicMoves> result = query.findAll();
         return result;
     }
 
+    //Creates a row Object, sets its layout and its information based off the passed ArrayList which is a copy of the RealmObject containing the database information for ONE move in a character's moveset
     private TableRow createRow(ArrayList<String> rowList, int rowNumber){
         tableLayout = findViewById(R.id.gridTable);
         TableRow tableRow = (TableRow) LayoutInflater.from(this).inflate(R.layout.layout_row, null);
+
+        //alternates row colors so that every other row is a different color
         if(rowNumber % 2 == 0) {
             tableRow.setBackgroundResource(R.drawable.alternative_cell_shape);
         }
@@ -291,6 +256,7 @@ public class FrameDataTable extends AppCompatActivity {
             tableRow.setBackgroundResource(R.drawable.cell_shape);
         }
 
+        //sets a Move's data into the textViews in a tuple
         ((TextView) tableRow.findViewById(R.id.row_command)).setText(rowList.get(0));
         ((TextView) tableRow.findViewById(R.id.row_hitlevel)).setText(rowList.get(1));
         ((TextView) tableRow.findViewById(R.id.row_damage)).setText(rowList.get(2));
@@ -304,32 +270,39 @@ public class FrameDataTable extends AppCompatActivity {
     }
 
 
+    //INSERTS row objects into the tableLayout object
     private void updateRows(ArrayList<TableRow> rows){
         for(int k = 0; k < rows.size(); k++) {
             tableLayout.addView(rows.get(k));
         }
     }
 
-    //Adds a row to the table for each headline passed in
+    //Connects to database, gets the JSON data EVERY character's entire moveset and saves it into the custom RealmResults object
+    //Then uses that object to query for a specific character(whomever was selected in the character select activity) and saves that character's move set data into
+    //a more specific RealmResult Object (this is how we query and access our Realm database)
+    //Using that data we now created the rows for each move in a character's move set and create, populate and display a recyclerview table for user to view
     private void populateTable() {
+        //Spliting the large load of the data set of a character into a different Thread in order to speed up the loading of the recyclerview table
         new Thread() {
             @Override
             public void run() {
+                //progress bar for user to see while they wait for table to be fully loaded
                 final ProgressBar progressBar = findViewById(R.id.loading_circle);
 
-                //set connection to database
+                //Set connection to database
                 realm = Realm.getDefaultInstance();
 
-                //TESTING IF DATABASE OBJECT CAN BE PASSED AND REALM WILL NEVER HAVE TO BE CALLED AGAIN IF IT PERSISTS
-                //IT CAN OMG!!!
-                //These objects will be passed through intents until they are needed to be used to acquire database information
+                //Queries database for ACCESS to entire character's data for all 45 characters
+                //saved into RealmResult object that can be further queried in future
+                //THIS IS THE ONLY TIME DATABASE HAS TO BE QUERIES/CALLED TO AND ACCESSED
+                //After we access database, we are essentially creating a link to the database table of BasicMoves to be queried or accessed at any future time in this class
                 RealmResults<BasicMoves> basicDatabase = getBasicMovesDatabase();
 
-                //testing Akuma's moves
-                //EXAMPLE OF HOW TO QUERY FOR SPECIAL MOVES (I.E HOMING, TAIL SPIN ETC)
+                //Obtain character's name from passed intent(so whoever we selected in character select activity, we get their name here)
                 String characterName = getIntent().getExtras().getString("name");
 
                 //test for special cases
+                //certain character's names are typed differently in the JSON data so we fix those issues here
                 if(characterName.equals("ArmorKing")){
                     characterName = "Armor King";
                 }
@@ -351,15 +324,18 @@ public class FrameDataTable extends AppCompatActivity {
                 }
 
 
+                //QUERIES RealmResults from before and get the JSON data from database for a specific Character
+                //So entire JSON data set for a character is saved into charMoves
                 final RealmResults<BasicMoves> charMoves = basicDatabase.where().equalTo("character.name", characterName).findAll();
 
+                //In order to speed up the application, I created a copy of the RealmResults Object which contains a List Object of the BasicMoves Objects from the Realm database
+                //So instead of accessing the database over and over to get the data and fill the table with it, we created a copy of the data I needed from database for a specific character
+                //and used the copy instead since accessing a List Object is much more efficient and faster than accessing a database over and over.
                 List<BasicMoves> listBasicMoves = realm.copyFromRealm(charMoves);
 
 
                 ArrayList<String> fullList = new ArrayList<>();
-
                 final ArrayList<TableRow> listOfRows = new ArrayList<>();
-                final int[] row_size = {0, 0, 0, 0, 0, 0, 0, 0};
 
                 for(int i = 1; i < listBasicMoves.size(); i++){
                     //clear list from any previous move data
@@ -386,47 +362,25 @@ public class FrameDataTable extends AppCompatActivity {
                     listOfRows.add(createRow(fullList, i));
                 }
 
+                //RUNS this on the ORIGINAL thread where the UI is and initalized
                 runOnUiThread(new Runnable() {
 
                     @Override
                     public void run() {
-                        //todo ui update
-                        updateRows(listOfRows);
-                        progressBar.setVisibility(View.GONE);
+                        updateRows(listOfRows); //INSERTS rows into recyclerview
+                        progressBar.setVisibility(View.GONE); //hides progress bar since table is fulled loaded now
 
                         //set header row size values and make header appear
                         TableRow headerRow = findViewById(R.id.header_row);
                         header.setVisibility(View.VISIBLE);
-
-                        for(int i = 0; i < row_size.length; i++){
-                            Log.d(TAG, row_size[i] + "\n");
-                        }
                     }
                 });
-                realm.close();
+                realm.close(); //close access to database since it is no longer needed
             }
         }.start();
     }
 
-    private File getTempFile(Context context, String url) {
-        File file = null;
-        try {
-            String fileName = "Akuma" + "temp";
-            file = File.createTempFile(fileName, null, context.getCacheDir());
-        } catch (IOException e) {
-            // Error while creating file
-        }
-        return file;
-    }
-
-    private int checkSize(int currentSize, int checkSize){
-        if(checkSize > currentSize){
-            currentSize = checkSize;
-        }
-
-        return currentSize;
-    }
-
+    //Changes the font of the title to a custom font
     private void changeTitleFont(){
         for(int i = 0; i < toolbar.getChildCount(); i++){
             View view = toolbar.getChildAt(i);

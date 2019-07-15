@@ -6,6 +6,7 @@ import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
+//Object class to represent a character in the game of Tekken 7
 public class CharacterData extends RealmObject {
 
     @PrimaryKey
@@ -15,6 +16,7 @@ public class CharacterData extends RealmObject {
 
     private RealmList<BasicMoves> basicmoves;
 
+    //GET / SET METHODS
     public String getName() {
         return name;
     }

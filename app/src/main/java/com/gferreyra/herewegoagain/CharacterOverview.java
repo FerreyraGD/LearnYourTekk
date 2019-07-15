@@ -11,33 +11,39 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+//Activity where a character's information(name, top moves, and punishment tools) are listed and displayed
 public class CharacterOverview extends AppCompatActivity {
 
     private String TAG = "CharacterOverview";
-    private  TextView textView;
     private Drawable drawable;
-    private ImageView imageView;
     private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        //Content view set
         super.onCreate(savedInstanceState);
         setContentView(R.layout.character_overview);
 
+        //Custom toolbar loaded
         toolbar = findViewById(R.id.overview_toolbar);
         setSupportActionBar(toolbar);
 
 
+        //Obtain Name of character selected on character select screen through intent
         String name = getIntent().getStringExtra("name");
         Log.d(TAG, "name is: " + name);
 
+        //set title and initalize objects to be changed in activity
         getSupportActionBar().setTitle(name);
-        textView = findViewById(R.id.overview_text);
-        imageView = findViewById(R.id.overview_image);
+        TextView textView = findViewById(R.id.overview_text);
+        ImageView imageView = findViewById(R.id.overview_image);
+
+        //set custom font to title text
         changeTitleFont();
 
 
+        //set overview text based on character selected from previous activity
         switch(name){
             case "Akuma":
                 textView.setText(R.string.akuma_overview);
@@ -220,12 +226,13 @@ public class CharacterOverview extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.yoshimitsu);
                 break;
             default:
-                textView.setText("DEFAULT TEXT WOAH");
+                textView.setText("DEFAULT TEXT");
                 imageView.setImageResource(R.drawable.tempart);
                 break;
         }
     }
 
+    //changes to title to custom font
     private void changeTitleFont(){
         for(int i = 0; i < toolbar.getChildCount(); i++){
             View view = toolbar.getChildAt(i);

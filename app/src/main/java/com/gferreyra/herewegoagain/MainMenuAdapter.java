@@ -20,6 +20,7 @@ import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
+//Custom Adapter that sets the views for the recyclerview and fills the main menu with options for the user to select
 public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHolder>{
     private static final String TAG = "MainMenuAdapter";
     private ArrayList<String> mImageNames = new ArrayList<>();
@@ -27,6 +28,7 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
     private Context mContext;
     private Intent mIntent;
 
+    //Constructors
     public MainMenuAdapter(ArrayList<String> mImageNames, ArrayList<String> mImages, Context mContext) {
         this.mImageNames = mImageNames;
         this.mImages = mImages;
@@ -40,6 +42,7 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
         this.mIntent = mIntent;
     }
 
+    //Inflates each view into a viewHolder with the custom layout for a main menu item
     @NonNull
     @Override
     public MainMenuAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -48,6 +51,7 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
         return holder;
     }
 
+    //Sets the image and text for each item in the recyclerview
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, final int i) {
         Log.d(TAG, "onBindViewHolder: called.");
@@ -60,22 +64,22 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
 
         viewHolder.imageName.setText(mImageNames.get(i));
 
+
+        //onClickListener which detects if a user selects an option on the main menu
+        //IF an option is selected will started the corresponding activity
         viewHolder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, mImageNames.get(i), Toast.LENGTH_SHORT).show();
-
                 if(mImageNames.get(i).equals("Character Overviews")){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
-                    myIntent.putExtra("menuTitle", "Character Overviews");
+                    myIntent.putExtra("menuTitle", "Character Overviews"); //saves and sends selected menu option title through intent for future use
                     //myIntent.putExtra("allCharacterNames", allCharacterNames);
                     mContext.startActivity(myIntent);
                 }
 
                 if(mImageNames.get(i).equals("Frame Data")){
                     Intent myIntent = new Intent(mContext, CharacterSelect.class);
-                    myIntent.putExtra("menuTitle", "Frame Data");
-                    //myIntent.putExtra("allCharacterNames", allCharacterNames);
+                    myIntent.putExtra("menuTitle", "Frame Data"); //saves and sends selected menu option title through intent for future use
                     mContext.startActivity(myIntent);
                 }
 
@@ -84,21 +88,24 @@ public class MainMenuAdapter extends RecyclerView.Adapter<MainMenuAdapter.ViewHo
                     mContext.startActivity(myIntent);
                 }
 
-                if(mImageNames.get(i).equals("About")){
+                if(mImageNames.get(i).equals("News")){
                     Intent myIntent = new Intent(mContext, TutorialOverview.class);
-                    myIntent.putExtra("title", mImageNames.get(i));
+                    myIntent.putExtra("title", mImageNames.get(i)); //saves and sends selected menu option title through intent for future use
                     mContext.startActivity(myIntent);
                 }
             }
         });
 
     }
+
+    //sets how many items recyclerview is populated with
     @Override
     public int getItemCount() {
         return mImageNames.size();
     }
 
 
+    //Custom ViewHolder class that holds each item in recyclerview
     public class ViewHolder extends RecyclerView.ViewHolder{
         CircleImageView image;
         TextView imageName;

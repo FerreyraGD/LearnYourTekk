@@ -38,6 +38,10 @@ import io.realm.RealmObject;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
+
+//UNUSED ACTIVITY
+//WAS USED FOR TESTING PURPOSES AND ONLY HAS EXAMPLE CODE FOR FUTURE REFERENCE
+//CAN IGNORE!!!!!!!!!
 public class MainActivity extends AppCompatActivity {
     public String TAG = "MainActivity";
     public String name = "Nothing";

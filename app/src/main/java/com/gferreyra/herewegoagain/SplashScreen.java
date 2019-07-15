@@ -45,35 +45,23 @@ public class SplashScreen extends AppCompatActivity {
     private RealmConfiguration realmConfig;
     private boolean status = false;
 
-    //creates Activity, sets view and creates or loads database using progress bar to track status
+    //Creates SplashScreen activity that stays as long as the database is loading
+    //Will create database is it does not previously exist(so usually only on first launch or if database has been updated)
+    //Loads data from JSON and .txt files into database for each character in order for it to persist in a local Realm database
+    //If database is already created, then will skip and end, loading the next activity the Main Menu
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
-        getSupportActionBar().hide();
         progressBar = findViewById(R.id.progress_bar);
         progressBar.setVisibility(View.INVISIBLE);
         textView = findViewById(R.id.progress_text);
 
-
-
-        /*
-        //Set up Realm for DB Creation
-        Realm.init(this);
-        Log.d(TAG, "Realm Initiated");
-
-        //Configure Realm Database name and version
-        realmConfig = new RealmConfiguration.Builder()
-                .name("tekken7.realm")
-                .schemaVersion(2)
-                .build();
-        Realm.setDefaultConfiguration(realmConfig);
-        Log.d(TAG, "Realm Configured");
-        */
-
+        //GETS Realm instance which was created in the CustomApplication class and was loaded when application launched
+        //realm is how we access database for insertion/deletion/queries
         realm = Realm.getDefaultInstance();
 
-        //Method to read from file to get all filenames and initialize/populate a String array
+        //Method to read from file to get all filenames/characternames and initialize/populate a String array with them
         final ArrayList<String> allCharNames = getAllCharacterNames();
         Log.d(TAG, "Loaded character names");
 
@@ -88,80 +76,38 @@ public class SplashScreen extends AppCompatActivity {
 
         Log.d(TAG, "Database completed");
 
-        //TESTING IF DATABASE OBJECT CAN BE PASSED AND REALM WILL NEVER HAVE TO BE CALLED AGAIN IF IT PERSISTS
-        //IT CAN OMG!!!
-        //These objects will be passed through intents until they are needed to be used to acquire database information
+        //Queries database for the tables in the database
+        //these variables(charDatabase and basicDatabase) act as a link to the database and allow us to query those specific database tables in real time
+        //The first table is the CharacterData table and second is the BasicMoves table
         RealmResults<CharacterData> charDatabase = getCharacterDatabase();
         RealmResults<BasicMoves> basicDatabase = getBasicMovesDatabase();
 
-        //testing character info
-        CharacterData character = charDatabase.where().equalTo("name", "Akuma").findFirst();
-        Log.d(TAG, character.getName() + " " + character.getDifficulty());
-
-        //testing Akuma's moves
-        //EXAMPLE OF HOW TO QUERY FOR SPECIAL MOVES (I.E HOMING, TAIL SPIN ETC)
-        RealmResults<BasicMoves> charMoves = basicDatabase.where().equalTo("character.name", "Akuma").and().isNotNull("notes").findAll();
-        RealmResults<BasicMoves> rageMoves = charMoves.where().contains("notes", "homing", Case.INSENSITIVE).findAll();
-        for(int i = 0; i < rageMoves.size(); i++){
-            Log.d(TAG, rageMoves.get(i).toString());
-        }
-
-        realm.close();
+        realm.close(); //close database instance
 
 
-        //DONE loading everything
+        //DONE loading everything so set Status flag to true
         status = true;
 
         //Adding delay so splashscreen stays up for a small amount of time then switching to MainMenu activity
-        if(status == true) {
+        if(status) {
+            //separate Thread in order to allow splash screen to show at least for a small period of time, since if database is loaded then it will instantly
+            //and start main menu activity without having enough time to show splash screen to user
             new Thread(new Runnable() {
                 public void run() {
                     try {
-                        // Sleep for 200 milliseconds.
-                        Thread.sleep(1000);
+                        // Sleep for 1000 milliseconds.
+                        Thread.sleep(0);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
+                    //Starts MainMenu activity
                     Intent myIntent = new Intent(SplashScreen.this, MainMenu.class);
                     SplashScreen.this.startActivity(myIntent);
                     Log.d(TAG, "we get here");
-                    //Realm backgroundRealm = Realm.getDefaultInstance();
-                    //backgroundRealm.close();
                     finish();
                 }
             }).start();
         }
-
-
-        /*
-        //PROGRESS BAR
-        // Start long running operation in a background thread
-        new Thread(new Runnable() {
-            public void run() {
-                while (progressStatus < 100) {
-                    progressStatus += 1;
-                    // Update the progress bar and display the
-                    //current value in the text view
-                    handler.post(new Runnable() {
-                        public void run() {
-                            progressBar.setProgress(progressStatus);
-                            textView.setText(progressStatus+"/"+progressBar.getMax());
-                        }
-                    });
-                    try {
-                        // Sleep for 200 milliseconds.
-                        Thread.sleep(200);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-                //Intent myIntent = new Intent(SplashScreen.this, MainMenu.class);
-                //TODO myIntent.putExtra("framedata", variable);
-                //SplashScreen.this.startActivity(myIntent);
-            }
-        }).start();
-        */
-
     }
 
     @Override
@@ -255,16 +201,9 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void execute(Realm realm) {
                 try {
-                    //Log.d(TAG, "Getting Asset Manager");
-                    //AssetManager am = getAssets();
-                    //String path = getFilesDir().getAbsolutePath();
                     Log.d(TAG, "Loading string variable with JSON String for character");
-                    //InputStream is = am.open("Akuma.json");
-                    //InputStream is = new FileInputStream(getAssets().open("Akuma.json"));
                     String jString = loadJSONFromAsset(getApplicationContext(), name);
                     JSONObject jObj = new JSONObject(jString);
-                    Log.d(TAG, "Test 2");
-                    //realm.createObjectFromJson(CharacterData.class, jObj);
                     realm.createOrUpdateObjectFromJson(CharacterData.class, jObj);
                     Log.d(TAG, "DONE WITH TRANSACTION");
                 } catch (JSONException e) {
@@ -274,61 +213,14 @@ public class SplashScreen extends AppCompatActivity {
         });
     }
 
-    //OBSOLETE METHOD
-    //NO LONGER USING THE EXTRA ATTRIBUTES TO JUDGE THE STATUSES IN THE NOTES SECTION
-    //TODO WILL EVENTUALLY DELETE
-    private void updateNoteValues(ArrayList<String> charNames, String status){
-        //EXAMPLE OF HOW TO QUERY LINKED OBJECTS IN REALM DATABASE
-        for(int k = 0; k < charNames.size(); k++) {
-            RealmQuery<CharacterData> query = realm.where(CharacterData.class);
-            RealmResults<BasicMoves> result = realm.where(BasicMoves.class).equalTo("character.name", charNames.get(k)).and().isNotNull("notes").findAll();
-            RealmResults<BasicMoves> secondResult = result.where().contains("notes", status, Case.INSENSITIVE).findAll();
-
-            realm.beginTransaction();
-            if (secondResult.size() != 0) {
-                for (int i = 0; i < secondResult.size(); i++) {
-                    if(status.equalsIgnoreCase("Rage art")) {
-                        secondResult.get(i).setRage_art("Yes");
-                    }
-
-                    if(status.equalsIgnoreCase("Rage Drive")){
-                        secondResult.get(i).setRage_drive("Yes");
-                    }
-
-                    if(status.equalsIgnoreCase("Tail Spin")){
-                        secondResult.get(i).setTail_spin("Yes");
-                    }
-
-                    if(status.equalsIgnoreCase("Homing")){
-                        secondResult.get(i).setHoming("Yes");
-                    }
-
-                    if(status.equalsIgnoreCase("Power Crush")){
-                        secondResult.get(i).setPower_crush("Yes");
-                    }
-
-                    if(status.equalsIgnoreCase("Wall Bounce")){
-                        secondResult.get(i).setWall_bounce("Yes");
-                    }
-
-                    if(status.equalsIgnoreCase("Wall Break")){
-                        secondResult.get(i).setWall_break("Yes");
-                    }
-                }
-            }
-            realm.commitTransaction();
-
-            Log.d(TAG, result.toString());
-            Log.d(TAG, secondResult.toString());
-        }
-    }
-
+    //Queries database for CharacterData table
     private RealmResults<CharacterData> getCharacterDatabase(){
         RealmQuery<CharacterData> query = realm.where(CharacterData.class);
         RealmResults<CharacterData> result = query.findAll();
         return result;
     }
 
+    //Queries database for BasicMoves table
     private RealmResults<BasicMoves> getBasicMovesDatabase(){
         RealmQuery<BasicMoves> query = realm.where(BasicMoves.class);
         RealmResults<BasicMoves> result = query.findAll();
