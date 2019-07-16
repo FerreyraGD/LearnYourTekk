@@ -48,6 +48,7 @@ Technologies Used
 * Realm DB (https://realm.io/)
 * Gradle
 * Java 
+* JSON
 * CircleImageView (https://github.com/hdodenhof/CircleImageView)
 * Glide (https://github.com/bumptech/glide)
 * JSON Editor Online (https://jsoneditoronline.org/)
