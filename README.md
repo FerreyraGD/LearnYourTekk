@@ -25,7 +25,7 @@ The application aims to have a simple, clean UI where the user can easily traver
 go through the table to see any specific move they have in mind to look up. Speed and simplicity was the goal.
 
 Local Database Setup:
-* Database was based off a JSON object that contained all the moves of a character. It consists of the CharacterData and BasicMoves table
+* The database architecture was based off a JSON object that contained all the moves of a character. It consists of the CharacterData and BasicMoves table
 where CharacterData contains the name and difficulty of a character. BasicMoves consisted of the notation of the move(i.e. a punch or kick)
 and its frame data information(start up frame time, frames on hit, on block, on counter hit, etc. All relevant terms understood by advanced
 players of the Tekken 7 game). The CharacterData and BasicMoves table had a one to many relationship where one character would be linked
@@ -36,9 +36,21 @@ However, with Realm, it keeps track of the reference to the move by itself effic
 Some of the UI widgets and design patterns used in the mobile app include:
 * Use of custom themes including defintion of primary and accent colors
 * Use of a custom Circlular ImageView widget 
+* Use of Glide to load images efficiently
 * Use of the RecyclerView for several components such as Menus and the Frame Data table
 * Activity transitions based off user selections
 * CoordinatorLayout, with a combined HorizonalScrollable and VerticalScrollable layouts in order to allow the user to traverse the LARGE table each character has
+* Custom Realm Objects representing the tuples in the Realm database tables
+
+Technologies Used
+-------------
+* Android Studio
+* Realm DB (https://realm.io/)
+* Gradle
+* Java 
+* CircleImageView (https://github.com/hdodenhof/CircleImageView)
+* Glide (https://github.com/bumptech/glide)
+* JSON Editor Online (https://jsoneditoronline.org/)
 
 Screenshots
 -------------
@@ -46,7 +58,7 @@ Screenshots
 <img src="https://user-images.githubusercontent.com/39919952/61255155-09207600-a72d-11e9-8de8-7e31509f0f0b.png" height="400" alt="Screenshot"/> 
 <img src="https://user-images.githubusercontent.com/39919952/61255156-09207600-a72d-11e9-9402-45599553fc52.png" height="400" alt="Screenshot"/> 
 <img src="https://user-images.githubusercontent.com/39919952/61255157-09207600-a72d-11e9-85e7-2e203293d796.png" height="400" alt="Screenshot"/> 
-<img src="https://user-images.githubusercontent.com/39919952/61255158-09207600-a72d-11e9-82fd-075715a56705.png" height="400" alt="Screenshot"/> 
+<img src="https://user-images.githubusercontent.com/39919952/61255158-09207600-a72d-11e9-82fd-075715a56705.png" width="400" alt="Screenshot"/> 
 <img src="https://user-images.githubusercontent.com/39919952/61255159-09207600-a72d-11e9-9bc8-77060bc9eb1d.png" height="400" alt="Screenshot"/> 
 <img src="https://user-images.githubusercontent.com/39919952/61255160-09207600-a72d-11e9-8c1e-9797d2e9c3b8.png" height="400" alt="Screenshot"/> 
 
