@@ -79,7 +79,7 @@ Support
 
 - Stack Overflow: http://stackoverflow.com/questions/tagged/android
 
-If you've found an error in this sample, please file an issue:
+If you've found an error in this project, please file an issue:
 https://github.com/FerreyraGD/LearnYourTekk
 
 Feel free to use my code for your projects or to contribute to improve the application. Requests may be submitted by forking this project and
