@@ -45,10 +45,10 @@ Some of the UI widgets and design patterns used in the mobile app include:
 Technologies Used
 -------------
 * Android Studio
-* Realm DB (https://realm.io/)
+* Realm Database (https://realm.io/)
 * Gradle
 * Java 
-* JSON
+* JSON 
 * CircleImageView (https://github.com/hdodenhof/CircleImageView)
 * Glide (https://github.com/bumptech/glide)
 * JSON Editor Online (https://jsoneditoronline.org/)
