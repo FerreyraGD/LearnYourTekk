@@ -14,7 +14,7 @@ players to research and study.
 
 Application Overview
 ------------
-This app aims to demostrate the use of the Realm API in order to create a local RELATIONAL database from JSON files
+This app aims to demonstrate the use of the Realm API in order to create a local RELATIONAL database from JSON files
 that consists of the large dataset of all 45 character's moves(OVER 6000 tuples), their attributes and to 
 allow the user to view the data for a specific character in an easy-to-read, organized table.
 * Each character has its own table filled with hundreds of moves and their frame data info
